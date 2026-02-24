@@ -247,6 +247,13 @@ const DictationMode = ({ currentSentence, onNextSentence, onRestart }) => {
 
 
   const handleKeyDown = (e) => {
+    // === 1. IME Safety Check ===
+    // Ignore keydown events if the user is currently composing text via an IME
+    if (e.nativeEvent?.isComposing || e.keyCode === 229) {
+      return;
+    }
+    // === End IME Safety Check ===
+
     // 记录开始时间
     if (!startTimeRef.current && e.key.length === 1) {
       startTimeRef.current = Date.now();
