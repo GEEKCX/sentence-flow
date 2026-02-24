@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECDict IndexedDB Loader</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1a202c;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #718096;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    .drop-zone {
+      border: 2px dashed #cbd5e0;
+      border-radius: 12px;
+      padding: 40px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-bottom: 20px;
+    }
+
+    .drop-zone:hover, .drop-zone.dragover {
+      border-color: #667eea;
+      background: #f7fafc;
+    }
+
+    .drop-zone-icon {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .drop-zone-text {
+      color: #4a5568;
+      font-size: 14px;
+    }
+
+    .file-info {
+      display: none;
+      background: #edf2f7;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 20px;
+    }
+
+    .file-info.active {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .file-name {
+      font-size: 14px;
+      color: #2d3748;
+      font-weight: 500;
+    }
+
+    .file-size {
+      font-size: 12px;
+      color: #718096;
+    }
+
+    .progress-container {
+      display: none;
+      margin-bottom: 20px;
+    }
+
+    .progress-container.active {
+      display: block;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: #e2e8f0;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      border-radius: 4px;
+      transition: width 0.3s ease;
+      width: 0%;
+    }
+
+    .progress-text {
+      font-size: 12px;
+      color: #718096;
+      text-align: center;
+    }
+
+    .button {
+      width: 100%;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-bottom: 10px;
+    }
+
+    .button-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .button-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    .button-primary:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .button-secondary {
+      background: #edf2f7;
+      color: #4a5568;
+    }
+
+    .button-secondary:hover {
+      background: #e2e8f0;
+    }
+
+    .status {
+      text-align: center;
+      font-size: 14px;
+      color: #718096;
+      margin-top: 20px;
+    }
+
+    .success {
+      color: #48bb78;
+    }
+
+    .error {
+      color: #f56565;
+    }
+
+    .stats {
+      background: #f7fafc;
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 20px;
+    }
+
+    .stats-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    .stats-item:last-child {
+      border-bottom: none;
+    }
+
+    .stats-label {
+      color: #718096;
+      font-size: 14px;
+    }
+
+    .stats-value {
+      color: #2d3748;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ECDict IndexedDB Loader</h1>
+    <p class="subtitle">加载 ECDict 词库到 IndexedDB，支持 3.7M+ 词条高效查询</p>
+
+    <div class="drop-zone" id="dropZone">
+      <div class="drop-zone-icon">📂</div>
+      <div class="drop-zone-text">
+        拖拽 ecdict.json 文件到此处<br>
+        或点击选择文件
+      </div>
+      <input type="file" id="fileInput" accept=".json" style="display: none;">
+    </div>
+
+    <div class="file-info" id="fileInfo">
+      <span class="file-name" id="fileName"></span>
+      <span class="file-size" id="fileSize"></span>
+    </div>
+
+    <div class="progress-container" id="progressContainer">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="progress-text" id="progressText">0%</div>
+    </div>
+
+    <button class="button button-primary" id="loadButton" disabled>
+      开始加载
+    </button>
+
+    <button class="button button-secondary" id="testButton">
+      测试查询
+    </button>
+
+    <button class="button button-secondary" id="clearButton">
+      清空数据库
+    </button>
+
+    <div class="status" id="status"></div>
+
+    <div class="stats" id="stats" style="display: none;">
+      <div class="stats-item">
+        <span class="stats-label">总词条数</span>
+        <span class="stats-value" id="totalWords">0</span>
+      </div>
+      <div class="stats-item">
+        <span class="stats-label">内存缓存</span>
+        <span class="stats-value" id="memoryCache">0</span>
+      </div>
+      <div class="stats-item">
+        <span class="stats-label">数据库状态</span>
+        <span class="stats-value">就绪</span>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { lookupService } from '/src/utils/lookupService.js';
+
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+    const fileInfo = document.getElementById('fileInfo');
+    const fileName = document.getElementById('fileName');
+    const fileSize = document.getElementById('fileSize');
+    const progressContainer = document.getElementById('progressContainer');
+    const progressFill = document.getElementById('progressFill');
+    const progressText = document.getElementById('progressText');
+    const loadButton = document.getElementById('loadButton');
+    const testButton = document.getElementById('testButton');
+    const clearButton = document.getElementById('clearButton');
+    const status = document.getElementById('status');
+    const stats = document.getElementById('stats');
+    const totalWords = document.getElementById('totalWords');
+    const memoryCache = document.getElementById('memoryCache');
+
+    let selectedFile = null;
+
+    dropZone.addEventListener('click', () => fileInput.click());
+
+    dropZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropZone.classList.add('dragover');
+    });
+
+    dropZone.addEventListener('dragleave', () => {
+      dropZone.classList.remove('dragover');
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+      
+      const files = e.dataTransfer.files;
+      if (files.length > 0) {
+        handleFile(files[0]);
+      }
+    });
+
+    fileInput.addEventListener('change', (e) => {
+      if (e.target.files.length > 0) {
+        handleFile(e.target.files[0]);
+      }
+    });
+
+    function handleFile(file) {
+      if (!file.name.endsWith('.json')) {
+        showStatus('请选择 .json 格式的文件', 'error');
+        return;
+      }
+
+      selectedFile = file;
+      fileName.textContent = file.name;
+      fileSize.textContent = formatFileSize(file.size);
+      fileInfo.classList.add('active');
+      loadButton.disabled = false;
+    }
+
+    function formatFileSize(bytes) {
+      if (bytes < 1024) return bytes + ' B';
+      if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(2) + ' KB';
+      return (bytes / (1024 * 1024)).toFixed(2) + ' MB';
+    }
+
+    function showStatus(message, type = 'info') {
+      status.textContent = message;
+      status.className = 'status ' + type;
+    }
+
+    loadButton.addEventListener('click', async () => {
+      if (!selectedFile) return;
+
+      loadButton.disabled = true;
+      progressContainer.classList.add('active');
+      showStatus('正在加载...', 'info');
+
+      try {
+        const reader = new FileReader();
+        reader.onprogress = (e) => {
+          if (e.lengthComputable) {
+            const percent = ((e.loaded / e.total) * 100).toFixed(1);
+            progressFill.style.width = percent + '%';
+            progressText.textContent = `读取文件: ${percent}%`;
+          }
+        };
+
+        reader.onload = async (e) => {
+          try {
+            const data = JSON.parse(e.target.result);
+            showStatus('正在写入 IndexedDB...', 'info');
+            
+            const loaded = await lookupService.loadFromJSON(data);
+            
+            progressFill.style.width = '100%';
+            progressText.textContent = '完成';
+            
+            showStatus(`成功加载 ${loaded} 个词条！`, 'success');
+            
+            await updateStats();
+          } catch (error) {
+            showStatus('JSON 解析失败: ' + error.message, 'error');
+            loadButton.disabled = false;
+          }
+        };
+
+        reader.onerror = () => {
+          showStatus('文件读取失败', 'error');
+          loadButton.disabled = false;
+        };
+
+        reader.readAsText(selectedFile);
+      } catch (error) {
+        showStatus('加载失败: ' + error.message, 'error');
+        loadButton.disabled = false;
+      }
+    });
+
+    testButton.addEventListener('click', async () => {
+      const testWord = prompt('输入要查询的单词:', 'running');
+      if (!testWord) return;
+
+      showStatus('查询中...', 'info');
+
+      try {
+        const result = await lookupService.findDefinition(testWord);
+        
+        if (result) {
+          showStatus(
+            `找到: ${result.text} | ${result.phonetic} | ${result.meaning}`,
+            'success'
+          );
+          console.log('Query result:', result);
+        } else {
+          showStatus('未找到该单词', 'error');
+        }
+      } catch (error) {
+        showStatus('查询失败: ' + error.message, 'error');
+      }
+    });
+
+    clearButton.addEventListener('click', async () => {
+      if (!confirm('确定要清空所有数据库吗？')) return;
+
+      showStatus('正在清空...', 'info');
+
+      try {
+        await lookupService.clearDatabase();
+        showStatus('数据库已清空', 'success');
+        await updateStats();
+      } catch (error) {
+        showStatus('清空失败: ' + error.message, 'error');
+      }
+    });
+
+    async function updateStats() {
+      try {
+        const statsData = await lookupService.getStats();
+        totalWords.textContent = statsData.totalWords.toLocaleString();
+        memoryCache.textContent = statsData.memoryCacheSize.toLocaleString();
+        stats.style.display = 'block';
+      } catch (error) {
+        console.error('Failed to get stats:', error);
+      }
+    }
+
+    (async () => {
+      try {
+        await lookupService.init();
+        await updateStats();
+        showStatus('IndexedDB 已就绪', 'success');
+      } catch (error) {
+        showStatus('初始化失败: ' + error.message, 'error');
+      }
+    })();
+  </script>
+</body>
+</html>

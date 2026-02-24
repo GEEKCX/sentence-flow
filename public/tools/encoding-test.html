@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>字符编码测试</title>
+</head>
+<body>
+  <h1>字符编码测试</h1>
+  <div id="test"></div>
+
+  <script type="module">
+    import { textNormalizer } from '/src/utils/textNormalizer.js';
+
+    const testDiv = document.getElementById('test');
+
+    const testCases = [
+      { name: 'em dash', input: '—', expected: '-' },
+      { name: 'en dash', input: '–', expected: '-' },
+      { name: 'left quote', input: '«', expected: '«' },
+      { name: 'right quote', input: '»', expected: '»' },
+      { name: 'left single', input: ''', expected: "'" },
+      { name: 'right single', input: ''', expected: "'" },
+      { name: 'left double', input: '"', expected: '"' },
+      { name: 'right double', input: '"', expected: '"' },
+    ];
+
+    let html = '<h2>HTML 实体解码测试</h2>';
+    html += '<table border="1" style="border-collapse: collapse;">';
+    html += '<tr><th>名称</th><th>输入</th><th>解码后</th><th>结果</th></tr>';
+
+    testCases.forEach(test => {
+      const entity = textNormalizer.decodeHtmlEntities(`&${test.name};`);
+      const isMatch = entity === test.expected;
+      
+      html += `<tr style="${isMatch ? '' : 'color: red;'}">`;
+      html += `<td>${test.name}</td>`;
+      html += `<td>&${test.name};</td>`;
+      html += `<td>${entity}</td>`;
+      html += `<td>${isMatch ? '✅' : '❌'}</td>`;
+      html += '</tr>';
+    });
+
+    html += '</table>';
+
+    html += '<h2>特殊字符处理测试</h2>';
+    const specialCharTests = [
+      'Hello—World',
+      'Hello–World',
+      '«Hello»',
+      "It's a test",
+      'He said "Hello"',
+    ];
+
+    html += '<table border="1" style="border-collapse: collapse;">';
+    html += '<tr><th>输入</th><th>归一化后</th></tr>';
+
+    specialCharTests.forEach(text => {
+      const normalized = textNormalizer.normalize(text);
+      html += `<tr><td>${text}</td><td>${normalized}</td></tr>`;
+    });
+
+    html += '</table>';
+
+    html += '<h2>HTML 实体对象测试</h2>';
+    html += '<pre>';
+    html += JSON.stringify(textNormalizer.htmlEntities, null, 2);
+    html += '</pre>';
+
+    testDiv.innerHTML = html;
+  </script>
+</body>
+</html>

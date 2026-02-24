@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "sentence": "The quick brown fox jumps over the lazy dog",
+    "translation": "敏捷的棕色狐狸跳过了懒惰的狗",
+    "phonetic_sentence": "/ðə kwɪk braʊn fɒks dʒʌmps ˈəʊvə ðə ˈleɪzi dɒɡ/",
+    "words": [
+    {
+      "text": "quick",
+      "phonetic": "/kwɪk/",
+      "pos": "adj.",
+      "meaning": "快的，迅速的"
+    },
+    {
+      "text": "brown",
+      "phonetic": "/braʊn/",
+      "pos": "adj.",
+      "meaning": "棕色的"
+    },
+    {
+      "text": "fox",
+      "phonetic": "/fɒks/",
+      "pos": "n.",
+      "meaning": "狐狸"
+    },
+    {
+      "text": "jumps",
+      "phonetic": "/dʒʌmps/",
+      "pos": "v.",
+      "meaning": "跳，跳跃"
+    },
+    {
+      "text": "lazy",
+      "phonetic": "/ˈleɪzi/",
+      "pos": "adj.",
+      "meaning": "懒惰的"
+    }
+    ]
+  },
+  {
+    "id": 2,
+    "sentence": "Practice makes perfect",
+    "translation": "熟能生巧",
+    "phonetic_sentence": "/ˈpræktɪs meɪks ˈpɜːfɪkt/",
+    "words": [
+    {
+      "text": "practice",
+      "phonetic": "/ˈpræktɪs/",
+      "pos": "n.",
+      "meaning": "练习，实践"
+    },
+    {
+      "text": "perfect",
+      "phonetic": "/ˈpɜːfɪkt/",
+      "pos": "adj.",
+      "meaning": "完美的"
+    }
+    ]
+  },
+  {
+    "id": 3,
+    "sentence": "Knowledge is power",
+    "translation": "知识就是力量",
+    "phonetic_sentence": "/ˈnɒlɪdʒ ɪz ˈpaʊə(r)/",
+    "words": [
+    {
+      "text": "knowledge",
+      "phonetic": "/ˈnɒlɪdʒ/",
+      "pos": "n.",
+      "meaning": "知识"
+    },
+    {
+      "text": "power",
+      "phonetic": "/ˈpaʊə(r)/",
+      "pos": "n.",
+      "meaning": "力量，权力"
+    }
+    ]
+  },
+  {
+    "id": 4,
+    "sentence": "Time flies when you're having fun",
+    "translation": "快乐时光过得快",
+    "phonetic_sentence": "/taɪm flaɪz wen jʊə(r) ˈhævɪŋ fʌn/",
+    "words": [
+    {
+      "text": "time",
+      "phonetic": "/taɪm/",
+      "pos": "n.",
+      "meaning": "时间"
+    },
+    {
+      "text": "flies",
+      "phonetic": "/flaɪz/",
+      "pos": "v.",
+      "meaning": "飞逝，快速过去"
+    },
+    {
+      "text": "having",
+      "phonetic": "/ˈhævɪŋ/",
+      "pos": "v.",
+      "meaning": "有，拥有（现在分词）"
+    },
+    {
+      "text": "fun",
+      "phonetic": "/fʌn/",
+      "pos": "n./adj.",
+      "meaning": "乐趣；有趣的"
+    }
+    ]
+  },
+  {
+    "id": 5,
+    "sentence": "Never give up on your dreams",
+    "translation": "永远不要放弃你的梦想",
+    "phonetic_sentence": "/ˈnevə(r) ɡɪv ʌp ɒn jɔː(r) driːmz/",
+    "words": [
+    {
+      "text": "never",
+      "phonetic": "/ˈnevə(r)/",
+      "pos": "adv.",
+      "meaning": "从不，绝不"
+    },
+    {
+      "text": "give",
+      "phonetic": "/ɡɪv/",
+      "pos": "v.",
+      "meaning": "给，给予"
+    },
+    {
+      "text": "dreams",
+      "phonetic": "/driːmz/",
+      "pos": "n.",
+      "meaning": "梦想"
+    }
+    ]
+  }
+]

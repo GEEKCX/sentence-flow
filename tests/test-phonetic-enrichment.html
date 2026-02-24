@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音标和注释自动补全测试</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+    }
+    .section h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .test-result {
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 4px;
+    }
+    .pass { background: #d4edda; color: #155724; }
+    .fail { background: #f8d7da; color: #721c24; }
+    .pending { background: #fff3cd; color: #856404; }
+    .info { background: #d1ecf1; color: #0c5460; }
+    
+    .word-card {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+      border-left: 4px solid #6c757d;
+    }
+    .word-card.enriched {
+      border-left-color: #28a745;
+    }
+    .word-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    .word-phonetic {
+      font-family: monospace;
+      color: #6c757d;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .word-pos {
+      display: inline-block;
+      background: #e9ecef;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      margin: 4px 0;
+    }
+    .word-meaning {
+      color: #495057;
+      font-size: 14px;
+    }
+    
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin: 5px;
+    }
+    button:hover { background: #0056b3; }
+    button:disabled { background: #ccc; cursor: not-allowed; }
+    button.success { background: #28a745; }
+    button.success:hover { background: #218838; }
+    
+    .test-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+      margin: 15px 0;
+    }
+    
+    .test-item {
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .test-item:hover {
+      background: #e9ecef;
+    }
+    .test-item.selected {
+      background: #007bff;
+      color: white;
+    }
+    
+    #status {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 4px;
+    }
+    
+    .loading {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid #f3f3f3;
+      border-top: 3px solid #3498db;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-left: 10px;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <h1>🔍 音标和注释自动补全测试</h1>
+  <div id="status"></div>
+
+  <div class="section">
+    <h2>1. 基础功能测试</h2>
+    <button onclick="testBasicFunctionality()">测试基础功能</button>
+    <div id="basic-results"></div>
+  </div>
+
+  <div class="section">
+    <h2>2. 单词补全测试</h2>
+    <p>选择一个单词进行测试：</p>
+    <div class="test-grid" id="word-grid">
+      <!-- 单词将通过JavaScript生成 -->
+    </div>
+    <div style="margin-top: 15px;">
+      <button onclick="enrichSelectedWord()" id="enrich-btn" disabled>补全选中单词</button>
+      <button onclick="enrichAllWords()" id="enrich-all-btn">补全所有单词</button>
+    </div>
+    <div id="word-results" style="margin-top: 20px;"></div>
+  </div>
+
+  <div class="section">
+    <h2>3. API响应测试</h2>
+    <button onclick="testAPI()">测试API</button>
+    <div id="api-results"></div>
+  </div>
+
+  <div class="section">
+    <h2>4. 自定义单词测试</h2>
+    <input type="text" id="custom-word" placeholder="输入单词" style="padding: 8px; width: 200px;">
+    <button onclick="testCustomWord()">测试</button>
+    <div id="custom-results"></div>
+  </div>
+
+  <div class="section">
+    <h2>5. 错误处理测试</h2>
+    <button onclick="testErrorHandling()">测试错误处理</button>
+    <div id="error-results"></div>
+  </div>
+
+  <script>
+    const API_BASE = '/api/dict';
+    const testWords = [
+      'hello', 'world', 'learn', 'practice', 'fast', 
+      'consumption', 'diversity', 'infrastructure', 'knowledge', 'effective'
+    ];
+    
+    let selectedWord = null;
+    let wordResults = {};
+
+    function setStatus(message, type = 'info') {
+      const status = document.getElementById('status');
+      status.innerHTML = `<div class="test-result ${type}">${message}</div>`;
+    }
+
+    function showResult(containerId, message, type = 'info') {
+      const container = document.getElementById(containerId);
+      const div = document.createElement('div');
+      div.className = `test-result ${type}`;
+      div.innerHTML = message;
+      container.appendChild(div);
+    }
+
+    function clearResults(containerId) {
+      document.getElementById(containerId).innerHTML = '';
+    }
+
+    // 生成单词网格
+    function generateWordGrid() {
+      const grid = document.getElementById('word-grid');
+      testWords.forEach(word => {
+        const div = document.createElement('div');
+        div.className = 'test-item';
+        div.textContent = word;
+        div.onclick = () => selectWord(word, div);
+        grid.appendChild(div);
+      });
+    }
+
+    function selectWord(word, element) {
+      document.querySelectorAll('.test-item').forEach(el => el.classList.remove('selected'));
+      element.classList.add('selected');
+      selectedWord = word;
+      document.getElementById('enrich-btn').disabled = false;
+    }
+
+    // 测试基础功能
+    async function testBasicFunctionality() {
+      clearResults('basic-results');
+      setStatus('测试基础功能...', 'pending');
+
+      const tests = [
+        { name: 'API端点可访问', test: async () => {
+          const response = await fetch(`${API_BASE}?word=test`);
+          return response.ok;
+        }},
+        { name: 'JSON响应格式正确', test: async () => {
+          const response = await fetch(`${API_BASE}?word=test`);
+          const data = await response.json();
+          return data && typeof data.code === 'number';
+        }},
+        { name: '响应包含数据字段', test: async () => {
+          const response = await fetch(`${API_BASE}?word=fast`);
+          const data = await response.json();
+          return data.data && typeof data.data === 'object';
+        }}
+      ];
+
+      for (const test of tests) {
+        try {
+          const result = await test.test();
+          showResult('basic-results', `✓ ${test.name}`, result ? 'pass' : 'fail');
+        } catch (error) {
+          showResult('basic-results', `✗ ${test.name}: ${error.message}`, 'fail');
+        }
+      }
+
+      setStatus('✓ 基础功能测试完成', 'pass');
+    }
+
+    // 补全选中的单词
+    async function enrichSelectedWord() {
+      if (!selectedWord) return;
+      clearResults('word-results');
+      setStatus(`正在补全单词: "${selectedWord}"...`, 'pending');
+
+      try {
+        const data = await fetchWordData(selectedWord);
+        if (data) {
+          wordResults[selectedWord] = data;
+          renderWordCard(selectedWord, data);
+          setStatus(`✓ 成功补全单词: "${selectedWord}"`, 'pass');
+        } else {
+          setStatus(`✗ 无法补全单词: "${selectedWord}"`, 'fail');
+        }
+      } catch (error) {
+        setStatus(`✗ 错误: ${error.message}`, 'fail');
+      }
+    }
+
+    // 补全所有单词
+    async function enrichAllWords() {
+      clearResults('word-results');
+      setStatus('正在补全所有单词...', 'pending');
+
+      let successCount = 0;
+      let failCount = 0;
+
+      for (const word of testWords) {
+        try {
+          const data = await fetchWordData(word);
+          if (data) {
+            wordResults[word] = data;
+            renderWordCard(word, data);
+            successCount++;
+          } else {
+            failCount++;
+          }
+        } catch (error) {
+          failCount++;
+        }
+
+        // 延迟避免频率限制
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
+
+      setStatus(`✓ 补全完成: ${successCount}/${testWords.length} 成功`, 
+        successCount === testWords.length ? 'pass' : 'info');
+    }
+
+    // 获取单词数据
+    async function fetchWordData(word) {
+      try {
+        const response = await fetch(`${API_BASE}?word=${encodeURIComponent(word)}`);
+        const data = await response.json();
+
+        if (data.code === 200 && data.data) {
+          return {
+            word: data.data.word || word,
+            phonetic: data.data.accent || '',
+            pos: data.data.pos || '',
+            meaning: data.data.mean_cn || data.data.mean_en || '',
+            definition: data.data.mean_en || '',
+            example: data.data.sentence || ''
+          };
+        }
+
+        return null;
+      } catch (error) {
+        console.error('Fetch error:', error);
+        return null;
+      }
+    }
+
+    // 渲染单词卡片
+    function renderWordCard(word, data) {
+      const container = document.getElementById('word-results');
+      const hasData = data.phonetic || data.meaning;
+
+      const card = document.createElement('div');
+      card.className = `word-card ${hasData ? 'enriched' : ''}`;
+      card.innerHTML = `
+        <div class="word-title">${data.word || word}</div>
+        ${data.phonetic ? `<div class="word-phonetic">${data.phonetic}</div>` : ''}
+        ${data.pos ? `<div class="word-pos">${data.pos}</div>` : ''}
+        ${data.meaning ? `<div class="word-meaning">${data.meaning}</div>` : ''}
+        ${data.example ? `<div class="word-meaning" style="margin-top: 8px; font-style: italic;">"${data.example}"</div>` : ''}
+      `;
+      container.appendChild(card);
+    }
+
+    // 测试API
+    async function testAPI() {
+      clearResults('api-results');
+      setStatus('测试API...', 'pending');
+
+      const testCases = [
+        { word: 'fast', description: '常用词' },
+        { word: 'xyzinvalid', description: '不存在的词' },
+        { word: 'knowledge', description: '复杂词' }
+      ];
+
+      for (const testCase of testCases) {
+        try {
+          const data = await fetchWordData(testCase.word);
+          const hasData = data && (data.phonetic || data.meaning);
+          showResult('api-results', 
+            `${testCase.description} (${testCase.word}): ${hasData ? '找到' : '未找到'}`, 
+            hasData ? 'pass' : 'info');
+        } catch (error) {
+          showResult('api-results', 
+            `${testCase.description} (${testCase.word}): 错误 - ${error.message}`, 
+            'fail');
+        }
+      }
+
+      setStatus('✓ API测试完成', 'pass');
+    }
+
+    // 测试自定义单词
+    async function testCustomWord() {
+      const wordInput = document.getElementById('custom-word');
+      const word = wordInput.value.trim();
+      
+      if (!word) {
+        setStatus('请输入单词', 'fail');
+        return;
+      }
+
+      clearResults('custom-results');
+      setStatus(`正在查询单词: "${word}"...`, 'pending');
+
+      try {
+        const data = await fetchWordData(word);
+        if (data && (data.phonetic || data.meaning)) {
+          renderWordCard(word, data);
+          setStatus(`✓ 成功查询单词: "${word}"`, 'pass');
+        } else {
+          showResult('custom-results', '未找到该单词', 'info');
+          setStatus(`✗ 未找到单词: "${word}"`, 'fail');
+        }
+      } catch (error) {
+        setStatus(`✗ 错误: ${error.message}`, 'fail');
+      }
+    }
+
+    // 测试错误处理
+    async function testErrorHandling() {
+      clearResults('error-results');
+      setStatus('测试错误处理...', 'pending');
+
+      const errorTests = [
+        { name: '空单词', url: `${API_BASE}?word=` },
+        { name: '特殊字符', url: `${API_BASE}?word=!!!` },
+        { name: '超长单词', url: `${API_BASE}?word=${'a'.repeat(100)}` }
+      ];
+
+      for (const test of errorTests) {
+        try {
+          const response = await fetch(test.url);
+          const data = await response.json();
+          
+          if (response.ok || data.code === 201) {
+            showResult('error-results', 
+              `✓ ${test.name}: 处理正常 (状态: ${response.status})`, 'pass');
+          } else {
+            showResult('error-results', 
+              `✗ ${test.name}: 返回错误 (状态: ${response.status})`, 'fail');
+          }
+        } catch (error) {
+          showResult('error-results', 
+            `✓ ${test.name}: 错误被捕获 - ${error.message}`, 'pass');
+        }
+      }
+
+      setStatus('✓ 错误处理测试完成', 'pass');
+    }
+
+    // 初始化
+    generateWordGrid();
+    setStatus('✓ 测试页面加载完成', 'pass');
+  </script>
+</body>
+</html>

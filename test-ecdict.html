@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test ECDICT Loader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #1e293b;
+      color: #e2e8f0;
+    }
+    .section {
+      background: #334155;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2563eb;
+    }
+    button.success {
+      background: #22c55e;
+    }
+    button.success:hover {
+      background: #16a34a;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      background: #1e293b;
+      border: 1px solid #475569;
+      color: #e2e8f0;
+      border-radius: 5px;
+    }
+    .success {
+      color: #22c55e;
+      font-weight: bold;
+    }
+    .error {
+      color: #ef4444;
+      font-weight: bold;
+    }
+    .info {
+      color: #3b82f6;
+      font-weight: bold;
+    }
+    .code {
+      background: #0f172a;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: monospace;
+      white-space: pre-wrap;
+      word-break: break-all;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .word-card {
+      background: #475569;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ECDICT Loader Test</h1>
+
+  <div class="section">
+    <h2>Test ECDICT Loading</h2>
+    <button onclick="testLoadECDict()">Load ECDICT (sample)</button>
+    <button onclick="testLoadFullDict()" class="success">Load Full ECDICT (if exists)</button>
+    <div id="loadResult"></div>
+  </div>
+
+  <div class="section">
+    <h2>Test Word Lookup</h2>
+    <input type="text" id="lookupWord" placeholder="Word to lookup (e.g., hello, world)">
+    <br><br>
+    <button onclick="lookup()">Lookup Word</button>
+    <button onclick="lookupWithFallback()">Lookup with Fallback</button>
+    <div id="lookupResult"></div>
+  </div>
+
+  <div class="section">
+    <h2>Test Sentence Enrichment</h2>
+    <textarea id="testSentence" rows="3" placeholder="Enter a sentence (e.g., Hello world, learn English)">Hello world, learn English</textarea>
+    <br><br>
+    <button onclick="enrichSentence()">Enrich Sentence</button>
+    <div id="enrichResult"></div>
+  </div>
+
+  <div class="section">
+    <h2>Actions Log</h2>
+    <div id="log" class="code"></div>
+  </div>
+
+  <div class="section">
+    <h2>Dictionary Stats</h2>
+    <div id="dictStats"></div>
+  </div>
+
+  <script>
+    let ecdictLoader = null;
+    let ecdictMap = null;
+
+    class ECDictLoader {
+      constructor() {
+        this.dictionary = null;
+        this.isLoaded = false;
+      }
+
+      async loadJSON(url) {
+        if (this.isLoaded) {
+          return this.dictionary;
+        }
+
+        try {
+          log(`Fetching ECDICT from: ${url}`, 'info');
+          const response = await fetch(url);
+          
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+          }
+
+          const contentType = response.headers.get('content-type');
+          if (!contentType || !contentType.includes('application/json')) {
+            const text = await response.text();
+            throw new Error(`Not JSON: ${contentType}`);
+          }
+
+          const data = await response.json();
+
+          this.dictionary = new Map();
+          data.forEach(word => {
+            const key = word.text.toLowerCase();
+            this.dictionary.set(key, word);
+
+            const stripped = this.stripWord(word.text);
+            if (stripped !== key) {
+              this.dictionary.set(stripped, word);
+            }
+          });
+
+          this.isLoaded = true;
+          log(`ECDICT loaded: ${this.dictionary.size} words`, 'success');
+          return this.dictionary;
+        } catch (error) {
+          log(`Failed to load ECDICT: ${error.message}`, 'error');
+          console.error('ECDICT loading error:', error);
+          return null;
+        }
+      }
+
+      stripWord(word) {
+        return word.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+      }
+
+      lookup(word) {
+        if (!this.dictionary) {
+          log('Dictionary not loaded!', 'error');
+          return null;
+        }
+
+        const key = word.toLowerCase();
+        return this.dictionary.get(key) || null;
+      }
+
+      lookupWithFallback(word) {
+        if (!this.dictionary) {
+          log('Dictionary not loaded!', 'error');
+          return null;
+        }
+
+        let result = this.lookup(word);
+        if (result) return result;
+
+        const stripped = this.stripWord(word);
+        if (stripped !== word.toLowerCase()) {
+          result = this.dictionary.get(stripped);
+          return result;
+        }
+
+        return null;
+      }
+
+      isLoadedState() {
+        return this.isLoaded;
+      }
+
+      getStats() {
+        if (!this.dictionary) return null;
+
+        const stats = {
+          totalWords: this.dictionary.size,
+          sampleWords: Array.from(this.dictionary.keys()).slice(0, 20)
+        };
+
+        return stats;
+      }
+    }
+
+    function log(message, type = 'info') {
+      const logDiv = document.getElementById('log');
+      const entry = document.createElement('div');
+      entry.className = type;
+      entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+      logDiv.insertBefore(entry, logDiv.firstChild);
+    }
+
+    function initializeLoader() {
+      ecdictLoader = new ECDictLoader();
+      log('ECDictLoader initialized', 'info');
+    }
+
+    async function testLoadECDict() {
+      const result = await ecdictLoader.loadJSON('/dicts/ecdict-sample.json');
+      ecdictMap = result;
+      
+      if (result) {
+        document.getElementById('loadResult').innerHTML =
+          `<span class="success">Loaded ${result.size} words from ECDICT sample</span>`;
+        updateDictStats();
+      } else {
+        document.getElementById('loadResult').innerHTML =
+          `<span class="error">Failed to load ECDICT sample</span>`;
+      }
+    }
+
+    async function testLoadFullDict() {
+      const result = await ecdictLoader.loadJSON('/dicts/ecdict.json');
+      ecdictMap = result;
+      
+      if (result) {
+        document.getElementById('loadResult').innerHTML =
+          `<span class="success">Loaded ${result.size} words from full ECDICT</span>`;
+        updateDictStats();
+      } else {
+        document.getElementById('loadResult').innerHTML =
+          `<span class="error">Full ECDICT not found (expected)</span>`;
+      }
+    }
+
+    function lookup() {
+      const word = document.getElementById('lookupWord').value.trim();
+      if (!word) {
+        log('Please enter a word', 'error');
+        return;
+      }
+
+      const result = ecdictLoader.lookup(word);
+      displayLookupResult(word, result);
+    }
+
+    function lookupWithFallback() {
+      const word = document.getElementById('lookupWord').value.trim();
+      if (!word) {
+        log('Please enter a word', 'error');
+        return;
+      }
+
+      const result = ecdictLoader.lookupWithFallback(word);
+      displayLookupResult(word, result);
+    }
+
+    function displayLookupResult(word, result) {
+      const resultDiv = document.getElementById('lookupResult');
+      
+      if (result) {
+        log(`Found "${word}" in dictionary`, 'success');
+        resultDiv.innerHTML = `
+          <div class="word-card">
+            <h3 class="text-xl font-bold">${result.text}</h3>
+            <p class="text-sm text-gray-400 font-mono">${result.phonetic}</p>
+            <span class="inline-block px-2 py-1 bg-purple-600 text-purple-100 text-xs font-medium rounded-md my-2">
+              ${result.pos}
+            </span>
+            <p class="text-sm">${result.meaning}</p>
+          </div>
+        `;
+      } else {
+        log(`"${word}" not found in dictionary`, 'error');
+        resultDiv.innerHTML = `<span class="error">Word "${word}" not found</span>`;
+      }
+    }
+
+    function extractWords(sentence) {
+      const wordPattern = /\b[a-zA-Z]+(?:['-][a-zA-Z]+)*\b/g;
+      const matches = sentence.match(wordPattern);
+      return matches || [];
+    }
+
+    function enrichSentence() {
+      const sentence = document.getElementById('testSentence').value.trim();
+      if (!sentence) {
+        log('Please enter a sentence', 'error');
+        return;
+      }
+
+      if (!ecdictMap) {
+        log('Please load ECDICT first', 'error');
+        return;
+      }
+
+      log(`Enriching sentence: "${sentence}"`, 'info');
+      
+      const words = extractWords(sentence);
+      const enrichedWords = words.map(word => {
+        const entry = ecdictLoader.lookupWithFallback(word);
+        return {
+          text: word,
+          phonetic: entry?.phonetic || '',
+          pos: entry?.pos || '',
+          meaning: entry?.meaning || ''
+        };
+      });
+
+      const resultDiv = document.getElementById('enrichResult');
+      resultDiv.innerHTML = `
+        <div class="word-card">
+          <h3 class="text-lg font-bold mb-2">${sentence}</h3>
+          ${enrichedWords.map(w => `
+            <div class="my-2 p-2 bg-gray-700 rounded">
+              <span class="font-bold">${w.text}</span>
+              ${w.phonetic ? `<span class="text-sm text-gray-400 ml-2">${w.phonetic}</span>` : ''}
+              ${w.pos ? `<span class="text-xs px-2 py-1 bg-purple-600 rounded ml-2">${w.pos}</span>` : ''}
+              ${w.meaning ? `<p class="text-sm text-gray-300 mt-1">${w.meaning}</p>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      `;
+
+      log(`Enriched ${words.length} words`, 'success');
+    }
+
+    function updateDictStats() {
+      const stats = ecdictLoader.getStats();
+      if (stats) {
+        document.getElementById('dictStats').innerHTML = `
+          <p><strong>Total Words:</strong> ${stats.totalWords}</p>
+          <p><strong>Sample Words:</strong> ${stats.sampleWords.join(', ')}</p>
+        `;
+      }
+    }
+
+    // Initialize
+    window.onload = function() {
+      initializeLoader();
+      log('Test page loaded', 'info');
+    };
+  </script>
+</body>
+</html>

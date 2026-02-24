@@ -1,0 +1,1746 @@
+[
+  {
+    "id": 81,
+    "sentence": "Regular medical check-ups can help detect potential health issues before they become serious.",
+    "translation": "定期体检可以帮助在健康问题变得严重之前发现它们。",
+    "phonetic_sentence": "/ˈreɡjələr ˈmedɪkl ˈtʃek-ʌps kən help dɪˈtekt pəˈtenʃl helθ ˈɪʃuːz bɪˈfɔːr ðeɪ bɪˈkʊm ˈsɪərɪəs/",
+    "words": [
+      {
+        "text": "Regular",
+        "phonetic": "/ˈreɡjələr/",
+        "pos": "adj.",
+        "meaning": "定期的"
+      },
+      {
+        "text": "medical",
+        "phonetic": "/ˈmedɪkl/",
+        "pos": "adj.",
+        "meaning": "医疗的"
+      },
+      {
+        "text": "check-ups",
+        "phonetic": "/ˈtʃek-ʌps/",
+        "pos": "n.",
+        "meaning": "体检"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "help",
+        "phonetic": "/help/",
+        "pos": "v.",
+        "meaning": "帮助"
+      },
+      {
+        "text": "detect",
+        "phonetic": "/dɪˈtekt/",
+        "pos": "v.",
+        "meaning": "发现/检测"
+      },
+      {
+        "text": "potential",
+        "phonetic": "/pəˈtenʃl/",
+        "pos": "adj.",
+        "meaning": "潜在的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "issues",
+        "phonetic": "/ˈɪʃuːz/",
+        "pos": "n.",
+        "meaning": "问题"
+      },
+      {
+        "text": "before",
+        "phonetic": "/bɪˈfɔːr/",
+        "pos": "prep.",
+        "meaning": "之前"
+      },
+      {
+        "text": "they",
+        "phonetic": "/ðeɪ/",
+        "pos": "pron.",
+        "meaning": "它们"
+      },
+      {
+        "text": "become",
+        "phonetic": "/bɪˈkʌm/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "serious",
+        "phonetic": "/ˈsɪərɪəs/",
+        "pos": "adj.",
+        "meaning": "严重的"
+      },
+      {
+        "text": "check",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "ups",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "sentence": "A balanced diet rich in fruits and vegetables is essential for maintaining good health.",
+    "translation": "富含水果和蔬菜的均衡饮食对保持健康至关重要。",
+    "phonetic_sentence": "/ə ˈbælənst daɪt rɪtʃ ɪn fruːts ənd ˈvedʒɪtəblz ɪz ɪˈsenʃl fər meɪnˈteɪnɪŋ ɡʊd helθ/",
+    "words": [
+      {
+        "text": "A",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "balanced",
+        "phonetic": "/ˈbælənst/",
+        "pos": "adj.",
+        "meaning": "均衡的"
+      },
+      {
+        "text": "diet",
+        "phonetic": "/ˈdaɪət/",
+        "pos": "n.",
+        "meaning": "饮食"
+      },
+      {
+        "text": "rich",
+        "phonetic": "/rɪtʃ/",
+        "pos": "adj.",
+        "meaning": "富含的"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "fruits",
+        "phonetic": "/fruːts/",
+        "pos": "n.",
+        "meaning": "水果"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "vegetables",
+        "phonetic": "/ˈvedʒɪtəblz/",
+        "pos": "n.",
+        "meaning": "蔬菜"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "essential",
+        "phonetic": "/ɪˈsenʃl/",
+        "pos": "adj.",
+        "meaning": "必要的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "maintaining",
+        "phonetic": "/meɪnˈteɪnɪŋ/",
+        "pos": "v.",
+        "meaning": "保持"
+      },
+      {
+        "text": "good",
+        "phonetic": "/ɡʊd/",
+        "pos": "adj.",
+        "meaning": "好的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "sentence": "Mental health is equally important as physical health and should not be neglected.",
+    "translation": "心理健康和身体健康一样重要，不应该被忽视。",
+    "phonetic_sentence": "/ˈmentl helθ ɪz ˈiːkwəli ɪmˈpɔːtnt æz ˈfɪzɪkl helθ ənd ʃʊd nɒt biː nɪˈɡlektɪd/",
+    "words": [
+      {
+        "text": "Mental",
+        "phonetic": "/ˈmentl/",
+        "pos": "adj.",
+        "meaning": "精神的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "equally",
+        "phonetic": "/ˈiːkwəli/",
+        "pos": "adv.",
+        "meaning": "同样地"
+      },
+      {
+        "text": "important",
+        "phonetic": "/ɪmˈpɔːtnt/",
+        "pos": "adj.",
+        "meaning": "重要的"
+      },
+      {
+        "text": "as",
+        "phonetic": "/æz/",
+        "pos": "conj.",
+        "meaning": "像"
+      },
+      {
+        "text": "physical",
+        "phonetic": "/ˈfɪzɪkl/",
+        "pos": "adj.",
+        "meaning": "身体的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "should",
+        "phonetic": "/ʃʊd/",
+        "pos": "v.",
+        "meaning": "应该"
+      },
+      {
+        "text": "not",
+        "phonetic": "/nɒt/",
+        "pos": "adv.",
+        "meaning": "不"
+      },
+      {
+        "text": "be",
+        "phonetic": "/biː/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "neglected",
+        "phonetic": "/nɪˈɡlektɪd/",
+        "pos": "v.",
+        "meaning": "被忽视"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "sentence": "Vaccination has proven to be one of the most effective ways to prevent infectious diseases.",
+    "translation": "疫苗接种已被证明是预防传染病最有效的方法之一。",
+    "phonetic_sentence": "/ˌvæksɪˈneɪʃn həz ˈpruːvd tə biː wʌn əv ðə məʊst ɪˈfektɪv weɪz tə prɪˈvent ɪnˈfekʃəs dɪˈziːzɪz/",
+    "words": [
+      {
+        "text": "Vaccination",
+        "phonetic": "/ˌvæksɪˈneɪʃn/",
+        "pos": "n.",
+        "meaning": "疫苗接种"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "proven",
+        "phonetic": "/ˈpruːvn/",
+        "pos": "v.",
+        "meaning": "证明"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "be",
+        "phonetic": "/biː/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "one",
+        "phonetic": "/wʌn/",
+        "pos": "num.",
+        "meaning": "一"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "most",
+        "phonetic": "/məʊst/",
+        "pos": "adj.",
+        "meaning": "最"
+      },
+      {
+        "text": "effective",
+        "phonetic": "/ɪˈfektɪv/",
+        "pos": "adj.",
+        "meaning": "有效的"
+      },
+      {
+        "text": "ways",
+        "phonetic": "/weɪz/",
+        "pos": "n.",
+        "meaning": "方法"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "prevent",
+        "phonetic": "/prɪˈvent/",
+        "pos": "v.",
+        "meaning": "预防"
+      },
+      {
+        "text": "infectious",
+        "phonetic": "/ɪnˈfekʃəs/",
+        "pos": "adj.",
+        "meaning": "传染的"
+      },
+      {
+        "text": "diseases",
+        "phonetic": "/dɪˈziːzɪz/",
+        "pos": "n.",
+        "meaning": "疾病"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "sentence": "Regular exercise can significantly reduce the risk of heart disease and diabetes.",
+    "translation": "经常锻炼可以显著降低患心脏病和糖尿病的风险。",
+    "phonetic_sentence": "/ˈreɡjələr ˈeksəsaɪz kən sɪɡˈnɪfɪkəntli rɪˈdjuːz ðə rɪsk əv hɑːt dɪˈziːz ənd ˌdaɪəˈbiːtiːz/",
+    "words": [
+      {
+        "text": "Regular",
+        "phonetic": "/ˈreɡjələr/",
+        "pos": "adj.",
+        "meaning": "经常的"
+      },
+      {
+        "text": "exercise",
+        "phonetic": "/ˈeksəsaɪz/",
+        "pos": "n.",
+        "meaning": "锻炼"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "significantly",
+        "phonetic": "/sɪɡˈnɪfɪkəntli/",
+        "pos": "adv.",
+        "meaning": "显著地"
+      },
+      {
+        "text": "reduce",
+        "phonetic": "/rɪˈdjuːs/",
+        "pos": "v.",
+        "meaning": "减少"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "risk",
+        "phonetic": "/rɪsk/",
+        "pos": "n.",
+        "meaning": "风险"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "heart",
+        "phonetic": "/hɑːt/",
+        "pos": "n.",
+        "meaning": "心脏"
+      },
+      {
+        "text": "disease",
+        "phonetic": "/dɪˈziːz/",
+        "pos": "n.",
+        "meaning": "疾病"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "diabetes",
+        "phonetic": "/ˌdaɪəˈbiːtiːz/",
+        "pos": "n.",
+        "meaning": "糖尿病"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "sentence": "Getting enough sleep is crucial for the body to recover and maintain optimal function.",
+    "translation": "获得足够的睡眠对身体恢复和维持最佳功能至关重要。",
+    "phonetic_sentence": "/ˈɡetɪŋ ɪˈnʌf sliːp ɪz ˈkruːʃl fər ðə ˈbɒdi tə rɪˈkʌvər ənd meɪnˈten ˈɒptɪməl ˈfʌŋkʃn/",
+    "words": [
+      {
+        "text": "Getting",
+        "phonetic": "/ˈɡetɪŋ/",
+        "pos": "v.",
+        "meaning": "获得"
+      },
+      {
+        "text": "enough",
+        "phonetic": "/ɪˈnʌf/",
+        "pos": "adj.",
+        "meaning": "足够的"
+      },
+      {
+        "text": "sleep",
+        "phonetic": "/sliːp/",
+        "pos": "n.",
+        "meaning": "睡眠"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "crucial",
+        "phonetic": "/ˈkruːʃl/",
+        "pos": "adj.",
+        "meaning": "关键的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "body",
+        "phonetic": "/ˈbɒdi/",
+        "pos": "n.",
+        "meaning": "身体"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "recover",
+        "phonetic": "/rɪˈkʌvər/",
+        "pos": "v.",
+        "meaning": "恢复"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "maintain",
+        "phonetic": "/meɪnˈteɪn/",
+        "pos": "v.",
+        "meaning": "维持"
+      },
+      {
+        "text": "optimal",
+        "phonetic": "/ˈɒptɪməl/",
+        "pos": "adj.",
+        "meaning": "最佳的"
+      },
+      {
+        "text": "function",
+        "phonetic": "/ˈfʌŋkʃn/",
+        "pos": "n.",
+        "meaning": "功能"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "sentence": "Stress management techniques such as meditation can improve overall well-being.",
+    "translation": "冥想等压力管理技巧可以改善整体健康状况。",
+    "phonetic_sentence": "/stres ˈmænɪdʒmənt tekˈniːks sʌtʃ æz ˌmedɪˈteɪʃn kən ɪmˈpruːv ˈəʊvərɔːl ˈwel-biːɪŋ/",
+    "words": [
+      {
+        "text": "Stress",
+        "phonetic": "/stres/",
+        "pos": "n.",
+        "meaning": "压力"
+      },
+      {
+        "text": "management",
+        "phonetic": "/ˈmænɪdʒmənt/",
+        "pos": "n.",
+        "meaning": "管理"
+      },
+      {
+        "text": "techniques",
+        "phonetic": "/tekˈniːks/",
+        "pos": "n.",
+        "meaning": "技巧"
+      },
+      {
+        "text": "such",
+        "phonetic": "/sʌtʃ/",
+        "pos": "adj.",
+        "meaning": "这样的"
+      },
+      {
+        "text": "as",
+        "phonetic": "/æz/",
+        "pos": "conj.",
+        "meaning": "像"
+      },
+      {
+        "text": "meditation",
+        "phonetic": "/ˌmedɪˈteɪʃn/",
+        "pos": "n.",
+        "meaning": "冥想"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "pos": "v.",
+        "meaning": "改善"
+      },
+      {
+        "text": "overall",
+        "phonetic": "/ˈəʊvərɔːl/",
+        "pos": "adj.",
+        "meaning": "整体的"
+      },
+      {
+        "text": "well-being",
+        "phonetic": "/ˈwel-biːɪŋ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "well",
+        "phonetic": "/wel/",
+        "pos": "adj.",
+        "meaning": "健康的"
+      },
+      {
+        "text": "being",
+        "phonetic": "/ˈbiːɪŋ/",
+        "pos": "v.",
+        "meaning": "是(现在分词)"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "sentence": "Drinking plenty of water throughout the day helps keep the body properly hydrated.",
+    "translation": "全天多喝水有助于保持身体适当的水分。",
+    "phonetic_sentence": "/ˈdrɪŋkɪŋ ˈplenti əv ˈwɔːtər θruːˈaʊt ðə deɪ helpz kiːp ðə ˈbɒdi ˈprɒpəli haɪˈdreɪtɪd/",
+    "words": [
+      {
+        "text": "Drinking",
+        "phonetic": "/ˈdrɪŋkɪŋ/",
+        "pos": "v.",
+        "meaning": "喝"
+      },
+      {
+        "text": "plenty",
+        "phonetic": "/ˈplenti/",
+        "pos": "n.",
+        "meaning": "大量"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "water",
+        "phonetic": "/ˈwɔːtər/",
+        "pos": "n.",
+        "meaning": "水"
+      },
+      {
+        "text": "throughout",
+        "phonetic": "/θruːˈaʊt/",
+        "pos": "prep.",
+        "meaning": "贯穿"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "day",
+        "phonetic": "/deɪ/",
+        "pos": "n.",
+        "meaning": "天"
+      },
+      {
+        "text": "helps",
+        "phonetic": "/helpz/",
+        "pos": "v.",
+        "meaning": "帮助"
+      },
+      {
+        "text": "keep",
+        "phonetic": "/kiːp/",
+        "pos": "v.",
+        "meaning": "保持"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "body",
+        "phonetic": "/ˈbɒdi/",
+        "pos": "n.",
+        "meaning": "身体"
+      },
+      {
+        "text": "properly",
+        "phonetic": "/ˈprɒpəli/",
+        "pos": "adv.",
+        "meaning": "适当地"
+      },
+      {
+        "text": "hydrated",
+        "phonetic": "/haɪˈdreɪtɪd/",
+        "pos": "adj.",
+        "meaning": "补水的"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "sentence": "Preventive healthcare measures can save lives and reduce healthcare costs in the long run.",
+    "translation": "预防性医疗措施可以挽救生命并从长远来看降低医疗成本。",
+    "phonetic_sentence": "/prɪˈventɪv ˈhelθkeər ˈmeʒərz kən seɪv laɪvz ənd rɪˈdjuːz ˈhelθkeər kɒsts ɪn ðə lɒŋ rʌn/",
+    "words": [
+      {
+        "text": "Preventive",
+        "phonetic": "/prɪˈventɪv/",
+        "pos": "adj.",
+        "meaning": "预防的"
+      },
+      {
+        "text": "healthcare",
+        "phonetic": "/ˈhelθkeər/",
+        "pos": "n.",
+        "meaning": "医疗保健"
+      },
+      {
+        "text": "measures",
+        "phonetic": "/ˈmeʒərz/",
+        "pos": "n.",
+        "meaning": "措施"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "save",
+        "phonetic": "/seɪv/",
+        "pos": "v.",
+        "meaning": "挽救"
+      },
+      {
+        "text": "lives",
+        "phonetic": "/laɪvz/",
+        "pos": "n.",
+        "meaning": "生命"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "reduce",
+        "phonetic": "/rɪˈdjuːs/",
+        "pos": "v.",
+        "meaning": "减少"
+      },
+      {
+        "text": "healthcare",
+        "phonetic": "/ˈhelθkeər/",
+        "pos": "n.",
+        "meaning": "医疗保健"
+      },
+      {
+        "text": "costs",
+        "phonetic": "/kɒsts/",
+        "pos": "n.",
+        "meaning": "成本"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "long",
+        "phonetic": "/lɒŋ/",
+        "pos": "adj.",
+        "meaning": "长的"
+      },
+      {
+        "text": "run",
+        "phonetic": "/rʌn/",
+        "pos": "v.",
+        "meaning": "跑"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "sentence": "Modern medicine has made remarkable progress in treating previously incurable diseases.",
+    "translation": "现代医学在治疗先前无法治愈的疾病方面取得了显著进展。",
+    "phonetic_sentence": "/ˈmɒdn ˈmedɪsn həz meɪd rɪˈmɑːkəbl ˈprəʊɡres ɪn ˈtriːtɪŋ prɪˈviːəsli ɪnˈkjʊərəbl dɪˈziːzɪz/",
+    "words": [
+      {
+        "text": "Modern",
+        "phonetic": "/ˈmɒdn/",
+        "pos": "adj.",
+        "meaning": "现代的"
+      },
+      {
+        "text": "medicine",
+        "phonetic": "/ˈmedɪsn/",
+        "pos": "n.",
+        "meaning": "医学"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "made",
+        "phonetic": "/meɪd/",
+        "pos": "v.",
+        "meaning": "制作"
+      },
+      {
+        "text": "remarkable",
+        "phonetic": "/rɪˈmɑːkəbl/",
+        "pos": "adj.",
+        "meaning": "显著的"
+      },
+      {
+        "text": "progress",
+        "phonetic": "/ˈprəʊɡres/",
+        "pos": "n.",
+        "meaning": "进展"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "treating",
+        "phonetic": "/ˈtriːtɪŋ/",
+        "pos": "v.",
+        "meaning": "治疗"
+      },
+      {
+        "text": "previously",
+        "phonetic": "/ˈpriːviəsli/",
+        "pos": "adv.",
+        "meaning": "先前"
+      },
+      {
+        "text": "incurable",
+        "phonetic": "/ɪnˈkjʊərəbl/",
+        "pos": "adj.",
+        "meaning": "无法治愈的"
+      },
+      {
+        "text": "diseases",
+        "phonetic": "/dɪˈziːzɪz/",
+        "pos": "n.",
+        "meaning": "疾病"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "sentence": "Air pollution has been linked to various respiratory diseases and cardiovascular problems.",
+    "translation": "空气污染已被证实与各种呼吸系统疾病和心血管问题有关。",
+    "phonetic_sentence": "/eər pəˈluːʃn həz biːn lɪŋkt tə ˈveəriəs respəˈrətəri dɪˈziːzɪz ənd ˌkɑːdiəʊˈvæskjʊlər ˈprɒbləmz/",
+    "words": [
+      {
+        "text": "Air",
+        "phonetic": "/eər/",
+        "pos": "n.",
+        "meaning": "空气"
+      },
+      {
+        "text": "pollution",
+        "phonetic": "/pəˈluːʃn/",
+        "pos": "n.",
+        "meaning": "污染"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "been",
+        "phonetic": "/biːn/",
+        "pos": "v.",
+        "meaning": "是(过去分词)"
+      },
+      {
+        "text": "linked",
+        "phonetic": "/lɪŋkt/",
+        "pos": "v.",
+        "meaning": "联系"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "various",
+        "phonetic": "/ˈveəriəs/",
+        "pos": "adj.",
+        "meaning": "各种的"
+      },
+      {
+        "text": "respiratory",
+        "phonetic": "/respəˈrətəri/",
+        "pos": "adj.",
+        "meaning": "呼吸的"
+      },
+      {
+        "text": "diseases",
+        "phonetic": "/dɪˈziːzɪz/",
+        "pos": "n.",
+        "meaning": "疾病"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "cardiovascular",
+        "phonetic": "/ˌkɑːdiəʊˈvæskjʊlər/",
+        "pos": "adj.",
+        "meaning": "心血管的"
+      },
+      {
+        "text": "problems",
+        "phonetic": "/ˈprɒbləmz/",
+        "pos": "n.",
+        "meaning": "问题"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "sentence": "Telemedicine allows patients to consult doctors remotely, improving access to healthcare services.",
+    "translation": "远程医疗允许患者远程咨询医生，提高医疗服务的可及性。",
+    "phonetic_sentence": "/ˈtelɪmedɪsn əˈlaʊz ˈpeɪʃnts tə kənˈsɔːl ˈdɒktəz rɪˈməʊtli ɪmˈpruːvɪŋ ˈækses tə ˈhelθkeər ˈsɜːvɪsɪz/",
+    "words": [
+      {
+        "text": "Telemedicine",
+        "phonetic": "/ˈtelɪmedɪsn/",
+        "pos": "n.",
+        "meaning": "远程医疗"
+      },
+      {
+        "text": "allows",
+        "phonetic": "/əˈlaʊz/",
+        "pos": "v.",
+        "meaning": "允许"
+      },
+      {
+        "text": "patients",
+        "phonetic": "/ˈpeɪʃnts/",
+        "pos": "n.",
+        "meaning": "患者"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "consult",
+        "phonetic": "/kənˈsʌlt/",
+        "pos": "v.",
+        "meaning": "咨询"
+      },
+      {
+        "text": "doctors",
+        "phonetic": "/ˈdɒktəz/",
+        "pos": "n.",
+        "meaning": "医生"
+      },
+      {
+        "text": "remotely",
+        "phonetic": "/rɪˈməʊtli/",
+        "pos": "adv.",
+        "meaning": "远程地"
+      },
+      {
+        "text": "improving",
+        "phonetic": "/ɪmˈpruːvɪŋ/",
+        "pos": "v.",
+        "meaning": "改善"
+      },
+      {
+        "text": "access",
+        "phonetic": "/ˈækses/",
+        "pos": "n.",
+        "meaning": "访问"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "healthcare",
+        "phonetic": "/ˈhelθkeər/",
+        "pos": "n.",
+        "meaning": "医疗保健"
+      },
+      {
+        "text": "services",
+        "phonetic": "/ˈsɜːvɪsɪz/",
+        "pos": "n.",
+        "meaning": "服务"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "sentence": "Obesity rates have been rising globally, leading to increased health complications.",
+    "translation": "全球肥胖率一直在上升，导致健康并发症增加。",
+    "phonetic_sentence": "/əʊˈbiːsəti reɪts həv biːn ˈraɪzɪŋ ˈɡləʊbəli ˈliːdɪŋ tə ɪnˈkriːst helθ kəmˈplɪkeɪʃnz/",
+    "words": [
+      {
+        "text": "obesity",
+        "phonetic": "/əʊˈbiːsəti/",
+        "pos": "n.",
+        "meaning": "肥胖"
+      },
+      {
+        "text": "rates",
+        "phonetic": "/reɪts/",
+        "pos": "n.",
+        "meaning": "比率"
+      },
+      {
+        "text": "have",
+        "phonetic": "/hæv/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "been",
+        "phonetic": "/biːn/",
+        "pos": "v.",
+        "meaning": "是(过去分词)"
+      },
+      {
+        "text": "rising",
+        "phonetic": "/ˈraɪzɪŋ/",
+        "pos": "v.",
+        "meaning": "上升"
+      },
+      {
+        "text": "globally",
+        "phonetic": "/ˈɡləʊbəli/",
+        "pos": "adv.",
+        "meaning": "全球地"
+      },
+      {
+        "text": "leading",
+        "phonetic": "/ˈliːdɪŋ/",
+        "pos": "v.",
+        "meaning": "导致"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "increased",
+        "phonetic": "/ɪnˈkriːst/",
+        "pos": "v.",
+        "meaning": "增加"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "complications",
+        "phonetic": "/ˌkɒmplɪˈkeɪʃnz/",
+        "pos": "n.",
+        "meaning": "并发症"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "sentence": "Early detection of cancer significantly improves the chances of successful treatment.",
+    "translation": "癌症的早期发现可以显著提高成功治疗的机会。",
+    "phonetic_sentence": "/ˈɜːli dɪˈtekʃn əv ˈkænsər sɪɡˈnɪfɪkəntli ɪmˈpruːvd ðə ˈtʃeɪnsɪz əv səkˈsesfl ˈtriːtmənt/",
+    "words": [
+      {
+        "text": "early",
+        "phonetic": "/ˈɜːli/",
+        "pos": "adj.",
+        "meaning": "早期的"
+      },
+      {
+        "text": "detection",
+        "phonetic": "/dɪˈtekʃn/",
+        "pos": "n.",
+        "meaning": "发现/检测"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "cancer",
+        "phonetic": "/ˈkænsər/",
+        "pos": "n.",
+        "meaning": "癌症"
+      },
+      {
+        "text": "significantly",
+        "phonetic": "/sɪɡˈnɪfɪkəntli/",
+        "pos": "adv.",
+        "meaning": "显著地"
+      },
+      {
+        "text": "improves",
+        "phonetic": "/ɪmˈpruːvz/",
+        "pos": "v.",
+        "meaning": "改善"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "chances",
+        "phonetic": "/ˈtʃeɪnsɪz/",
+        "pos": "n.",
+        "meaning": "机会"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "successful",
+        "phonetic": "/səkˈsesfl/",
+        "pos": "adj.",
+        "meaning": "成功的"
+      },
+      {
+        "text": "treatment",
+        "phonetic": "/ˈtriːtmənt/",
+        "pos": "n.",
+        "meaning": "治疗"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "sentence": "Public health campaigns play a vital role in educating communities about disease prevention.",
+    "translation": "公共卫生运动在教育社区预防疾病方面发挥着重要作用。",
+    "phonetic_sentence": "/ˈpʌblɪk helθ kæmˈpeɪnz pleɪ ə ˈvaɪtl rəʊl ɪn ˈedʒʊkeɪtɪŋ kəˈmjuːnɪtiz əbaʊt dɪˈziːz prɪˈvenʃn/",
+    "words": [
+      {
+        "text": "public",
+        "phonetic": "/ˈpʌblɪk/",
+        "pos": "adj.",
+        "meaning": "公共的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "campaigns",
+        "phonetic": "/kæmˈpeɪnz/",
+        "pos": "n.",
+        "meaning": "运动/活动"
+      },
+      {
+        "text": "play",
+        "phonetic": "/pleɪ/",
+        "pos": "v.",
+        "meaning": "扮演/发挥"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "vital",
+        "phonetic": "/ˈvaɪtl/",
+        "pos": "adj.",
+        "meaning": "至关重要的"
+      },
+      {
+        "text": "role",
+        "phonetic": "/rəʊl/",
+        "pos": "n.",
+        "meaning": "角色/作用"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "educating",
+        "phonetic": "/ˈedʒʊkeɪtɪŋ/",
+        "pos": "v.",
+        "meaning": "教育"
+      },
+      {
+        "text": "communities",
+        "phonetic": "/kəˈmjuːnɪtiz/",
+        "pos": "n.",
+        "meaning": "社区"
+      },
+      {
+        "text": "about",
+        "phonetic": "/əˈbaʊt/",
+        "pos": "prep.",
+        "meaning": "关于"
+      },
+      {
+        "text": "disease",
+        "phonetic": "/dɪˈziːz/",
+        "pos": "n.",
+        "meaning": "疾病"
+      },
+      {
+        "text": "prevention",
+        "phonetic": "/prɪˈvenʃn/",
+        "pos": "n.",
+        "meaning": "预防"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "sentence": "Wearable health devices can monitor vital signs and alert users to potential health issues.",
+    "translation": "可穿戴健康设备可以监测生命体征并提醒用户潜在的健康问题。",
+    "phonetic_sentence": "/ˈweərəbl helθ dɪˈvaɪsɪz kən ˈmɒnɪtər ˈvaɪtl saɪnz ənd əˈlɜːt ˈjuːzərz tə pəˈtenʃl helθ ˈɪʃuːz/",
+    "words": [
+      {
+        "text": "wearable",
+        "phonetic": "/ˈweərəbl/",
+        "pos": "adj.",
+        "meaning": "可穿戴的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "devices",
+        "phonetic": "/dɪˈvaɪsɪz/",
+        "pos": "n.",
+        "meaning": "设备"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "monitor",
+        "phonetic": "/ˈmɒnɪtər/",
+        "pos": "v.",
+        "meaning": "监测"
+      },
+      {
+        "text": "vital",
+        "phonetic": "/ˈvaɪtl/",
+        "pos": "adj.",
+        "meaning": "至关重要的"
+      },
+      {
+        "text": "signs",
+        "phonetic": "/saɪnz/",
+        "pos": "n.",
+        "meaning": "迹象/体征"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "alert",
+        "phonetic": "/əˈlɜːt/",
+        "pos": "v.",
+        "meaning": "提醒"
+      },
+      {
+        "text": "users",
+        "phonetic": "/ˈjuːzərz/",
+        "pos": "n.",
+        "meaning": "用户"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "potential",
+        "phonetic": "/pəˈtenʃl/",
+        "pos": "adj.",
+        "meaning": "潜在的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "issues",
+        "phonetic": "/ˈɪʃuːz/",
+        "pos": "n.",
+        "meaning": "问题"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "sentence": "Proper hand hygiene is one of the most effective ways to prevent the spread of germs.",
+    "translation": "正确的手部卫生是防止细菌传播最有效的方法之一。",
+    "phonetic_sentence": "/ˈprɒpəl hænd haɪˈdʒiːniːn ɪz wʌn əv ðə məʊst ɪˈfektɪv weɪz tə prɪˈvent ðə spred əv dʒɜːmz/",
+    "words": [
+      {
+        "text": "proper",
+        "phonetic": "/ˈprɒpər/",
+        "pos": "adj.",
+        "meaning": "适当的"
+      },
+      {
+        "text": "hand",
+        "phonetic": "/hænd/",
+        "pos": "n.",
+        "meaning": "手"
+      },
+      {
+        "text": "hygiene",
+        "phonetic": "/haɪˈdʒiːn/",
+        "pos": "n.",
+        "meaning": "卫生"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "one",
+        "phonetic": "/wʌn/",
+        "pos": "n.",
+        "meaning": "一"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "most",
+        "phonetic": "/məʊst/",
+        "pos": "adj.",
+        "meaning": "最"
+      },
+      {
+        "text": "effective",
+        "phonetic": "/ɪˈfektɪv/",
+        "pos": "adj.",
+        "meaning": "有效的"
+      },
+      {
+        "text": "ways",
+        "phonetic": "/weɪz/",
+        "pos": "n.",
+        "meaning": "方法"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "prevent",
+        "phonetic": "/prɪˈvent/",
+        "pos": "v.",
+        "meaning": "防止"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "spread",
+        "phonetic": "/spred/",
+        "pos": "v.",
+        "meaning": "传播"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "germs",
+        "phonetic": "/dʒɜːmz/",
+        "pos": "n.",
+        "meaning": "细菌"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "sentence": "Antibiotic resistance is becoming a major global health concern due to overuse of medications.",
+    "translation": "由于药物的过度使用，抗生素耐药性已成为主要的全球健康问题。",
+    "phonetic_sentence": "/ˌæntibaɪˈɒtɪk rɪˈzɪstəns ɪz bɪˈkʌmɪŋ ə ˈmeɪdʒər ˈɡləʊbəl helθ kənˈsɜːn djuː tə ˈəʊvərjuːz əv ˌmedɪˈkeɪʃnz/",
+    "words": [
+      {
+        "text": "antibiotic",
+        "phonetic": "/ˌæntibaɪˈɒtɪk/",
+        "pos": "n.",
+        "meaning": "抗生素"
+      },
+      {
+        "text": "resistance",
+        "phonetic": "/rɪˈzɪstəns/",
+        "pos": "n.",
+        "meaning": "耐药性/抵抗"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "becoming",
+        "phonetic": "/bɪˈkʌmɪŋ/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "major",
+        "phonetic": "/ˈmeɪdʒər/",
+        "pos": "adj.",
+        "meaning": "主要的"
+      },
+      {
+        "text": "global",
+        "phonetic": "/ˈɡləʊbəl/",
+        "pos": "adj.",
+        "meaning": "全球的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "concern",
+        "phonetic": "/kənˈsɜːn/",
+        "pos": "n.",
+        "meaning": "关切/问题"
+      },
+      {
+        "text": "due",
+        "phonetic": "/djuː/",
+        "pos": "adj.",
+        "meaning": "由于"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "overuse",
+        "phonetic": "/ˈəʊvərjuːz/",
+        "pos": "n.",
+        "meaning": "过度使用"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "medications",
+        "phonetic": "/ˌmedɪˈkeɪʃnz/",
+        "pos": "n.",
+        "meaning": "药物"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "sentence": "Healthy eating habits combined with regular exercise form the foundation of a wellness lifestyle.",
+    "translation": "健康的饮食习惯与定期锻炼相结合，构成了健康生活方式的基础。",
+    "phonetic_sentence": "/ˈhelθi ˈiːtɪŋ ˈhæbɪts kəmˈbaɪnd wɪð ˈreɡjələr ˈeksəsaɪz fɔːm ðə faʊnˈdeɪʃn əv ə ˈwelnes ˈlaɪfstaɪl/",
+    "words": [
+      {
+        "text": "healthy",
+        "phonetic": "/ˈhelθi/",
+        "pos": "adj.",
+        "meaning": "健康的"
+      },
+      {
+        "text": "eating",
+        "phonetic": "/ˈiːtɪŋ/",
+        "pos": "v.",
+        "meaning": "吃"
+      },
+      {
+        "text": "habits",
+        "phonetic": "/ˈhæbɪts/",
+        "pos": "n.",
+        "meaning": "习惯"
+      },
+      {
+        "text": "combined",
+        "phonetic": "/kəmˈbaɪnd/",
+        "pos": "v.",
+        "meaning": "结合"
+      },
+      {
+        "text": "with",
+        "phonetic": "/wɪð/",
+        "pos": "prep.",
+        "meaning": "和"
+      },
+      {
+        "text": "regular",
+        "phonetic": "/ˈreɡjələr/",
+        "pos": "adj.",
+        "meaning": "定期的"
+      },
+      {
+        "text": "exercise",
+        "phonetic": "/ˈeksəsaɪz/",
+        "pos": "n.",
+        "meaning": "锻炼"
+      },
+      {
+        "text": "form",
+        "phonetic": "/fɔːm/",
+        "pos": "v.",
+        "meaning": "形成"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "foundation",
+        "phonetic": "/faʊnˈdeɪʃn/",
+        "pos": "n.",
+        "meaning": "基础"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "wellness",
+        "phonetic": "/ˈwelnes/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "lifestyle",
+        "phonetic": "/ˈlaɪfstaɪl/",
+        "pos": "n.",
+        "meaning": "生活方式"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "sentence": "Mental health awareness campaigns aim to reduce stigma and promote help-seeking behaviors.",
+    "translation": "心理健康意识运动旨在减少污名化并促进寻求帮助的行为。",
+    "phonetic_sentence": "/ˈmentl helθ əˈweənəs kæmˈpeɪnz eɪm tə rɪˈdjuːz ˈstemə ənd prəˈməʊt help-siːkɪŋ bɪˈheɪvjərz/",
+    "words": [
+      {
+        "text": "mental",
+        "phonetic": "/ˈmentl/",
+        "pos": "adj.",
+        "meaning": "精神的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "awareness",
+        "phonetic": "/əˈweənəs/",
+        "pos": "n.",
+        "meaning": "意识"
+      },
+      {
+        "text": "campaigns",
+        "phonetic": "/kæmˈpeɪnz/",
+        "pos": "n.",
+        "meaning": "运动/活动"
+      },
+      {
+        "text": "aim",
+        "phonetic": "/eɪm/",
+        "pos": "v.",
+        "meaning": "旨在"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "reduce",
+        "phonetic": "/rɪˈdjuːz/",
+        "pos": "v.",
+        "meaning": "减少"
+      },
+      {
+        "text": "stigma",
+        "phonetic": "/ˈstemə/",
+        "pos": "n.",
+        "meaning": "污名"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "promote",
+        "phonetic": "/prəˈməʊt/",
+        "pos": "v.",
+        "meaning": "促进"
+      },
+      {
+        "text": "help-seeking",
+        "phonetic": "/help-siːkɪŋ/",
+        "pos": "adj.",
+        "meaning": "寻求帮助的"
+      },
+      {
+        "text": "behaviors",
+        "phonetic": "/bɪˈheɪvjərz/",
+        "pos": "n.",
+        "meaning": "行为"
+      },
+      {
+        "text": "help",
+        "phonetic": "/help/",
+        "pos": "v.",
+        "meaning": "帮助"
+      },
+      {
+        "text": "seeking",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  }
+]

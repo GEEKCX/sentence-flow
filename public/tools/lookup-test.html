@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LookupService 测试</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #1a202c;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #718096;
+      font-size: 14px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1a202c;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-size: 14px;
+      color: #4a5568;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #e2e8f0;
+      border-radius: 10px;
+      font-size: 14px;
+      transition: border-color 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    button {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-secondary {
+      background: #edf2f7;
+      color: #4a5568;
+    }
+
+    .btn-secondary:hover {
+      background: #e2e8f0;
+    }
+
+    .result {
+      background: #f7fafc;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #2d3748;
+      white-space: pre-wrap;
+      display: none;
+    }
+
+    .result.show {
+      display: block;
+    }
+
+    .result-word {
+      font-weight: 600;
+      color: #667eea;
+    }
+
+    .result-phonetic {
+      font-family: 'Courier New', monospace;
+      color: #718096;
+    }
+
+    .result-meaning {
+      color: #4a5568;
+      margin-top: 5px;
+    }
+
+    .test-list {
+      list-style: none;
+    }
+
+    .test-item {
+      padding: 10px;
+      margin-bottom: 8px;
+      background: #f7fafc;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .test-item.pass {
+      background: #c6f6d5;
+      color: #22543d;
+    }
+
+    .test-item.fail {
+      background: #fed7d7;
+      color: #742a2a;
+    }
+
+    .badge {
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .badge-pass {
+      background: #48bb78;
+      color: white;
+    }
+
+    .badge-fail {
+      background: #f56565;
+      color: white;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .stat-item {
+      background: #f7fafc;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 24px;
+      font-weight: 700;
+      color: #667eea;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: #718096;
+      margin-top: 5px;
+    }
+
+    .status {
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-size: 14px;
+      text-align: center;
+      display: none;
+    }
+
+    .status.show {
+      display: block;
+    }
+
+    .status.success {
+      background: #c6f6d5;
+      color: #22543d;
+    }
+
+    .status.error {
+      background: #fed7d7;
+      color: #742a2a;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🔍 LookupService 测试</h1>
+      <p class="subtitle">高效词库查询服务 - 词干提取、IndexedDB、文本标注</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>📝</span>
+        <span>单次查询</span>
+      </div>
+      <div class="input-group">
+        <label>输入单词</label>
+        <input type="text" id="singleWord" placeholder="例如: running, children, better" value="running">
+      </div>
+      <button class="btn-primary" id="querySingleBtn">查询单词</button>
+      <div class="result" id="singleResult"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>📚</span>
+        <span>批量查询</span>
+      </div>
+      <div class="input-group">
+        <label>输入单词列表（逗号分隔）</label>
+        <input type="text" id="batchWords" placeholder="例如: running, faster, children, better" value="running, faster, children, better">
+      </div>
+      <button class="btn-primary" id="queryBatchBtn">批量查询</button>
+      <div class="result" id="batchResult"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>📄</span>
+        <span>文本标注</span>
+      </div>
+      <div class="input-group">
+        <label>输入文本</label>
+        <textarea id="textInput" rows="3" placeholder="输入英文文本..." value="The quick brown fox jumps over lazy dog. The children are running faster than ever."></textarea>
+      </div>
+      <button class="btn-primary" id="annotateBtn">标注文本</button>
+      <div class="result" id="annotateResult"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>🧪</span>
+        <span>单元测试</span>
+      </div>
+      <button class="btn-primary" id="runTestsBtn">运行所有测试</button>
+      <div class="status" id="testStatus"></div>
+      <ul class="test-list" id="testResults"></ul>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <span>📊</span>
+        <span>数据库统计</span>
+      </div>
+      <button class="btn-primary" id="showStatsBtn">获取统计</button>
+      <div class="stats" id="statsContainer"></div>
+      <div class="status" id="statsStatus"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { lemmatizer } from '/src/utils/lemmatizer.js';
+    import { lookupService } from '/src/utils/lookupService.js';
+
+    window.lookupService = lookupService;
+    window.lemmatizer = lemmatizer;
+
+    window.querySingleWord = async () => {
+      const word = document.getElementById('singleWord').value.trim();
+      if (!word) return;
+
+      const resultDiv = document.getElementById('singleResult');
+      resultDiv.innerHTML = '查询中...';
+      resultDiv.classList.add('show');
+
+      try {
+        if (!lookupService.isReady()) {
+          await lookupService.init();
+        }
+
+        const result = await lookupService.findDefinition(word);
+        
+        if (result) {
+          resultDiv.innerHTML = `
+            <div class="result-word">${result.text}</div>
+            <div class="result-phonetic">${result.phonetic || ''}</div>
+            <div class="result-meaning">
+              <strong>[${result.pos}]</strong> ${result.meaning}
+            </div>
+            ${result.lemma && result.lemma !== result.text ? `<div class="result-meaning" style="color: #718096;">原形: ${result.lemma}</div>` : ''}
+            <div style="margin-top: 8px; color: #718096; font-size: 12px;">匹配键: ${result.matchedKey}</div>
+          `;
+        } else {
+          resultDiv.innerHTML = '<div style="color: #718096;">未找到该单词（数据库可能未加载）</div>';
+        }
+      } catch (error) {
+        resultDiv.innerHTML = `<div style="color: #f56565;">错误: ${error.message}</div>`;
+      }
+    };
+
+    window.queryBatchWords = async () => {
+      const wordsStr = document.getElementById('batchWords').value.trim();
+      if (!wordsStr) return;
+
+      const words = wordsStr.split(',').map(w => w.trim()).filter(w => w.length > 0);
+      const resultDiv = document.getElementById('batchResult');
+      resultDiv.innerHTML = '查询中...';
+      resultDiv.classList.add('show');
+
+      try {
+        if (!lookupService.isReady()) {
+          await lookupService.init();
+        }
+
+        const results = await lookupService.findDefinitions(words);
+        
+        let html = '';
+        results.forEach((result, index) => {
+          const word = words[index];
+          if (result) {
+            html += `
+              <div style="padding: 10px; border-bottom: 1px solid #e2e8f0;">
+                <div class="result-word">${result.text}</div>
+                <div class="result-phonetic">${result.phonetic || ''}</div>
+                <div class="result-meaning">[${result.pos}] ${result.meaning}</div>
+              </div>
+            `;
+          } else {
+            html += `
+              <div style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #718096;">
+                ${word} - 未找到
+              </div>
+            `;
+          }
+        });
+        
+        resultDiv.innerHTML = html;
+      } catch (error) {
+        resultDiv.innerHTML = `<div style="color: #f56565;">错误: ${error.message}</div>`;
+      }
+    };
+
+    window.annotateText = async () => {
+      const text = document.getElementById('textInput').value.trim();
+      if (!text) return;
+
+      const resultDiv = document.getElementById('annotateResult');
+      resultDiv.innerHTML = '标注中...';
+      resultDiv.classList.add('show');
+
+      try {
+        if (!lookupService.isReady()) {
+          await lookupService.init();
+        }
+
+        const normalized = lookupService.normalizeText(text);
+        const words = await lookupService.findDefinitions(normalized.words);
+        
+        let html = `<div style="margin-bottom: 10px;"><strong>归一化:</strong> ${normalized.words.join(', ')}</div>`;
+        html += `<div style="margin-bottom: 10px;"><strong>单词数:</strong> ${normalized.words.length}</div>`;
+        html += '<div style="margin-bottom: 10px;"><strong>查询结果:</strong></div>';
+        
+        words.forEach((result, index) => {
+          const word = normalized.words[index];
+          if (result) {
+            html += `
+              <div style="padding: 5px 10px; background: #edf2f7; border-radius: 4px; margin: 5px 0; display: inline-block;">
+                <span style="color: #667eea; font-weight: 600;">${result.text}</span>
+                <span style="color: #718096; font-size: 12px;">${result.phonetic ? ` ${result.phonetic}` : ''}</span>
+              </div>
+            `;
+          } else {
+            html += `
+              <div style="padding: 5px 10px; background: #edf2f7; border-radius: 4px; margin: 5px 0; display: inline-block;">
+                ${word}
+              </div>
+            `;
+          }
+        });
+        
+        resultDiv.innerHTML = html;
+      } catch (error) {
+        resultDiv.innerHTML = `<div style="color: #f56565;">错误: ${error.message}</div>`;
+      }
+    };
+
+    window.runTests = async () => {
+      const testCases = [
+        { word: 'running', lemma: 'run' },
+        { word: 'ran', lemma: 'run' },
+        { word: 'children', lemma: 'child' },
+        { word: 'better', lemma: 'good' },
+        { word: 'worse', lemma: 'bad' },
+        { word: 'written', lemma: 'write' },
+        { word: 'geese', lemma: 'goose' },
+        { word: 'faster', lemma: 'fast' },
+        { word: 'cats', lemma: 'cat' }
+      ];
+
+      const statusDiv = document.getElementById('testStatus');
+      const resultsDiv = document.getElementById('testResults');
+      
+      resultsDiv.innerHTML = '';
+      statusDiv.innerHTML = '测试中...';
+      statusDiv.className = 'status show';
+
+      let passed = 0;
+      let failed = 0;
+
+      for (const testCase of testCases) {
+        const lemma = lemmatizer.lemmatize(testCase.word);
+        const isPassed = lemma === testCase.lemma;
+
+        if (isPassed) passed++;
+        else failed++;
+
+        const li = document.createElement('li');
+        li.className = `test-item ${isPassed ? 'pass' : 'fail'}`;
+        li.innerHTML = `
+          <span>${testCase.word} → ${lemma} ${isPassed ? '' : `(期望: ${testCase.lemma})`}</span>
+          <span class="badge ${isPassed ? 'badge-pass' : 'badge-fail'}">${isPassed ? '通过' : '失败'}</span>
+        `;
+        resultsDiv.appendChild(li);
+      }
+
+      statusDiv.innerHTML = `测试完成: ${passed} 通过, ${failed} 失败`;
+      statusDiv.className = `status show ${failed === 0 ? 'success' : 'error'}`;
+    };
+
+    window.showStats = async () => {
+      const statsContainer = document.getElementById('statsContainer');
+      const statusDiv = document.getElementById('statsStatus');
+      
+      statsContainer.innerHTML = '';
+      statusDiv.innerHTML = '获取中...';
+      statusDiv.className = 'status show';
+
+      try {
+        if (!lookupService.isReady()) {
+          await lookupService.init();
+        }
+
+        const stats = await lookupService.getStats();
+        
+        statsContainer.innerHTML = `
+          <div class="stat-item">
+            <div class="stat-value">${stats.totalWords.toLocaleString()}</div>
+            <div class="stat-label">总词条</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">${stats.memoryCacheSize.toLocaleString()}</div>
+            <div class="stat-label">内存缓存</div>
+          </div>
+        `;
+
+        statusDiv.innerHTML = '统计已更新';
+        statusDiv.className = 'status show success';
+      } catch (error) {
+        statusDiv.innerHTML = `错误: ${error.message}`;
+        statusDiv.className = 'status show error';
+      }
+    };
+
+    (async () => {
+      try {
+        await lookupService.init();
+        console.log('✅ LookupService 已初始化');
+      } catch (error) {
+        console.error('❌ 初始化失败:', error);
+      }
+    })();
+
+    document.getElementById('querySingleBtn').addEventListener('click', window.querySingleWord);
+    document.getElementById('queryBatchBtn').addEventListener('click', window.queryBatchWords);
+    document.getElementById('annotateBtn').addEventListener('click', window.annotateText);
+    document.getElementById('runTestsBtn').addEventListener('click', window.runTests);
+    document.getElementById('showStatsBtn').addEventListener('click', window.showStats);
+  </script>
+</body>
+</html>

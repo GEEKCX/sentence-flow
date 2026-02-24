@@ -1,0 +1,3 @@
+# Directory for ECDICT CSV data file
+# Download using: npm run download-ecdict
+# File is large (~100MB) and not tracked in git

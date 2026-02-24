@@ -1,0 +1,1524 @@
+[
+  {
+    "id": 101,
+    "sentence": "Global trade agreements have facilitated economic cooperation between nations worldwide.",
+    "translation": "全球贸易协定促进了世界各国之间的经济合作。",
+    "phonetic_sentence": "/ˈɡləʊbl treɪd əˈɡriːmənts həv fəˈsɪlɪteɪtɪd ˌiːkəˈnɒmɪk kəʊˌɒpəˈreɪʃn əˈtwiːn ˈneɪʃnz ˈwɜːldwaɪd/",
+    "words": [
+      {
+        "text": "global",
+        "phonetic": "/ˈɡləʊbəl/",
+        "pos": "adj.",
+        "meaning": "全球的"
+      },
+      {
+        "text": "trade",
+        "phonetic": "/treɪd/",
+        "pos": "n.",
+        "meaning": "贸易"
+      },
+      {
+        "text": "agreements",
+        "phonetic": "/əˈɡriːmənts/",
+        "pos": "n.",
+        "meaning": "协定"
+      },
+      {
+        "text": "have",
+        "phonetic": "/hæv/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "facilitated",
+        "phonetic": "/fəˈsɪlɪteɪtɪd/",
+        "pos": "v.",
+        "meaning": "促进"
+      },
+      {
+        "text": "economic",
+        "phonetic": "/ˌiːkəˈnɒmɪk/",
+        "pos": "adj.",
+        "meaning": "经济的"
+      },
+      {
+        "text": "cooperation",
+        "phonetic": "/kəʊˌɒpəˈreɪʃn/",
+        "pos": "n.",
+        "meaning": "合作"
+      },
+      {
+        "text": "between",
+        "phonetic": "/bɪˈtwiːn/",
+        "pos": "prep.",
+        "meaning": "之间"
+      },
+      {
+        "text": "nations",
+        "phonetic": "/ˈneɪʃnz/",
+        "pos": "n.",
+        "meaning": "国家"
+      },
+      {
+        "text": "worldwide",
+        "phonetic": "/ˈwɜːldwaɪd/",
+        "pos": "adv.",
+        "meaning": "全球地"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "sentence": "Stock markets reflect investor confidence and serve as indicators of economic health.",
+    "translation": "股票市场反映投资者信心，作为经济健康的指标。",
+    "phonetic_sentence": "/stɒk ˈmɑːkɪts rɪˈflekt ɪnˈvestər ˈkɒnfɪdəns ənd sɜːr æz ˈɪndɪkeɪtərz əv ˈiːkənəmɪk helθ/",
+    "words": [
+      {
+        "text": "stock",
+        "phonetic": "/stɒk/",
+        "pos": "n.",
+        "meaning": "股票"
+      },
+      {
+        "text": "markets",
+        "phonetic": "/ˈmɑːkɪts/",
+        "pos": "n.",
+        "meaning": "市场"
+      },
+      {
+        "text": "reflect",
+        "phonetic": "/rɪˈflekt/",
+        "pos": "v.",
+        "meaning": "反映"
+      },
+      {
+        "text": "investor",
+        "phonetic": "/ɪnˈvestər/",
+        "pos": "n.",
+        "meaning": "投资者"
+      },
+      {
+        "text": "confidence",
+        "phonetic": "/ˈkɒnfɪdəns/",
+        "pos": "n.",
+        "meaning": "信心"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "serve",
+        "phonetic": "/sɜːv/",
+        "pos": "v.",
+        "meaning": "作为/服务"
+      },
+      {
+        "text": "as",
+        "phonetic": "/æz/",
+        "pos": "prep.",
+        "meaning": "作为"
+      },
+      {
+        "text": "indicators",
+        "phonetic": "/ˈɪndɪkeɪtərz/",
+        "pos": "n.",
+        "meaning": "指标"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "economic",
+        "phonetic": "/ˌiːkəˈnɒmɪk/",
+        "pos": "adj.",
+        "meaning": "经济的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "sentence": "Entrepreneurship drives innovation and creates new job opportunities in emerging industries.",
+    "translation": "创业精神推动创新，在新兴行业创造新的就业机会。",
+    "phonetic_sentence": "/ˌɒntrəprəˈnɜːʃɪp draɪvz ɪˈnəʊʃn ənd kriˈeɪts njuː dʒɒb ˌɒpəˈtjuːnɪtiz ɪn ɪˈmɜːdʒɪŋ ˈɪndəstriz/",
+    "words": [
+      {
+        "text": "entrepreneurship",
+        "phonetic": "/ˌɒntrəprəˈnɜːʃɪp/",
+        "pos": "n.",
+        "meaning": "创业精神"
+      },
+      {
+        "text": "drives",
+        "phonetic": "/draɪvz/",
+        "pos": "v.",
+        "meaning": "推动"
+      },
+      {
+        "text": "innovation",
+        "phonetic": "/ˌɪnəˈveɪʃn/",
+        "pos": "n.",
+        "meaning": "创新"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "creates",
+        "phonetic": "/kriˈeɪts/",
+        "pos": "v.",
+        "meaning": "创造"
+      },
+      {
+        "text": "new",
+        "phonetic": "/njuː/",
+        "pos": "adj.",
+        "meaning": "新的"
+      },
+      {
+        "text": "job",
+        "phonetic": "/dʒɒb/",
+        "pos": "n.",
+        "meaning": "工作"
+      },
+      {
+        "text": "opportunities",
+        "phonetic": "/ˌɒpəˈtjuːnɪtiz/",
+        "pos": "n.",
+        "meaning": "机会"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "emerging",
+        "phonetic": "/ɪˈmɜːdʒɪŋ/",
+        "pos": "adj.",
+        "meaning": "新兴的"
+      },
+      {
+        "text": "industries",
+        "phonetic": "/ˈɪndəstriz/",
+        "pos": "n.",
+        "meaning": "行业"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "sentence": "Inflation erodes purchasing power and affects the standard of living for ordinary citizens.",
+    "translation": "通货膨胀削弱购买力，影响普通公民的生活水平。",
+    "phonetic_sentence": "/ɪnˈfleɪʃn ɪˈrəʊdz ˈpɜːtʃəsɪŋ ˈpaʊər ənd əˈfekts ðə ˈstændərd əv ˈlɪvɪŋ fər ˈɔːrdɪnri ˈsɪtɪznz/",
+    "words": [
+      {
+        "text": "inflation",
+        "phonetic": "/ɪnˈfleɪʃn/",
+        "pos": "n.",
+        "meaning": "通货膨胀"
+      },
+      {
+        "text": "erodes",
+        "phonetic": "/ɪˈrəʊdz/",
+        "pos": "v.",
+        "meaning": "削弱"
+      },
+      {
+        "text": "purchasing",
+        "phonetic": "/ˈpɜːtʃəsɪŋ/",
+        "pos": "v.",
+        "meaning": "购买"
+      },
+      {
+        "text": "power",
+        "phonetic": "/ˈpaʊər/",
+        "pos": "n.",
+        "meaning": "购买力"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "affects",
+        "phonetic": "/əˈfekts/",
+        "pos": "v.",
+        "meaning": "影响"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "standard",
+        "phonetic": "/ˈstændərd/",
+        "pos": "n.",
+        "meaning": "标准"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "living",
+        "phonetic": "/ˈlɪvɪŋ/",
+        "pos": "n.",
+        "meaning": "生活"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "ordinary",
+        "phonetic": "/ˈɔːrdɪneri/",
+        "pos": "adj.",
+        "meaning": "普通的"
+      },
+      {
+        "text": "citizens",
+        "phonetic": "/ˈsɪtɪznz/",
+        "pos": "n.",
+        "meaning": "公民"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "sentence": "Sustainable business practices are becoming increasingly important for long-term profitability.",
+    "translation": "可持续的商业实践对长期盈利能力变得越来越重要。",
+    "phonetic_sentence": "/səˈsteɪnəbl ˈbɪznəs ˈpræktɪsɪz ɑːr bɪˈkʌmɪŋ ɪnˈkriːsɪŋli ɪmˈpɔːtnt fər ˈlɒŋ-tɜːm ˌprɒfɪtəˈbɪləti/",
+    "words": [
+      {
+        "text": "sustainable",
+        "phonetic": "/səˈsteɪnəbl/",
+        "pos": "adj.",
+        "meaning": "可持续的"
+      },
+      {
+        "text": "business",
+        "phonetic": "/ˈbɪznəs/",
+        "pos": "n.",
+        "meaning": "商业"
+      },
+      {
+        "text": "practices",
+        "phonetic": "/ˈpræktɪsɪz/",
+        "pos": "n.",
+        "meaning": "实践"
+      },
+      {
+        "text": "are",
+        "phonetic": "/ɑːr/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "becoming",
+        "phonetic": "/bɪˈkʌmɪŋ/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "increasingly",
+        "phonetic": "/ɪnˈkriːsɪŋli/",
+        "pos": "adv.",
+        "meaning": "越来越"
+      },
+      {
+        "text": "important",
+        "phonetic": "/ɪmˈpɔːtnt/",
+        "pos": "adj.",
+        "meaning": "重要的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "long-term",
+        "phonetic": "/ˈlɒŋ-tɜːm/",
+        "pos": "adj.",
+        "meaning": "长期的"
+      },
+      {
+        "text": "profitability",
+        "phonetic": "/ˌprɒfɪtəˈbɪləti/",
+        "pos": "n.",
+        "meaning": "盈利能力"
+      },
+      {
+        "text": "long",
+        "phonetic": "/lɒŋ/",
+        "pos": "adj.",
+        "meaning": "长的"
+      },
+      {
+        "text": "term",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "sentence": "Corporate social responsibility encourages companies to consider environmental and social impacts.",
+    "translation": "企业社会责任鼓励公司考虑环境和社会影响。",
+    "phonetic_sentence": "/ˈkɔːpərət səʊʃl rɪˌspɒnsəˈbɪləti ɪnˈkʌrɪdʒɪz ˈkʌmpəniz tə kənˈsɪdər ɪnˌvaɪrənˈmentl ənd ˈsəʊʃl ˈɪmpækts/",
+    "words": [
+      {
+        "text": "corporate",
+        "phonetic": "/ˈkɔːpərət/",
+        "pos": "adj.",
+        "meaning": "企业的"
+      },
+      {
+        "text": "social",
+        "phonetic": "/ˈsəʊʃl/",
+        "pos": "adj.",
+        "meaning": "社会的"
+      },
+      {
+        "text": "responsibility",
+        "phonetic": "/rɪˌspɒnsəˈbɪləti/",
+        "pos": "n.",
+        "meaning": "责任"
+      },
+      {
+        "text": "encourages",
+        "phonetic": "/ɪnˈkʌrɪdʒɪz/",
+        "pos": "v.",
+        "meaning": "鼓励"
+      },
+      {
+        "text": "companies",
+        "phonetic": "/ˈkʌmpəniz/",
+        "pos": "n.",
+        "meaning": "公司"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "consider",
+        "phonetic": "/kənˈsɪdər/",
+        "pos": "v.",
+        "meaning": "考虑"
+      },
+      {
+        "text": "environmental",
+        "phonetic": "/ɪnˌvaɪrənˈmentl/",
+        "pos": "adj.",
+        "meaning": "环境的"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "social",
+        "phonetic": "/ˈsəʊʃl/",
+        "pos": "adj.",
+        "meaning": "社会的"
+      },
+      {
+        "text": "impacts",
+        "phonetic": "/ˈɪmpækts/",
+        "pos": "n.",
+        "meaning": "影响"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "sentence": "Supply chain disruptions can have devastating effects on global economies.",
+    "translation": "供应链中断可能对全球经济造成毁灭性影响。",
+    "phonetic_sentence": "/səˈpleɪ tʃeɪn dɪsˈrʌpʃnz kən hæv dɪˈvæstətɪŋ ɪˈfekts ɒn ˈɡləʊbəl iːˈkɒnəmiz/",
+    "words": [
+      {
+        "text": "supply",
+        "phonetic": "/səˈplaɪ/",
+        "pos": "n.",
+        "meaning": "供应"
+      },
+      {
+        "text": "chain",
+        "phonetic": "/tʃeɪn/",
+        "pos": "n.",
+        "meaning": "链条"
+      },
+      {
+        "text": "disruptions",
+        "phonetic": "/dɪsˈrʌpʃnz/",
+        "pos": "n.",
+        "meaning": "中断"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "have",
+        "phonetic": "/hæv/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "devastating",
+        "phonetic": "/ˈdevəsteɪtɪŋ/",
+        "pos": "adj.",
+        "meaning": "毁灭性的"
+      },
+      {
+        "text": "effects",
+        "phonetic": "/ɪˈfekts/",
+        "pos": "n.",
+        "meaning": "影响"
+      },
+      {
+        "text": "on",
+        "phonetic": "/ɒn/",
+        "pos": "prep.",
+        "meaning": "在...上"
+      },
+      {
+        "text": "global",
+        "phonetic": "/ˈɡləʊbəl/",
+        "pos": "adj.",
+        "meaning": "全球的"
+      },
+      {
+        "text": "economies",
+        "phonetic": "/iːˈkɒnəmiz/",
+        "pos": "n.",
+        "meaning": "经济"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "sentence": "Cryptocurrencies are challenging traditional financial systems and creating new investment opportunities.",
+    "translation": "加密货币正在挑战传统金融体系，创造新的投资机会。",
+    "phonetic_sentence": "/ˈkrɪptəʊˌkʌrənsiz ɑːr ˈtʃælɪndʒɪŋ trəˈdɪʃənl faɪˈnænʃl ˈsɪstəmz ənd kriˈeɪtɪŋ njuː ɪnˈvestmənt ˌɒpəˈtjuːnɪtiz/",
+    "words": [
+      {
+        "text": "cryptocurrencies",
+        "phonetic": "/ˈkrɪptəʊˌkʌrənsiz/",
+        "pos": "n.",
+        "meaning": "加密货币"
+      },
+      {
+        "text": "are",
+        "phonetic": "/ɑːr/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "challenging",
+        "phonetic": "/ˈtʃælɪndʒɪŋ/",
+        "pos": "v.",
+        "meaning": "挑战"
+      },
+      {
+        "text": "traditional",
+        "phonetic": "/trəˈdɪʃənl/",
+        "pos": "adj.",
+        "meaning": "传统的"
+      },
+      {
+        "text": "financial",
+        "phonetic": "/faɪˈnænʃl/",
+        "pos": "adj.",
+        "meaning": "金融的"
+      },
+      {
+        "text": "systems",
+        "phonetic": "/ˈsɪstəmz/",
+        "pos": "n.",
+        "meaning": "体系"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "creating",
+        "phonetic": "/kriˈeɪtɪŋ/",
+        "pos": "v.",
+        "meaning": "创造"
+      },
+      {
+        "text": "new",
+        "phonetic": "/njuː/",
+        "pos": "adj.",
+        "meaning": "新的"
+      },
+      {
+        "text": "investment",
+        "phonetic": "/ɪnˈvestmənt/",
+        "pos": "n.",
+        "meaning": "投资"
+      },
+      {
+        "text": "opportunities",
+        "phonetic": "/ˌɒpəˈtjuːnɪtiz/",
+        "pos": "n.",
+        "meaning": "机会"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "sentence": "E-commerce has transformed retail business models and changed consumer shopping habits.",
+    "translation": "电子商务改变了零售商业模式，改变了消费者的购物习惯。",
+    "phonetic_sentence": "/iːˈkɒmɜːs hæz trænsˈfɔːmd ˈriːteɪl ˈbɪznəs ˈmɒdlz ənd tʃeɪndʒd kənˈsjuːmər ˈʃɒpɪŋ ˈhæbɪts/",
+    "words": [
+      {
+        "text": "e-commerce",
+        "phonetic": "/iːˈkɒmɜːs/",
+        "pos": "n.",
+        "meaning": "电子商务"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "transformed",
+        "phonetic": "/trænsˈfɔːmd/",
+        "pos": "v.",
+        "meaning": "改变"
+      },
+      {
+        "text": "retail",
+        "phonetic": "/ˈriːteɪl/",
+        "pos": "adj.",
+        "meaning": "零售的"
+      },
+      {
+        "text": "business",
+        "phonetic": "/ˈbɪznəs/",
+        "pos": "n.",
+        "meaning": "商业"
+      },
+      {
+        "text": "models",
+        "phonetic": "/ˈmɒdlz/",
+        "pos": "n.",
+        "meaning": "模式"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "changed",
+        "phonetic": "/tʃeɪndʒd/",
+        "pos": "v.",
+        "meaning": "改变"
+      },
+      {
+        "text": "consumer",
+        "phonetic": "/kənˈsjuːmər/",
+        "pos": "n.",
+        "meaning": "消费者"
+      },
+      {
+        "text": "shopping",
+        "phonetic": "/ˈʃɒpɪŋ/",
+        "pos": "n.",
+        "meaning": "购物"
+      },
+      {
+        "text": "habits",
+        "phonetic": "/ˈhæbɪts/",
+        "pos": "n.",
+        "meaning": "习惯"
+      },
+      {
+        "text": "e",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "commerce",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "sentence": "Remote work arrangements have become increasingly common in the post-pandemic era.",
+    "translation": "远程工作安排在后疫情时代变得越来越普遍。",
+    "phonetic_sentence": "/rɪˈməʊt wɜːk əˈreɪndʒmənts hæv bɪˈkʌm ɪnˈkriːsɪŋli ˈkɒmən ɪn ðə pəʊst-pænˈdemɪk ˈɪərə/",
+    "words": [
+      {
+        "text": "remote",
+        "phonetic": "/rɪˈməʊt/",
+        "pos": "adj.",
+        "meaning": "远程的"
+      },
+      {
+        "text": "work",
+        "phonetic": "/wɜːk/",
+        "pos": "n.",
+        "meaning": "工作"
+      },
+      {
+        "text": "arrangements",
+        "phonetic": "/əˈreɪndʒmənts/",
+        "pos": "n.",
+        "meaning": "安排"
+      },
+      {
+        "text": "have",
+        "phonetic": "/hæv/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "become",
+        "phonetic": "/bɪˈkʌm/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "increasingly",
+        "phonetic": "/ɪnˈkriːsɪŋli/",
+        "pos": "adv.",
+        "meaning": "越来越"
+      },
+      {
+        "text": "common",
+        "phonetic": "/ˈkɒmən/",
+        "pos": "adj.",
+        "meaning": "常见的"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "post-pandemic",
+        "phonetic": "/pəʊst-pænˈdemɪk/",
+        "pos": "adj.",
+        "meaning": "后疫情的"
+      },
+      {
+        "text": "era",
+        "phonetic": "/ˈɪərə/",
+        "pos": "n.",
+        "meaning": "时代"
+      },
+      {
+        "text": "post",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "pandemic",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "sentence": "Artificial intelligence is revolutionizing healthcare diagnostics and treatment planning.",
+    "translation": "人工智能正在彻底改变医疗诊断和治疗计划。",
+    "phonetic_sentence": "/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns ɪz ˌrevəˈluːʃənaɪzɪŋ ˈhelθkeər ˌdaɪæɡˈnɒstɪks ənd ˈtriːtmənt ˈplænɪŋ/",
+    "words": [
+      {
+        "text": "artificial",
+        "phonetic": "/ˌɑːtɪˈfɪʃl/",
+        "pos": "adj.",
+        "meaning": "人工的"
+      },
+      {
+        "text": "intelligence",
+        "phonetic": "/ɪnˈtelɪdʒəns/",
+        "pos": "n.",
+        "meaning": "智能"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "revolutionizing",
+        "phonetic": "/ˌrevəˈluːʃənaɪzɪŋ/",
+        "pos": "v.",
+        "meaning": "彻底改变"
+      },
+      {
+        "text": "healthcare",
+        "phonetic": "/ˈhelθkeər/",
+        "pos": "n.",
+        "meaning": "医疗保健"
+      },
+      {
+        "text": "diagnostics",
+        "phonetic": "/ˌdaɪæɡˈnɒstɪks/",
+        "pos": "n.",
+        "meaning": "诊断"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "treatment",
+        "phonetic": "/ˈtriːtmənt/",
+        "pos": "n.",
+        "meaning": "治疗"
+      },
+      {
+        "text": "planning",
+        "phonetic": "/ˈplænɪŋ/",
+        "pos": "n.",
+        "meaning": "计划"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "sentence": "Automation is reshaping manufacturing processes and reducing manual labor requirements.",
+    "translation": "自动化正在重塑制造流程，减少体力劳动需求。",
+    "phonetic_sentence": "/ˌɔːtəˈmeɪʃn ɪz rɪˈʃeɪpɪŋ ˌmænjuˈfæktʃərɪŋ ˈprəʊsesɪz ənd rɪˈdjuːsɪŋ ˈmænjʊəl ˈleɪbər rɪˈkwaɪərmənts/",
+    "words": [
+      {
+        "text": "automation",
+        "phonetic": "/ˌɔːtəˈmeɪʃn/",
+        "pos": "n.",
+        "meaning": "自动化"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "reshaping",
+        "phonetic": "/rɪˈʃeɪpɪŋ/",
+        "pos": "v.",
+        "meaning": "重塑"
+      },
+      {
+        "text": "manufacturing",
+        "phonetic": "/ˌmænjuˈfæktʃərɪŋ/",
+        "pos": "n.",
+        "meaning": "制造"
+      },
+      {
+        "text": "processes",
+        "phonetic": "/ˈprəʊsesɪz/",
+        "pos": "n.",
+        "meaning": "流程"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "reducing",
+        "phonetic": "/rɪˈdjuːsɪŋ/",
+        "pos": "v.",
+        "meaning": "减少"
+      },
+      {
+        "text": "manual",
+        "phonetic": "/ˈmænjʊəl/",
+        "pos": "adj.",
+        "meaning": "体力的"
+      },
+      {
+        "text": "labor",
+        "phonetic": "/ˈleɪbər/",
+        "pos": "n.",
+        "meaning": "劳动"
+      },
+      {
+        "text": "requirements",
+        "phonetic": "/rɪˈkwaɪərmənts/",
+        "pos": "n.",
+        "meaning": "需求"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "sentence": "Digital marketing strategies are essential for businesses to reach their target audiences effectively.",
+    "translation": "数字营销策略对于企业有效触达目标受众至关重要。",
+    "phonetic_sentence": "/ˈdɪdʒɪtl ˈmɑːkɪtɪŋ ˈstrætədʒiz ɑːr ɪˈsenʃl fər ˈbɪznəsɪz tə riːtʃ ðeər ˈtɑːɡɪt ˈɔːdɪənsɪz ɪˈfektɪvli/",
+    "words": [
+      {
+        "text": "digital",
+        "phonetic": "/ˈdɪdʒɪtl/",
+        "pos": "adj.",
+        "meaning": "数字的"
+      },
+      {
+        "text": "marketing",
+        "phonetic": "/ˈmɑːkɪtɪŋ/",
+        "pos": "n.",
+        "meaning": "营销"
+      },
+      {
+        "text": "strategies",
+        "phonetic": "/ˈstrætədʒiz/",
+        "pos": "n.",
+        "meaning": "策略"
+      },
+      {
+        "text": "are",
+        "phonetic": "/ɑːr/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "essential",
+        "phonetic": "/ɪˈsenʃl/",
+        "pos": "adj.",
+        "meaning": "必要的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "businesses",
+        "phonetic": "/ˈbɪznəsɪz/",
+        "pos": "n.",
+        "meaning": "企业"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "reach",
+        "phonetic": "/riːtʃ/",
+        "pos": "v.",
+        "meaning": "触达"
+      },
+      {
+        "text": "their",
+        "phonetic": "/ðeər/",
+        "pos": "pron.",
+        "meaning": "他们的"
+      },
+      {
+        "text": "target",
+        "phonetic": "/ˈtɑːɡɪt/",
+        "pos": "n.",
+        "meaning": "目标"
+      },
+      {
+        "text": "audiences",
+        "phonetic": "/ˈɔːdɪənsɪz/",
+        "pos": "n.",
+        "meaning": "受众"
+      },
+      {
+        "text": "effectively",
+        "phonetic": "/ɪˈfektɪvli/",
+        "pos": "adv.",
+        "meaning": "有效地"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "sentence": "Economic inequality continues to be a pressing issue in many societies worldwide.",
+    "translation": "经济不平等仍然是许多社会中紧迫的问题。",
+    "phonetic_sentence": "/ˌiːkəˈnɒmɪk ɪnɪˈkwɒləti kənˈtɪnjuːz tə biː ə ˈpresɪŋ ˈɪʃuː ɪn ˈmeni səˈsaɪətiz ˈwɜːldwaɪd/",
+    "words": [
+      {
+        "text": "economic",
+        "phonetic": "/ˌiːkəˈnɒmɪk/",
+        "pos": "adj.",
+        "meaning": "经济的"
+      },
+      {
+        "text": "inequality",
+        "phonetic": "/ˌiːkəˈnɒləti/",
+        "pos": "n.",
+        "meaning": "不平等"
+      },
+      {
+        "text": "continues",
+        "phonetic": "/kənˈtɪnjuːz/",
+        "pos": "v.",
+        "meaning": "继续"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "be",
+        "phonetic": "/biː/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "pressing",
+        "phonetic": "/ˈpresɪŋ/",
+        "pos": "adj.",
+        "meaning": "紧迫的"
+      },
+      {
+        "text": "issue",
+        "phonetic": "/ˈɪʃuː/",
+        "pos": "n.",
+        "meaning": "问题"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "many",
+        "phonetic": "/ˈmeni/",
+        "pos": "adj.",
+        "meaning": "许多"
+      },
+      {
+        "text": "societies",
+        "phonetic": "/səˈsaɪətiz/",
+        "pos": "n.",
+        "meaning": "社会"
+      },
+      {
+        "text": "worldwide",
+        "phonetic": "/ˈwɜːldwaɪd/",
+        "pos": "adv.",
+        "meaning": "全球地"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "sentence": "Venture capital funding plays a crucial role in supporting startup companies and innovation.",
+    "translation": "风险投资资金在支持创业公司和创新方面发挥着关键作用。",
+    "phonetic_sentence": "/ˈventʃər ˈkæpɪtl ˈfʌndɪŋ pleɪz ə ˈkruːʃl rəʊl ɪn səˈpɔːtɪŋ ˈstɑːrtʌp ˈkʌmpəniz ənd ˌɪnəˈveɪʃn/",
+    "words": [
+      {
+        "text": "venture",
+        "phonetic": "/ˈventʃər/",
+        "pos": "n.",
+        "meaning": "风险"
+      },
+      {
+        "text": "capital",
+        "phonetic": "/ˈkæpɪtl/",
+        "pos": "n.",
+        "meaning": "资本"
+      },
+      {
+        "text": "funding",
+        "phonetic": "/ˈfʌndɪŋ/",
+        "pos": "n.",
+        "meaning": "资金"
+      },
+      {
+        "text": "plays",
+        "phonetic": "/pleɪz/",
+        "pos": "v.",
+        "meaning": "扮演/发挥"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "crucial",
+        "phonetic": "/ˈkruːʃl/",
+        "pos": "adj.",
+        "meaning": "关键的"
+      },
+      {
+        "text": "role",
+        "phonetic": "/rəʊl/",
+        "pos": "n.",
+        "meaning": "角色/作用"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "supporting",
+        "phonetic": "/səˈpɔːtɪŋ/",
+        "pos": "v.",
+        "meaning": "支持"
+      },
+      {
+        "text": "startup",
+        "phonetic": "/ˈstɑːrtʌp/",
+        "pos": "n.",
+        "meaning": "创业公司"
+      },
+      {
+        "text": "companies",
+        "phonetic": "/ˈkʌmpəniz/",
+        "pos": "n.",
+        "meaning": "公司"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "innovation",
+        "phonetic": "/ˌɪnəˈveɪʃn/",
+        "pos": "n.",
+        "meaning": "创新"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "sentence": "Market competition encourages companies to improve their products and services continuously.",
+    "translation": "市场竞争促使公司不断改进产品和服务。",
+    "phonetic_sentence": "/ˈmɑːkɪt ˈkɒmpətɪʃn ɪnˈkʌrɪdʒɪz ˈkʌmpəniz tə ɪmˈpruːv ðeər ˈprɒdʌkts ənd ˈsɜːvɪsɪz kənˈtɪnjuəsli/",
+    "words": [
+      {
+        "text": "market",
+        "phonetic": "/ˈmɑːkɪt/",
+        "pos": "n.",
+        "meaning": "市场"
+      },
+      {
+        "text": "competition",
+        "phonetic": "/ˌkɒmpəˈtɪʃn/",
+        "pos": "n.",
+        "meaning": "竞争"
+      },
+      {
+        "text": "encourages",
+        "phonetic": "/ɪnˈkʌrɪdʒɪz/",
+        "pos": "v.",
+        "meaning": "鼓励"
+      },
+      {
+        "text": "companies",
+        "phonetic": "/ˈkʌmpəniz/",
+        "pos": "n.",
+        "meaning": "公司"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "pos": "v.",
+        "meaning": "改进"
+      },
+      {
+        "text": "their",
+        "phonetic": "/ðeər/",
+        "pos": "pron.",
+        "meaning": "他们的"
+      },
+      {
+        "text": "products",
+        "phonetic": "/ˈprɒdʌkts/",
+        "pos": "n.",
+        "meaning": "产品"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "services",
+        "phonetic": "/ˈsɜːvɪsɪz/",
+        "pos": "n.",
+        "meaning": "服务"
+      },
+      {
+        "text": "continuously",
+        "phonetic": "/kənˈtɪnjuəsli/",
+        "pos": "adv.",
+        "meaning": "不断地"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "sentence": "Consumer behavior patterns are constantly evolving due to technological advancements.",
+    "translation": "消费者行为模式由于技术进步而不断演变。",
+    "phonetic_sentence": "/kənˈsjuːmər bɪˈheɪvjər ˈpætərnz ɑːr ˈkɒnstəntli ɪˈvɒlvɪŋ djuː tə ˌteknoˈlɒdʒɪkl ədˈvɑːnsmənts/",
+    "words": [
+      {
+        "text": "consumer",
+        "phonetic": "/kənˈsjuːmər/",
+        "pos": "n.",
+        "meaning": "消费者"
+      },
+      {
+        "text": "behavior",
+        "phonetic": "/bɪˈheɪvjər/",
+        "pos": "n.",
+        "meaning": "行为"
+      },
+      {
+        "text": "patterns",
+        "phonetic": "/ˈpætərnz/",
+        "pos": "n.",
+        "meaning": "模式"
+      },
+      {
+        "text": "are",
+        "phonetic": "/ɑːr/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "constantly",
+        "phonetic": "/ˈkɒnstəntli/",
+        "pos": "adv.",
+        "meaning": "不断地"
+      },
+      {
+        "text": "evolving",
+        "phonetic": "/ɪˈvɒlvɪŋ/",
+        "pos": "v.",
+        "meaning": "演变"
+      },
+      {
+        "text": "due",
+        "phonetic": "/djuː/",
+        "pos": "adj.",
+        "meaning": "由于"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "technological",
+        "phonetic": "/ˌteknoˈlɒdʒɪkl/",
+        "pos": "adj.",
+        "meaning": "技术的"
+      },
+      {
+        "text": "advancements",
+        "phonetic": "/ədˈvɑːnsmənts/",
+        "pos": "n.",
+        "meaning": "进步"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "sentence": "Financial literacy is becoming increasingly important for personal money management.",
+    "translation": "金融素养对个人财务管理变得越来越重要。",
+    "phonetic_sentence": "/faɪˈnænʃl ˈlɪtərəsi ɪz bɪˈkʌmɪŋ ɪnˈkriːsɪŋli ɪmˈpɔːtnt fər ˈpɜːsnl ˈmʌni ˈmænɪdʒmənt/",
+    "words": [
+      {
+        "text": "financial",
+        "phonetic": "/faɪˈnænʃl/",
+        "pos": "adj.",
+        "meaning": "金融的"
+      },
+      {
+        "text": "literacy",
+        "phonetic": "/ˈlɪtərəsi/",
+        "pos": "n.",
+        "meaning": "素养"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "becoming",
+        "phonetic": "/bɪˈkʌmɪŋ/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "increasingly",
+        "phonetic": "/ɪnˈkriːsɪŋli/",
+        "pos": "adv.",
+        "meaning": "越来越"
+      },
+      {
+        "text": "important",
+        "phonetic": "/ɪmˈpɔːtnt/",
+        "pos": "adj.",
+        "meaning": "重要的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "personal",
+        "phonetic": "/ˈpɜːsnl/",
+        "pos": "adj.",
+        "meaning": "个人的"
+      },
+      {
+        "text": "money",
+        "phonetic": "/ˈmʌni/",
+        "pos": "n.",
+        "meaning": "钱"
+      },
+      {
+        "text": "management",
+        "phonetic": "/ˈmænɪdʒmənt/",
+        "pos": "n.",
+        "meaning": "管理"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "sentence": "Sustainable development goals aim to balance economic growth with environmental protection.",
+    "translation": "可持续发展目标旨在平衡经济增长与环境保护。",
+    "phonetic_sentence": "/səˈsteɪnəbl dɪˈveləpmənt ˈɡəʊldz eɪm tə ˈbæləns ˈiːkənəmɪk ɡrəʊθ wɪð ɪnˌvaɪrənˈmentl prəˈtekʃn/",
+    "words": [
+      {
+        "text": "sustainable",
+        "phonetic": "/səˈsteɪnəbl/",
+        "pos": "adj.",
+        "meaning": "可持续的"
+      },
+      {
+        "text": "development",
+        "phonetic": "/dɪˈveləpmənt/",
+        "pos": "n.",
+        "meaning": "发展"
+      },
+      {
+        "text": "goals",
+        "phonetic": "/ɡəʊldz/",
+        "pos": "n.",
+        "meaning": "目标"
+      },
+      {
+        "text": "aim",
+        "phonetic": "/eɪm/",
+        "pos": "v.",
+        "meaning": "旨在"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "balance",
+        "phonetic": "/ˈbæləns/",
+        "pos": "v.",
+        "meaning": "平衡"
+      },
+      {
+        "text": "economic",
+        "phonetic": "/ˌiːkəˈnɒmɪk/",
+        "pos": "adj.",
+        "meaning": "经济的"
+      },
+      {
+        "text": "growth",
+        "phonetic": "/ɡrəʊθ/",
+        "pos": "n.",
+        "meaning": "增长"
+      },
+      {
+        "text": "with",
+        "phonetic": "/wɪð/",
+        "pos": "prep.",
+        "meaning": "和"
+      },
+      {
+        "text": "environmental",
+        "phonetic": "/ɪnˌvaɪrənˈmentl/",
+        "pos": "adj.",
+        "meaning": "环境的"
+      },
+      {
+        "text": "protection",
+        "phonetic": "/prəˈtekʃn/",
+        "pos": "n.",
+        "meaning": "保护"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "sentence": "Global economic integration has created both opportunities and challenges for developing nations.",
+    "translation": "全球经济一体化为发展中国家创造了机遇和挑战。",
+    "phonetic_sentence": "/ˈɡləʊbəl ˌiːkəˈnɒmɪk ˌɪntɪˈɡreɪʃn hæz kriˈeɪtd bəʊθ ˌɒpəˈtjuːnɪtiz ənd ˈtʃælɪndʒɪz fər dɪˈveləpɪŋ ˈneɪʃnz/",
+    "words": [
+      {
+        "text": "global",
+        "phonetic": "/ˈɡləʊbəl/",
+        "pos": "adj.",
+        "meaning": "全球的"
+      },
+      {
+        "text": "economic",
+        "phonetic": "/ˌiːkəˈnɒmɪk/",
+        "pos": "adj.",
+        "meaning": "经济的"
+      },
+      {
+        "text": "integration",
+        "phonetic": "/ˌɪntɪˈɡreɪʃn/",
+        "pos": "n.",
+        "meaning": "一体化"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "created",
+        "phonetic": "/kriˈeɪtɪd/",
+        "pos": "v.",
+        "meaning": "创造"
+      },
+      {
+        "text": "both",
+        "phonetic": "/bəʊθ/",
+        "pos": "adj.",
+        "meaning": "两者"
+      },
+      {
+        "text": "opportunities",
+        "phonetic": "/ˌɒpəˈtjuːnɪtiz/",
+        "pos": "n.",
+        "meaning": "机会"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "challenges",
+        "phonetic": "/ˈtʃælɪndʒɪz/",
+        "pos": "n.",
+        "meaning": "挑战"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "developing",
+        "phonetic": "/dɪˈveləpɪŋ/",
+        "pos": "adj.",
+        "meaning": "发展中的"
+      },
+      {
+        "text": "nations",
+        "phonetic": "/ˈneɪʃnz/",
+        "pos": "n.",
+        "meaning": "国家"
+      }
+    ]
+  }
+]

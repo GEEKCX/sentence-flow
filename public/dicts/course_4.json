@@ -1,0 +1,1662 @@
+[
+  {
+    "id": 61,
+    "sentence": "The internet has revolutionized the way we communicate and access information globally.",
+    "translation": "互联网彻底改变了我们全球沟通和获取信息的方式。",
+    "phonetic_sentence": "/ðə ˈɪntənet həz ˌrevəˈluːʃənaɪzd ðə weɪ wiː kəˈmjuːnɪkeɪt ənd ˈækses ˌɪnfəˈmeɪʃn ˈɡləʊbəli/",
+    "words": [
+      {
+        "text": "The",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "internet",
+        "phonetic": "/ˈɪntənet/",
+        "pos": "n.",
+        "meaning": "互联网"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "revolutionized",
+        "phonetic": "/ˌrevəˈluːʃənaɪzd/",
+        "pos": "v.",
+        "meaning": "彻底改变"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "way",
+        "phonetic": "/weɪ/",
+        "pos": "n.",
+        "meaning": "方式"
+      },
+      {
+        "text": "we",
+        "phonetic": "/wiː/",
+        "pos": "pron.",
+        "meaning": "我们"
+      },
+      {
+        "text": "communicate",
+        "phonetic": "/kəˈmjuːnɪkeɪt/",
+        "pos": "v.",
+        "meaning": "沟通"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "access",
+        "phonetic": "/ˈækses/",
+        "pos": "v.",
+        "meaning": "访问/获取"
+      },
+      {
+        "text": "information",
+        "phonetic": "/ˌɪnfəˈmeɪʃn/",
+        "pos": "n.",
+        "meaning": "信息"
+      },
+      {
+        "text": "globally",
+        "phonetic": "/ˈɡləʊbəli/",
+        "pos": "adv.",
+        "meaning": "全球地"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "sentence": "Artificial intelligence is transforming industries ranging from healthcare to finance.",
+    "translation": "人工智能正在改变从医疗到金融的各个行业。",
+    "phonetic_sentence": "/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns ɪz trænsˈfɔːmɪŋ ˈɪndəstriz ˈrændʒɪŋ frəm ˈhelθkeər tə faɪˈnæns/",
+    "words": [
+      {
+        "text": "Artificial",
+        "phonetic": "/ˌɑːtɪˈfɪʃl/",
+        "pos": "adj.",
+        "meaning": "人工的"
+      },
+      {
+        "text": "intelligence",
+        "phonetic": "/ɪnˈtelɪdʒəns/",
+        "pos": "n.",
+        "meaning": "智能"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "transforming",
+        "phonetic": "/trænsˈfɔːmɪŋ/",
+        "pos": "v.",
+        "meaning": "改变/转变"
+      },
+      {
+        "text": "industries",
+        "phonetic": "/ˈɪndəstriz/",
+        "pos": "n.",
+        "meaning": "行业"
+      },
+      {
+        "text": "ranging",
+        "phonetic": "/ˈrændʒɪŋ/",
+        "pos": "v.",
+        "meaning": "范围从...到"
+      },
+      {
+        "text": "from",
+        "phonetic": "/frɒm/",
+        "pos": "prep.",
+        "meaning": "从"
+      },
+      {
+        "text": "healthcare",
+        "phonetic": "/ˈhelθkeər/",
+        "pos": "n.",
+        "meaning": "医疗"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "finance",
+        "phonetic": "/ˈfaɪnæns/",
+        "pos": "n.",
+        "meaning": "金融"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "sentence": "Social media platforms have created new opportunities for businesses to reach customers.",
+    "translation": "社交媒体平台为 businesses 创造了接触客户的新机会。",
+    "phonetic_sentence": "/ˈsəʊʃl ˈmiːdiə ˈplætfɔːmz həv kriˈeɪted njuː ˌɒpəˈtjuːnɪtiz fər ˈbɪznəsɪz tə riːtʃ ˈkʌstəmərz/",
+    "words": [
+      {
+        "text": "Social",
+        "phonetic": "/ˈsəʊʃl/",
+        "pos": "adj.",
+        "meaning": "社会的"
+      },
+      {
+        "text": "media",
+        "phonetic": "/ˈmiːdiə/",
+        "pos": "n.",
+        "meaning": "媒体"
+      },
+      {
+        "text": "platforms",
+        "phonetic": "/ˈplætfɔːmz/",
+        "pos": "n.",
+        "meaning": "平台"
+      },
+      {
+        "text": "have",
+        "phonetic": "/hæv/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "created",
+        "phonetic": "/kriˈeɪtɪd/",
+        "pos": "v.",
+        "meaning": "创造"
+      },
+      {
+        "text": "new",
+        "phonetic": "/njuː/",
+        "pos": "adj.",
+        "meaning": "新的"
+      },
+      {
+        "text": "opportunities",
+        "phonetic": "/ˌɒpəˈtjuːnɪtiz/",
+        "pos": "n.",
+        "meaning": "机会"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "businesses",
+        "phonetic": "/ˈbɪznəsɪz/",
+        "pos": "n.",
+        "meaning": "企业"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "reach",
+        "phonetic": "/riːtʃ/",
+        "pos": "v.",
+        "meaning": "到达/联系"
+      },
+      {
+        "text": "customers",
+        "phonetic": "/ˈkʌstəmərz/",
+        "pos": "n.",
+        "meaning": "客户"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "sentence": "Cloud computing has enabled companies to scale their operations efficiently and cost-effectively.",
+    "translation": "云计算使公司能够高效且经济地扩展业务。",
+    "phonetic_sentence": "/klaʊd kəmˈpjuːtɪŋ həz ɪˈneɪbld ˈkʌmpəniz tə skeɪl ðeər ˌɒpəˈreɪʃnz ɪˈfɪʃntli ənd kɒst-ɪˈfektɪvli/",
+    "words": [
+      {
+        "text": "Cloud",
+        "phonetic": "/klaʊd/",
+        "pos": "n.",
+        "meaning": "云"
+      },
+      {
+        "text": "computing",
+        "phonetic": "/kəmˈpjuːtɪŋ/",
+        "pos": "n.",
+        "meaning": "计算"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "enabled",
+        "phonetic": "/ɪˈneɪbld/",
+        "pos": "v.",
+        "meaning": "使能够"
+      },
+      {
+        "text": "companies",
+        "phonetic": "/ˈkʌmpəniz/",
+        "pos": "n.",
+        "meaning": "公司"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "scale",
+        "phonetic": "/skeɪl/",
+        "pos": "v.",
+        "meaning": "扩展"
+      },
+      {
+        "text": "their",
+        "phonetic": "/ðeər/",
+        "pos": "pron.",
+        "meaning": "他们的"
+      },
+      {
+        "text": "operations",
+        "phonetic": "/ˌɒpəˈreɪʃnz/",
+        "pos": "n.",
+        "meaning": "运营/操作"
+      },
+      {
+        "text": "efficiently",
+        "phonetic": "/ɪˈfɪʃntli/",
+        "pos": "adv.",
+        "meaning": "高效地"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "cost-effectively",
+        "phonetic": "/kɒst-ɪˈfektɪvli/",
+        "pos": "adv.",
+        "meaning": "经济地"
+      },
+      {
+        "text": "cost",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "effectively",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "sentence": "Cybersecurity threats are becoming increasingly sophisticated and require constant vigilance.",
+    "translation": "网络安全威胁日益复杂，需要持续保持警惕。",
+    "phonetic_sentence": "/ˈsaɪbəsekjʊəriti θrets ɑːr bɪˈkʌmɪŋ ɪnˈkriːsɪŋli səˈfɪstɪkeɪtɪd ənd rɪˈkwaɪər ˈkɒnstnt ˈvɪdʒɪləns/",
+    "words": [
+      {
+        "text": "Cybersecurity",
+        "phonetic": "/ˈsaɪbəsekjʊəriti/",
+        "pos": "n.",
+        "meaning": "网络安全"
+      },
+      {
+        "text": "threats",
+        "phonetic": "/θrets/",
+        "pos": "n.",
+        "meaning": "威胁"
+      },
+      {
+        "text": "are",
+        "phonetic": "/ɑːr/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "becoming",
+        "phonetic": "/bɪˈkʌmɪŋ/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "increasingly",
+        "phonetic": "/ɪnˈkriːsɪŋli/",
+        "pos": "adv.",
+        "meaning": "日益"
+      },
+      {
+        "text": "sophisticated",
+        "phonetic": "/səˈfɪstɪkeɪtɪd/",
+        "pos": "adj.",
+        "meaning": "复杂的/精密的"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "require",
+        "phonetic": "/rɪˈkwaɪər/",
+        "pos": "v.",
+        "meaning": "需要"
+      },
+      {
+        "text": "constant",
+        "phonetic": "/ˈkɒnstnt/",
+        "pos": "adj.",
+        "meaning": "持续的"
+      },
+      {
+        "text": "vigilance",
+        "phonetic": "/ˈvɪdʒɪləns/",
+        "pos": "n.",
+        "meaning": "警惕"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "sentence": "Smartphones have become essential tools for navigation, communication, and entertainment.",
+    "translation": "智能手机已成为导航、沟通和娱乐的基本工具。",
+    "phonetic_sentence": "/ˈsmɑːtfəʊnz həv bɪˈkʊm ɪˈsenʃl tuːlz fər ˌnævɪˈɡeɪʃn kəˌmjuːnɪˈkeɪʃn ənd ˌentəˈteɪnmənt/",
+    "words": [
+      {
+        "text": "Smartphones",
+        "phonetic": "/ˈsmɑːtfəʊnz/",
+        "pos": "n.",
+        "meaning": "智能手机"
+      },
+      {
+        "text": "have",
+        "phonetic": "/hæv/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "become",
+        "phonetic": "/bɪˈkʌm/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "essential",
+        "phonetic": "/ɪˈsenʃl/",
+        "pos": "adj.",
+        "meaning": "必要的"
+      },
+      {
+        "text": "tools",
+        "phonetic": "/tuːlz/",
+        "pos": "n.",
+        "meaning": "工具"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "navigation",
+        "phonetic": "/ˌnævɪˈɡeɪʃn/",
+        "pos": "n.",
+        "meaning": "导航"
+      },
+      {
+        "text": "communication",
+        "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+        "pos": "n.",
+        "meaning": "沟通"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "entertainment",
+        "phonetic": "/ˌentəˈteɪnmənt/",
+        "pos": "n.",
+        "meaning": "娱乐"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "sentence": "Big data analytics helps companies make more informed decisions based on consumer behavior.",
+    "translation": "大数据分析帮助公司根据消费者行为做出更明智的决定。",
+    "phonetic_sentence": "/bɪɡ ˈdeɪtə ˈænəlɪtɪks helpz ˈkʌmpəniz meɪk mɔːr ɪnˈfɔːmd dɪˈsɪʒnz bɪˈseɪst ɒn kənˈsjuːmər bɪˈheɪvjər/",
+    "words": [
+      {
+        "text": "Big",
+        "phonetic": "/bɪɡ/",
+        "pos": "adj.",
+        "meaning": "大的"
+      },
+      {
+        "text": "data",
+        "phonetic": "/ˈdeɪtə/",
+        "pos": "n.",
+        "meaning": "数据"
+      },
+      {
+        "text": "analytics",
+        "phonetic": "/əˈnælɪtɪks/",
+        "pos": "n.",
+        "meaning": "分析"
+      },
+      {
+        "text": "helps",
+        "phonetic": "/helpz/",
+        "pos": "v.",
+        "meaning": "帮助"
+      },
+      {
+        "text": "companies",
+        "phonetic": "/ˈkʌmpəniz/",
+        "pos": "n.",
+        "meaning": "公司"
+      },
+      {
+        "text": "make",
+        "phonetic": "/meɪk/",
+        "pos": "v.",
+        "meaning": "制作"
+      },
+      {
+        "text": "more",
+        "phonetic": "/mɔːr/",
+        "pos": "adj.",
+        "meaning": "更多"
+      },
+      {
+        "text": "informed",
+        "phonetic": "/ɪnˈfɔːmd/",
+        "pos": "adj.",
+        "meaning": "知情的"
+      },
+      {
+        "text": "decisions",
+        "phonetic": "/dɪˈsɪʒnz/",
+        "pos": "n.",
+        "meaning": "决定"
+      },
+      {
+        "text": "based",
+        "phonetic": "/beɪst/",
+        "pos": "v.",
+        "meaning": "基于"
+      },
+      {
+        "text": "on",
+        "phonetic": "/ɒn/",
+        "pos": "prep.",
+        "meaning": "在...上"
+      },
+      {
+        "text": "consumer",
+        "phonetic": "/kənˈsjuːmər/",
+        "pos": "n.",
+        "meaning": "消费者"
+      },
+      {
+        "text": "behavior",
+        "phonetic": "/bɪˈheɪvjər/",
+        "pos": "n.",
+        "meaning": "行为"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "sentence": "Remote work has become increasingly common thanks to advanced video conferencing technology.",
+    "translation": "由于先进的视频会议技术，远程工作变得越来越普遍。",
+    "phonetic_sentence": "/rɪˈməʊt wɜːk həz bɪˈkʌm ɪnˈkriːsɪŋli ˈkɒmən θæŋks tə ədˈvɑːnst ˈvɪdiəʊ ˈkɒnfərənsɪŋ tekˈnɒlədʒi/",
+    "words": [
+      {
+        "text": "Remote",
+        "phonetic": "/rɪˈməʊt/",
+        "pos": "adj.",
+        "meaning": "远程的"
+      },
+      {
+        "text": "work",
+        "phonetic": "/wɜːk/",
+        "pos": "n.",
+        "meaning": "工作"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "become",
+        "phonetic": "/bɪˈkʌm/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "increasingly",
+        "phonetic": "/ɪnˈkriːsɪŋli/",
+        "pos": "adv.",
+        "meaning": "日益"
+      },
+      {
+        "text": "common",
+        "phonetic": "/ˈkɒmən/",
+        "pos": "adj.",
+        "meaning": "常见的"
+      },
+      {
+        "text": "thanks",
+        "phonetic": "/θæŋks/",
+        "pos": "n.",
+        "meaning": "感谢"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "advanced",
+        "phonetic": "/ədˈvɑːnst/",
+        "pos": "adj.",
+        "meaning": "先进的"
+      },
+      {
+        "text": "video",
+        "phonetic": "/ˈvɪdiəʊ/",
+        "pos": "n.",
+        "meaning": "视频"
+      },
+      {
+        "text": "conferencing",
+        "phonetic": "/ˈkɒnfərənsɪŋ/",
+        "pos": "n.",
+        "meaning": "会议"
+      },
+      {
+        "text": "technology",
+        "phonetic": "/tekˈnɒlədʒi/",
+        "pos": "n.",
+        "meaning": "技术"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "sentence": "E-commerce has fundamentally changed retail by enabling online shopping on a global scale.",
+    "translation": "电子商务从根本上改变了零售业，使全球在线购物成为可能。",
+    "phonetic_sentence": "/iː-ˈkɒmɜːs həz fʌnˈdæmentəli ˈtʃeɪndʒd ˈriːteɪl baɪ ɪˈneɪbəlɪŋ ˈɒnlaɪn ˈʃɒpɪŋ ɒn ə ˈɡləʊskeɪl/",
+    "words": [
+      {
+        "text": "E-commerce",
+        "phonetic": "/iː-ˈkɒmɜːs/",
+        "pos": "n.",
+        "meaning": "电子商务"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "fundamentally",
+        "phonetic": "/ˌfʌnˈdæmentəli/",
+        "pos": "adv.",
+        "meaning": "从根本上"
+      },
+      {
+        "text": "changed",
+        "phonetic": "/tʃeɪndʒd/",
+        "pos": "v.",
+        "meaning": "改变"
+      },
+      {
+        "text": "retail",
+        "phonetic": "/ˈriːteɪl/",
+        "pos": "n.",
+        "meaning": "零售"
+      },
+      {
+        "text": "by",
+        "phonetic": "/baɪ/",
+        "pos": "prep.",
+        "meaning": "通过"
+      },
+      {
+        "text": "enabling",
+        "phonetic": "/ɪˈneɪbəlɪŋ/",
+        "pos": "v.",
+        "meaning": "使能够"
+      },
+      {
+        "text": "online",
+        "phonetic": "/ˈɒnlaɪn/",
+        "pos": "adj.",
+        "meaning": "在线的"
+      },
+      {
+        "text": "shopping",
+        "phonetic": "/ˈʃɒpɪŋ/",
+        "pos": "n.",
+        "meaning": "购物"
+      },
+      {
+        "text": "on",
+        "phonetic": "/ɒn/",
+        "pos": "prep.",
+        "meaning": "在...上"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "global",
+        "phonetic": "/ˈɡləʊbl/",
+        "pos": "adj.",
+        "meaning": "全球的"
+      },
+      {
+        "text": "scale",
+        "phonetic": "/skeɪl/",
+        "pos": "n.",
+        "meaning": "规模"
+      },
+      {
+        "text": "e",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "commerce",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "sentence": "Machine learning algorithms can analyze patterns that would be impossible for humans to detect.",
+    "translation": "机器学习算法可以分析对人类来说不可能检测到的模式。",
+    "phonetic_sentence": "/məˈʃiːn ˈlɜːnɪŋ ˈælɡərɪðmz kən ˈænəlaɪz ˈpætənz ðæt wəd biː ɪmˈpɒsəbl fər ˈhjuːmənz tə dɪˈtekt/",
+    "words": [
+      {
+        "text": "Machine",
+        "phonetic": "/məˈʃiːn/",
+        "pos": "n.",
+        "meaning": "机器"
+      },
+      {
+        "text": "learning",
+        "phonetic": "/ˈlɜːnɪŋ/",
+        "pos": "n.",
+        "meaning": "学习"
+      },
+      {
+        "text": "algorithms",
+        "phonetic": "/ˈælɡərɪðmz/",
+        "pos": "n.",
+        "meaning": "算法"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "analyze",
+        "phonetic": "/ˈænəlaɪz/",
+        "pos": "v.",
+        "meaning": "分析"
+      },
+      {
+        "text": "patterns",
+        "phonetic": "/ˈpætənz/",
+        "pos": "n.",
+        "meaning": "模式"
+      },
+      {
+        "text": "that",
+        "phonetic": "/ðæt/",
+        "pos": "pron.",
+        "meaning": "那"
+      },
+      {
+        "text": "would",
+        "phonetic": "/wʊd/",
+        "pos": "v.",
+        "meaning": "会"
+      },
+      {
+        "text": "be",
+        "phonetic": "/biː/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "impossible",
+        "phonetic": "/ɪmˈpɒsəbl/",
+        "pos": "adj.",
+        "meaning": "不可能的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "humans",
+        "phonetic": "/ˈhjuːmənz/",
+        "pos": "n.",
+        "meaning": "人类"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "detect",
+        "phonetic": "/dɪˈtekt/",
+        "pos": "v.",
+        "meaning": "检测"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "sentence": "The Internet of Things connects everyday devices to the internet, enabling smart home technology.",
+    "translation": "物联网将日常设备连接到互联网，实现智能家居技术。",
+    "phonetic_sentence": "/ðə ˈɪntənet əv θɪŋz kəˈnekts ˈevrideɪ dɪˈvaɪsɪz tə ðə ˈɪntənet ɪˈneɪbəlɪŋ smɑːt həʊm tekˈnɒlədʒi/",
+    "words": [
+      {
+        "text": "Internet of Things",
+        "phonetic": "/ˈɪntənet əv θɪŋz/",
+        "pos": "n.",
+        "meaning": "物联网"
+      },
+      {
+        "text": "connects",
+        "phonetic": "/kəˈnekts/",
+        "pos": "v.",
+        "meaning": "连接"
+      },
+      {
+        "text": "everyday",
+        "phonetic": "/ˈevrideɪ/",
+        "pos": "adj.",
+        "meaning": "日常的"
+      },
+      {
+        "text": "devices",
+        "phonetic": "/dɪˈvaɪsɪz/",
+        "pos": "n.",
+        "meaning": "设备"
+      },
+      {
+        "text": "smart home",
+        "phonetic": "/smɑːt həʊm/",
+        "pos": "n.",
+        "meaning": "智能家居"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "internet",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "things",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到/对"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "internet",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "enabling",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "smart",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "home",
+        "phonetic": "/həʊm/",
+        "pos": "n.",
+        "meaning": "家"
+      },
+      {
+        "text": "technology",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "sentence": "Blockchain technology has the potential to revolutionize financial transactions and supply chains.",
+    "translation": "区块链技术有可能彻底改变金融交易和供应链。",
+    "phonetic_sentence": "/ˈblɒktʃeɪn tekˈnɒlədʒi həz ðə pəˈtenʃl tə ˌrevəˈluːʃənaɪz faɪˈnænʃl trænzˈækʃnz ənd səˈpleɪn tʃeɪnz/",
+    "words": [
+      {
+        "text": "blockchain",
+        "phonetic": "/ˈblɒktʃeɪn/",
+        "pos": "n.",
+        "meaning": "区块链"
+      },
+      {
+        "text": "technology",
+        "phonetic": "/tekˈnɒlədʒi/",
+        "pos": "n.",
+        "meaning": "技术"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "potential",
+        "phonetic": "/pəˈtenʃl/",
+        "pos": "n.",
+        "meaning": "潜力"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "revolutionize",
+        "phonetic": "/ˌrevəˈluːʃənaɪz/",
+        "pos": "v.",
+        "meaning": "彻底改变"
+      },
+      {
+        "text": "financial",
+        "phonetic": "/faɪˈnænʃl/",
+        "pos": "adj.",
+        "meaning": "金融的"
+      },
+      {
+        "text": "transactions",
+        "phonetic": "/trænzˈækʃnz/",
+        "pos": "n.",
+        "meaning": "交易"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "supply chains",
+        "phonetic": "/səˈpleɪn tʃeɪnz/",
+        "pos": "n.",
+        "meaning": "供应链"
+      },
+      {
+        "text": "supply",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "chains",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "sentence": "Virtual reality technology is creating immersive experiences for gaming and education.",
+    "translation": "虚拟现实技术正在为游戏和教育创造沉浸式体验。",
+    "phonetic_sentence": "/ˈvɜːtʃuəl riˈæləti tekˈnɒlədʒi ɪz kriˈeɪtɪŋ ɪˈmɜːsɪv ɪksˈpɪəriənsɪz fər ˈɡeɪmɪŋ ənd ˌedʒuˈkeɪʃn/",
+    "words": [
+      {
+        "text": "virtual reality",
+        "phonetic": "/ˈvɜːtʃuəl riˈæləti/",
+        "pos": "n.",
+        "meaning": "虚拟现实"
+      },
+      {
+        "text": "technology",
+        "phonetic": "/tekˈnɒlədʒi/",
+        "pos": "n.",
+        "meaning": "技术"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "creating",
+        "phonetic": "/kriˈeɪtɪŋ/",
+        "pos": "v.",
+        "meaning": "创造"
+      },
+      {
+        "text": "immersive",
+        "phonetic": "/ɪˈmɜːsɪv/",
+        "pos": "adj.",
+        "meaning": "沉浸式的"
+      },
+      {
+        "text": "experiences",
+        "phonetic": "/ɪksˈpɪəriənsɪz/",
+        "pos": "n.",
+        "meaning": "体验"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "gaming",
+        "phonetic": "/ˈɡeɪmɪŋ/",
+        "pos": "n.",
+        "meaning": "游戏"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "education",
+        "phonetic": "/ˌedʒuˈkeɪʃn/",
+        "pos": "n.",
+        "meaning": "教育"
+      },
+      {
+        "text": "virtual",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "reality",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "sentence": "Digital privacy has become a major concern as more personal data is stored online.",
+    "translation": "随着更多个人数据存储在网上，数字隐私已成为主要关切。",
+    "phonetic_sentence": "/ˈdɪdʒɪtl ˈpraɪvəsi həz bɪˈkʊm ə ˈmeɪdʒər kənˈsɜːn æz mɔːr ˈpɜːsənl ˈdeɪtə ɪz stɔːrd ˈɒnlaɪn/",
+    "words": [
+      {
+        "text": "digital",
+        "phonetic": "/ˈdɪdʒɪtl/",
+        "pos": "adj.",
+        "meaning": "数字的"
+      },
+      {
+        "text": "privacy",
+        "phonetic": "/ˈpraɪvəsi/",
+        "pos": "n.",
+        "meaning": "隐私"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "become",
+        "phonetic": "/bɪˈkʌm/",
+        "pos": "v.",
+        "meaning": "变成"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "major",
+        "phonetic": "/ˈmeɪdʒər/",
+        "pos": "adj.",
+        "meaning": "主要的"
+      },
+      {
+        "text": "concern",
+        "phonetic": "/kənˈsɜːn/",
+        "pos": "n.",
+        "meaning": "关切"
+      },
+      {
+        "text": "as",
+        "phonetic": "/æz/",
+        "pos": "conj.",
+        "meaning": "因为"
+      },
+      {
+        "text": "more",
+        "phonetic": "/mɔːr/",
+        "pos": "adj.",
+        "meaning": "更多"
+      },
+      {
+        "text": "personal",
+        "phonetic": "/ˈpɜːsənl/",
+        "pos": "adj.",
+        "meaning": "个人的"
+      },
+      {
+        "text": "data",
+        "phonetic": "/ˈdeɪtə/",
+        "pos": "n.",
+        "meaning": "数据"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "stored",
+        "phonetic": "/stɔːrd/",
+        "pos": "v.",
+        "meaning": "存储"
+      },
+      {
+        "text": "online",
+        "phonetic": "/ˈɒnlaɪn/",
+        "pos": "adv.",
+        "meaning": "在线"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "sentence": "5G networks will enable faster download speeds and more reliable mobile connections.",
+    "translation": "5G网络将实现更快的下载速度和更可靠的移动连接。",
+    "phonetic_sentence": "/faɪdʒiː ˈnetwɜːkz wɪl ɪˈneɪbl ˈfɑːstər ˈdaʊnləʊd spiːdz ənd mɔːr rɪˈlaɪəbl ˈməʊbaɪl kəˈnekʃnz/",
+    "words": [
+      {
+        "text": "5G networks",
+        "phonetic": "/faɪdʒiː ˈnetwɜːkz/",
+        "pos": "n.",
+        "meaning": "5G网络"
+      },
+      {
+        "text": "will",
+        "phonetic": "/wɪl/",
+        "pos": "v.",
+        "meaning": "将"
+      },
+      {
+        "text": "enable",
+        "phonetic": "/ɪˈneɪbl/",
+        "pos": "v.",
+        "meaning": "使能够"
+      },
+      {
+        "text": "faster",
+        "phonetic": "/ˈfɑːstər/",
+        "pos": "adj.",
+        "meaning": "更快的"
+      },
+      {
+        "text": "download",
+        "phonetic": "/ˈdaʊnləʊd/",
+        "pos": "v.",
+        "meaning": "下载"
+      },
+      {
+        "text": "speeds",
+        "phonetic": "/spiːdz/",
+        "pos": "n.",
+        "meaning": "速度"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "more",
+        "phonetic": "/mɔːr/",
+        "pos": "adj.",
+        "meaning": "更多"
+      },
+      {
+        "text": "reliable",
+        "phonetic": "/rɪˈlaɪəbl/",
+        "pos": "adj.",
+        "meaning": "可靠的"
+      },
+      {
+        "text": "mobile",
+        "phonetic": "/ˈməʊbaɪl/",
+        "pos": "adj.",
+        "meaning": "移动的"
+      },
+      {
+        "text": "connections",
+        "phonetic": "/kəˈnekʃnz/",
+        "pos": "n.",
+        "meaning": "连接"
+      },
+      {
+        "text": "5g",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "networks",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "sentence": "Automated systems are transforming manufacturing processes by increasing efficiency and reducing errors.",
+    "translation": "自动化系统正在通过提高效率和减少错误来改变制造过程。",
+    "phonetic_sentence": "/ˈɔːtəmeɪtɪd ˈsɪstəmz ɑːr trænsˈfɔːmɪŋ ˌmænjuˈfæktʃərɪŋ ˈprəʊsesɪz baɪ ɪnˈkriːsɪŋ ɪˈfɪʃnsi ənd rɪˈdjuːsɪŋ ˈerərz/",
+    "words": [
+      {
+        "text": "automated",
+        "phonetic": "/ˈɔːtəmeɪtɪd/",
+        "pos": "adj.",
+        "meaning": "自动化的"
+      },
+      {
+        "text": "systems",
+        "phonetic": "/ˈsɪstəmz/",
+        "pos": "n.",
+        "meaning": "系统"
+      },
+      {
+        "text": "are",
+        "phonetic": "/ɑːr/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "transforming",
+        "phonetic": "/trænsˈfɔːmɪŋ/",
+        "pos": "v.",
+        "meaning": "改变"
+      },
+      {
+        "text": "manufacturing",
+        "phonetic": "/ˌmænjuˈfæktʃərɪŋ/",
+        "pos": "n.",
+        "meaning": "制造"
+      },
+      {
+        "text": "processes",
+        "phonetic": "/ˈprəʊsesɪz/",
+        "pos": "n.",
+        "meaning": "过程"
+      },
+      {
+        "text": "by",
+        "phonetic": "/baɪ/",
+        "pos": "prep.",
+        "meaning": "通过"
+      },
+      {
+        "text": "increasing",
+        "phonetic": "/ɪnˈkriːsɪŋ/",
+        "pos": "v.",
+        "meaning": "增加"
+      },
+      {
+        "text": "efficiency",
+        "phonetic": "/ɪˈfɪʃnsi/",
+        "pos": "n.",
+        "meaning": "效率"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "reducing",
+        "phonetic": "/rɪˈdjuːsɪŋ/",
+        "pos": "v.",
+        "meaning": "减少"
+      },
+      {
+        "text": "errors",
+        "phonetic": "/ˈerərz/",
+        "pos": "n.",
+        "meaning": "错误"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "sentence": "Online education platforms have democratized access to quality learning resources worldwide.",
+    "translation": "在线教育平台使全球获得优质学习资源的机会更加平等。",
+    "phonetic_sentence": "/ˈɒnlaɪn ˌedʒuˈkeɪʃn ˈplætfɔːmz həv dɪˈmɒkrətaɪzd ˈækses tə ˈkwɒləti ˈlɜːnɪŋ rɪˈsɔːsɪz ˈwɜːldwaɪd/",
+    "words": [
+      {
+        "text": "online",
+        "phonetic": "/ˈɒnlaɪn/",
+        "pos": "adj.",
+        "meaning": "在线的"
+      },
+      {
+        "text": "education",
+        "phonetic": "/ˌedʒuˈkeɪʃn/",
+        "pos": "n.",
+        "meaning": "教育"
+      },
+      {
+        "text": "platforms",
+        "phonetic": "/ˈplætfɔːmz/",
+        "pos": "n.",
+        "meaning": "平台"
+      },
+      {
+        "text": "have",
+        "phonetic": "/hæv/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "democratized",
+        "phonetic": "/dɪˈmɒkrətaɪzd/",
+        "pos": "v.",
+        "meaning": "使民主化/平等化"
+      },
+      {
+        "text": "access",
+        "phonetic": "/ˈækses/",
+        "pos": "n.",
+        "meaning": "访问/获得"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "quality",
+        "phonetic": "/ˈkwɒləti/",
+        "pos": "adj.",
+        "meaning": "优质的"
+      },
+      {
+        "text": "learning",
+        "phonetic": "/ˈlɜːnɪŋ/",
+        "pos": "n.",
+        "meaning": "学习"
+      },
+      {
+        "text": "resources",
+        "phonetic": "/rɪˈsɔːsɪz/",
+        "pos": "n.",
+        "meaning": "资源"
+      },
+      {
+        "text": "worldwide",
+        "phonetic": "/ˈwɜːldwaɪd/",
+        "pos": "adj.",
+        "meaning": "全球的"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "sentence": "Quantum computing promises to solve complex problems that are beyond current classical computers.",
+    "translation": "量子计算有望解决当前传统计算机无法解决的复杂问题。",
+    "phonetic_sentence": "/ˈkwɒntəm kəmˈpjuːtɪŋ ˈprɒmɪz tə sɒlvl ˈkɒmpleks ˈprɒbləmz ðæt ɑːr bɪˈɒnd ˈkʌrənt ˈklæsɪkl kəmˈpjuːtərz/",
+    "words": [
+      {
+        "text": "quantum computing",
+        "phonetic": "/ˈkwɒntəm kəmˈpjuːtɪŋ/",
+        "pos": "n.",
+        "meaning": "量子计算"
+      },
+      {
+        "text": "promises",
+        "phonetic": "/ˈprɒmɪsɪz/",
+        "pos": "v.",
+        "meaning": "有望/承诺"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "solve",
+        "phonetic": "/sɒlvl/",
+        "pos": "v.",
+        "meaning": "解决"
+      },
+      {
+        "text": "complex",
+        "phonetic": "/ˈkɒmpleks/",
+        "pos": "adj.",
+        "meaning": "复杂的"
+      },
+      {
+        "text": "problems",
+        "phonetic": "/ˈprɒbləmz/",
+        "pos": "n.",
+        "meaning": "问题"
+      },
+      {
+        "text": "that",
+        "phonetic": "/ðæt/",
+        "pos": "pron.",
+        "meaning": "那"
+      },
+      {
+        "text": "are",
+        "phonetic": "/ɑːr/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "beyond",
+        "phonetic": "/bɪˈɒnd/",
+        "pos": "prep.",
+        "meaning": "超出"
+      },
+      {
+        "text": "current",
+        "phonetic": "/ˈkʌrənt/",
+        "pos": "adj.",
+        "meaning": "当前的"
+      },
+      {
+        "text": "classical",
+        "phonetic": "/ˈklæsɪkl/",
+        "pos": "adj.",
+        "meaning": "经典的/传统的"
+      },
+      {
+        "text": "computers",
+        "phonetic": "/kəmˈpjuːtərz/",
+        "pos": "n.",
+        "meaning": "计算机"
+      },
+      {
+        "text": "quantum",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "computing",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "sentence": "Renewable energy technologies are rapidly advancing as the world seeks sustainable alternatives.",
+    "translation": "随着世界寻求可持续的替代能源，可再生能源技术正在快速发展。",
+    "phonetic_sentence": "/rɪˈnjuːəbl ˈenədʒi tekˈnɒlədʒiz ɑːr ˈræpɪdli ədˈvɑːnsɪŋ æz ðə wɜːld siːks səˈsteɪnəbl ɔːlˈtɜːnətɪvz/",
+    "words": [
+      {
+        "text": "renewable",
+        "phonetic": "/rɪˈnjuːəbl/",
+        "pos": "adj.",
+        "meaning": "可再生的"
+      },
+      {
+        "text": "energy",
+        "phonetic": "/ˈenədʒi/",
+        "pos": "n.",
+        "meaning": "能源"
+      },
+      {
+        "text": "technologies",
+        "phonetic": "/tekˈnɒlədʒiz/",
+        "pos": "n.",
+        "meaning": "技术"
+      },
+      {
+        "text": "are",
+        "phonetic": "/ɑːr/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "rapidly",
+        "phonetic": "/ˈræpɪdli/",
+        "pos": "adv.",
+        "meaning": "快速地"
+      },
+      {
+        "text": "advancing",
+        "phonetic": "/ədˈvɑːnsɪŋ/",
+        "pos": "v.",
+        "meaning": "发展/前进"
+      },
+      {
+        "text": "as",
+        "phonetic": "/æz/",
+        "pos": "conj.",
+        "meaning": "因为"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "world",
+        "phonetic": "/wɜːld/",
+        "pos": "n.",
+        "meaning": "世界"
+      },
+      {
+        "text": "seeks",
+        "phonetic": "/siːks/",
+        "pos": "v.",
+        "meaning": "寻求"
+      },
+      {
+        "text": "sustainable",
+        "phonetic": "/səˈsteɪnəbl/",
+        "pos": "adj.",
+        "meaning": "可持续的"
+      },
+      {
+        "text": "alternatives",
+        "phonetic": "/ɔːlˈtɜːnətɪvz/",
+        "pos": "n.",
+        "meaning": "替代品"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "sentence": "Biometric authentication provides enhanced security through fingerprint and facial recognition systems.",
+    "translation": "生物识别认证通过指纹和面部识别系统提供增强的安全性。",
+    "phonetic_sentence": "/ˌbaɪəˈmetrɪk ɔːˌθentɪˈkeɪʃn prəˈvaɪdz ɪnˈhɑːnst sɪˈkjʊəriti θruː ˈfɪŋɡəprɪnt ənd ˈfeɪʃl ˌrekəɡˈnɪʃn ˈsɪstəmz/",
+    "words": [
+      {
+        "text": "biometric",
+        "phonetic": "/ˌbaɪəˈmetrɪk/",
+        "pos": "adj.",
+        "meaning": "生物识别的"
+      },
+      {
+        "text": "authentication",
+        "phonetic": "/ɔːˌθentɪˈkeɪʃn/",
+        "pos": "n.",
+        "meaning": "认证"
+      },
+      {
+        "text": "provides",
+        "phonetic": "/prəˈvaɪdz/",
+        "pos": "v.",
+        "meaning": "提供"
+      },
+      {
+        "text": "enhanced",
+        "phonetic": "/ɪnˈhɑːnst/",
+        "pos": "adj.",
+        "meaning": "增强的"
+      },
+      {
+        "text": "security",
+        "phonetic": "/sɪˈkjʊəriti/",
+        "pos": "n.",
+        "meaning": "安全"
+      },
+      {
+        "text": "through",
+        "phonetic": "/θruː/",
+        "pos": "prep.",
+        "meaning": "通过"
+      },
+      {
+        "text": "fingerprint",
+        "phonetic": "/ˈfɪŋɡəprɪnt/",
+        "pos": "n.",
+        "meaning": "指纹"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "facial",
+        "phonetic": "/ˈfeɪʃl/",
+        "pos": "adj.",
+        "meaning": "面部的"
+      },
+      {
+        "text": "recognition",
+        "phonetic": "/ˌrekəɡˈnɪʃn/",
+        "pos": "n.",
+        "meaning": "识别"
+      },
+      {
+        "text": "systems",
+        "phonetic": "/ˈsɪstəmz/",
+        "pos": "n.",
+        "meaning": "系统"
+      }
+    ]
+  }
+]

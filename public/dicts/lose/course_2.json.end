@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "sentence": "Environmental protection has become a global priority in recent years.",
+    "translation": "环境保护近年来已成为全球首要任务。",
+    "phonetic_sentence": "/ɪnˌvaɪrənˈmentl prəˈtekʃn həz bɪˈkʌm ə ˈɡləʊbl praɪˈɒrəti ɪn ˈriːsnt jɪəz/",
+    "words": [
+      { "text": "Environmental", "phonetic": "/ɪnˌvaɪrənˈmentl/", "pos": "adj.", "meaning": "环境的" },
+      { "text": "protection", "phonetic": "/prəˈtekʃn/", "pos": "n.", "meaning": "保护" },
+      { "text": "has", "phonetic": "/həz/", "pos": "v.aux.", "meaning": "已经" },
+      { "text": "become", "phonetic": "/bɪˈkʌm/", "pos": "v.", "meaning": "成为" },
+      { "text": "a", "phonetic": "/ə/", "pos": "art.", "meaning": "一个" },
+      { "text": "global", "phonetic": "/ˈɡləʊbl/", "pos": "adj.", "meaning": "全球的" },
+      { "text": "priority", "phonetic": "/praɪˈɒrəti/", "pos": "n.", "meaning": "优先事项" },
+      { "text": "in", "phonetic": "/ɪn/", "pos": "prep.", "meaning": "在...期间" },
+      { "text": "recent", "phonetic": "/ˈriːsnt/", "pos": "adj.", "meaning": "最近的" },
+      { "text": "years", "phonetic": "/jɪəz/", "pos": "n.", "meaning": "年" }
+    ]
+  },
+  {
+    "id": 2,
+    "sentence": "The government should allocate more funds to the education sector.",
+    "translation": "政府应当向教育部门分配更多资金。",
+    "phonetic_sentence": "/ðə ˈɡʌvənmənt ʃəd ˈæləkeɪt mɔː(r) fʌndz tə ðə ˌedʒuˈkeɪʃn ˈsektə(r)/",
+    "words": [
+      { "text": "government", "phonetic": "/ˈɡʌvənmənt/", "pos": "n.", "meaning": "政府" },
+      { "text": "should", "phonetic": "/ʃəd/", "pos": "v.aux.", "meaning": "应当" },
+      { "text": "allocate", "phonetic": "/ˈæləkeɪt/", "pos": "v.", "meaning": "分配" },
+      { "text": "more", "phonetic": "/mɔː(r)/", "pos": "adj.", "meaning": "更多的" },
+      { "text": "funds", "phonetic": "/fʌndz/", "pos": "n.", "meaning": "资金" },
+      { "text": "education", "phonetic": "/ˌedʒuˈkeɪʃn/", "pos": "n.", "meaning": "教育" },
+      { "text": "sector", "phonetic": "/ˈsektə(r)/", "pos": "n.", "meaning": "部门" }
+    ]
+  },
+  {
+    "id": 3,
+    "sentence": "Technological advancements have radically transformed our daily lives.",
+    "translation": "技术进步彻底改变了我们的日常生活。",
+    "phonetic_sentence": "/ˌteknəˈlɒdʒɪkl ədˈvɑːnsmənts həv ˈrædɪkli trænsˈfɔːmd ˈaʊə(r) ˈdeɪli laɪvz/",
+    "words": [
+      { "text": "Technological", "phonetic": "/ˌteknəˈlɒdʒɪkl/", "pos": "adj.", "meaning": "技术的" },
+      { "text": "advancements", "phonetic": "/ədˈvɑːnsmənts/", "pos": "n.", "meaning": "进步" },
+      { "text": "radically", "phonetic": "/ˈrædɪkli/", "pos": "adv.", "meaning": "彻底地" },
+      { "text": "transformed", "phonetic": "/trænsˈfɔːmd/", "pos": "v.", "meaning": "改变" },
+      { "text": "daily", "phonetic": "/ˈdeɪli/", "pos": "adj.", "meaning": "日常的" },
+      { "text": "lives", "phonetic": "/laɪvz/", "pos": "n.", "meaning": "生活" }
+    ]
+  },
+  {
+    "id": 4,
+    "sentence": "Students should be encouraged to participate in extracurricular activities.",
+    "translation": "应当鼓励学生参加课外活动。",
+    "phonetic_sentence": "/ˈstjuːdnts ʃəd bi ɪnˈkʌrɪdʒd tə pɑːˈtɪsɪpeɪt ɪn ˌekstrəkəˈrɪkjələ(r) ækˈtɪvətiz/",
+    "words": [
+      { "text": "Students", "phonetic": "/ˈstjuːdnts/", "pos": "n.", "meaning": "学生" },
+      { "text": "encouraged", "phonetic": "/ɪnˈkʌrɪdʒd/", "pos": "v.", "meaning": "鼓励" },
+      { "text": "participate", "phonetic": "/pɑːˈtɪsɪpeɪt/", "pos": "v.", "meaning": "参加" },
+      { "text": "extracurricular", "phonetic": "/ˌekstrəkəˈrɪkjələ(r)/", "pos": "adj.", "meaning": "课外的" },
+      { "text": "activities", "phonetic": "/ækˈtɪvətiz/", "pos": "n.", "meaning": "活动" }
+    ]
+  },
+  {
+    "id": 5,
+    "sentence": "Living in a big city offers many career opportunities but higher living costs.",
+    "translation": "在大城市生活提供了很多职业机会，但生活成本也更高。",
+    "phonetic_sentence": "/ˈlɪvɪŋ ɪn ə bɪɡ ˈsɪti ˈɒfəz ˈmeni kəˈrɪə(r) ˌɒpəˈtjuːnətiz bət ˈhaɪə(r) ˈlɪvɪŋ kɒsts/",
+    "words": [
+      { "text": "city", "phonetic": "/ˈsɪti/", "pos": "n.", "meaning": "城市" },
+      { "text": "offers", "phonetic": "/ˈɒfəz/", "pos": "v.", "meaning": "提供" },
+      { "text": "career", "phonetic": "/kəˈrɪə(r)/", "pos": "n.", "meaning": "职业" },
+      { "text": "opportunities", "phonetic": "/ˌɒpəˈtjuːnətiz/", "pos": "n.", "meaning": "机会" },
+      { "text": "higher", "phonetic": "/ˈhaɪə(r)/", "pos": "adj.", "meaning": "更高的" },
+      { "text": "costs", "phonetic": "/kɒsts/", "pos": "n.", "meaning": "成本" }
+    ]
+  },
+  {
+    "id": 6,
+    "sentence": "Distance learning provides flexibility for students who work full-time.",
+    "translation": "远程学习为全职工作的学生提供了灵活性。",
+    "phonetic_sentence": "/ˈdɪstəns ˈlɜːnɪŋ prəˈvaɪdz ˌflek səˈbɪləti fə(r) ˈstjuːdnts huː wɜːk ˌfʊl ˈtaɪm/",
+    "words": [
+      { "text": "Distance", "phonetic": "/ˈdɪstəns/", "pos": "n.", "meaning": "距离/远程" },
+      { "text": "learning", "phonetic": "/ˈlɜːnɪŋ/", "pos": "n.", "meaning": "学习" },
+      { "text": "provides", "phonetic": "/prəˈvaɪdz/", "pos": "v.", "meaning": "提供" },
+      { "text": "flexibility", "phonetic": "/ˌflek səˈbɪləti/", "pos": "n.", "meaning": "灵活性" },
+      { "text": "full-time", "phonetic": "/ˌfʊl ˈtaɪm/", "pos": "adj./adv.", "meaning": "全职" }
+    ]
+  },
+  {
+    "id": 7,
+    "sentence": "Traditional cultures are being threatened by the process of globalization.",
+    "translation": "传统文化正受到全球化进程的威胁。",
+    "phonetic_sentence": "/trəˈdɪʃənl ˈkʌltʃəz ə(r) ˈbiːɪŋ ˈθretnd baɪ ðə ˈprəʊses əv ˌɡləʊbəlaɪˈzeɪʃn/",
+    "words": [
+      { "text": "Traditional", "phonetic": "/trəˈdɪʃənl/", "pos": "adj.", "meaning": "传统的" },
+      { "text": "cultures", "phonetic": "/ˈkʌltʃəz/", "pos": "n.", "meaning": "文化" },
+      { "text": "threatened", "phonetic": "/ˈθretnd/", "pos": "v.", "meaning": "受到威胁" },
+      { "text": "process", "phonetic": "/ˈprəʊses/", "pos": "n.", "meaning": "过程" },
+      { "text": "globalization", "phonetic": "/ˌɡləʊbəlaɪˈzeɪʃn/", "pos": "n.", "meaning": "全球化" }
+    ]
+  },
+  {
+    "id": 8,
+    "sentence": "The use of renewable energy can significantly reduce carbon emissions.",
+    "translation": "使用可再生能源可以显著减少碳排放。",
+    "phonetic_sentence": "/ðə juːs əv rɪˈnjuːəbl ˈenədʒi kən sɪɡˈnɪfɪkəntli rɪˈdjuːs ˈkɑːbən iˈmɪʃnz/",
+    "words": [
+      { "text": "renewable", "phonetic": "/rɪˈnjuːəbl/", "pos": "adj.", "meaning": "可再生的" },
+      { "text": "energy", "phonetic": "/ˈenədʒi/", "pos": "n.", "meaning": "能源" },
+      { "text": "significantly", "phonetic": "/sɪɡˈnɪfɪkəntli/", "pos": "adv.", "meaning": "显著地" },
+      { "text": "reduce", "phonetic": "/rɪˈdjuːs/", "pos": "v.", "meaning": "减少" },
+      { "text": "carbon", "phonetic": "/ˈkɑːbən/", "pos": "n.", "meaning": "碳" },
+      { "text": "emissions", "phonetic": "/iˈmɪʃnz/", "pos": "n.", "meaning": "排放" }
+    ]
+  },
+  {
+    "id": 9,
+    "sentence": "Maintaining a healthy work-life balance is essential for mental well-being.",
+    "translation": "保持健康的工作与生活平衡对心理健康至关重要。",
+    "phonetic_sentence": "/meɪnˈteɪnɪŋ ə ˈhelθi wɜːk laɪf ˈbæləns ɪz ɪˈsenʃl fə(r) ˈmentl ˌwel ˈbiːɪŋ/",
+    "words": [
+      { "text": "Maintaining", "phonetic": "/meɪnˈteɪnɪŋ/", "pos": "v.", "meaning": "保持" },
+      { "text": "balance", "phonetic": "/ˈbæləns/", "pos": "n.", "meaning": "平衡" },
+      { "text": "essential", "phonetic": "/ɪˈsenʃl/", "pos": "adj.", "meaning": "至关重要的" },
+      { "text": "mental", "phonetic": "/ˈmentl/", "pos": "adj.", "meaning": "心理的" },
+      { "text": "well-being", "phonetic": "/ˌwel ˈbiːɪŋ/", "pos": "n.", "meaning": "健康/福祉" }
+    ]
+  },
+  {
+    "id": 10,
+    "sentence": "Advertising can sometimes mislead consumers into buying unnecessary items.",
+    "translation": "广告有时会误导消费者购买不必要的物品。",
+    "phonetic_sentence": "/ˈædvətaɪzɪŋ kən ˈsʌmtaɪmz ˌmɪsˈliːd kənˈsjuːməz ˈɪntə ˈbaɪɪŋ ʌnˈnesəsəri ˈaɪtəmz/",
+    "words": [
+      { "text": "Advertising", "phonetic": "/ˈædvətaɪzɪŋ/", "pos": "n.", "meaning": "广告" },
+      { "text": "mislead", "phonetic": "/ˌmɪsˈliːd/", "pos": "v.", "meaning": "误导" },
+      { "text": "consumers", "phonetic": "/kənˈsjuːməz/", "pos": "n.", "meaning": "消费者" },
+      { "text": "unnecessary", "phonetic": "/ʌnˈnesəsəri/", "pos": "adj.", "meaning": "不必要的" },
+      { "text": "items", "phonetic": "/ˈaɪtəmz/", "pos": "n.", "meaning": "物品" }
+    ]
+  },
+  {
+    "id": 11,
+    "sentence": "Young people should learn to be financially independent as early as possible.",
+    "translation": "年轻人应当尽可能早地学会经济独立。",
+    "phonetic_sentence": "/jʌŋ ˈpiːpl ʃəd lɜːn tə bi faɪˈnænʃəli ˌɪndɪˈpendənt əz ˈɜːli əz ˈpɒsəbl/",
+    "words": [
+      { "text": "learn", "phonetic": "/lɜːn/", "pos": "v.", "meaning": "学习" },
+      { "text": "financially", "phonetic": "/faɪˈnænʃəli/", "pos": "adv.", "meaning": "财务上地" },
+      { "text": "independent", "phonetic": "/ˌɪndɪˈpendənt/", "pos": "adj.", "meaning": "独立的" },
+      { "text": "possible", "phonetic": "/ˈpɒsəbl/", "pos": "adj.", "meaning": "可能的" }
+    ]
+  },
+  {
+    "id": 12,
+    "sentence": "Overpopulation is one of the most serious challenges facing urban areas.",
+    "translation": "人口过剩是城市地区面临的最严重挑战之一。",
+    "phonetic_sentence": "/ˌəʊvəˌpɒpjuˈleɪʃn ɪz wʌn əv ðə məʊst ˈsɪəriəs ˈtʃælɪndʒɪz ˈfeɪsɪŋ ˈɜːbən ˈeəriəz/",
+    "words": [
+      { "text": "Overpopulation", "phonetic": "/ˌəʊvəˌpɒpjuˈleɪʃn/", "pos": "n.", "meaning": "人口过剩" },
+      { "text": "serious", "phonetic": "/ˈsɪəriəs/", "pos": "adj.", "meaning": "严重的" },
+      { "text": "challenges", "phonetic": "/ˈtʃælɪndʒɪz/", "pos": "n.", "meaning": "挑战" },
+      { "text": "facing", "phonetic": "/ˈfeɪsɪŋ/", "pos": "v.", "meaning": "面临" },
+      { "text": "urban", "phonetic": "/ˈɜːbən/", "pos": "adj.", "meaning": "城市的" }
+    ]
+  },
+  {
+    "id": 13,
+    "sentence": "Parental involvement is a key factor in a child's academic success.",
+    "translation": "家长的参与是孩子学业成功的关键因素。",
+    "phonetic_sentence": "/pəˈrentl ɪnˈvɒlvmənt ɪz ə kiː ˈfæktə(r) ɪn ə tʃaɪldz ˌækəˈdemɪk səkˈses/",
+    "words": [
+      { "text": "Parental", "phonetic": "/pəˈrentl/", "pos": "adj.", "meaning": "父母的" },
+      { "text": "involvement", "phonetic": "/ɪnˈvɒlvmənt/", "pos": "n.", "meaning": "参与" },
+      { "text": "factor", "phonetic": "/ˈfæktə(r)/", "pos": "n.", "meaning": "因素" },
+      { "text": "academic", "phonetic": "/ˌækəˈdemɪk/", "pos": "adj.", "meaning": "学业的" },
+      { "text": "success", "phonetic": "/səkˈses/", "pos": "n.", "meaning": "成功" }
+    ]
+  },
+  {
+    "id": 14,
+    "sentence": "Public transport systems need urgent improvement in many developing countries.",
+    "translation": "许多发展中国家的公共交通系统需要紧急改进。",
+    "phonetic_sentence": "/ˈpʌblɪk ˈtrænspɔːt ˈsɪstəmz niːd ˈɜːdʒənt ɪmˈpruːvmənt ɪn ˈmeni dɪˈveləpɪŋ ˈkʌntriz/",
+    "words": [
+      { "text": "transport", "phonetic": "/ˈtrænspɔːt/", "pos": "n.", "meaning": "交通" },
+      { "text": "urgent", "phonetic": "/ˈɜːdʒənt/", "pos": "adj.", "meaning": "紧急的" },
+      { "text": "improvement", "phonetic": "/ɪmˈpruːvmənt/", "pos": "n.", "meaning": "改进" },
+      { "text": "developing", "phonetic": "/dɪˈveləpɪŋ/", "pos": "adj.", "meaning": "发展中的" }
+    ]
+  },
+  {
+    "id": 15,
+    "sentence": "Social media has altered the way people communicate and share information.",
+    "translation": "社交媒体改变了人们沟通和分享信息的方式。",
+    "phonetic_sentence": "/ˈsəʊʃl ˈmiːdiə həz ˈɔːltəd ðə weɪ ˈpiːpl kəˈmjuːnɪkeɪt ənd ʃeə(r) ˌɪnfəˈmeɪʃn/",
+    "words": [
+      { "text": "altered", "phonetic": "/ˈɔːltəd/", "pos": "v.", "meaning": "改变" },
+      { "text": "communicate", "phonetic": "/kəˈmjuːnɪkeɪt/", "pos": "v.", "meaning": "沟通" },
+      { "text": "share", "phonetic": "/ʃeə(r)/", "pos": "v.", "meaning": "分享" },
+      { "text": "information", "phonetic": "/ˌɪnfəˈmeɪʃn/", "pos": "n.", "meaning": "信息" }
+    ]
+  },
+  {
+    "id": 16,
+    "sentence": "The extinction of certain species can disrupt the balance of the ecosystem.",
+    "translation": "某些物种的灭绝可能会破坏生态系统的平衡。",
+    "phonetic_sentence": "/ði ɪkˈstɪŋkʃn əv ˈsɜːtn ˈspiːʃiːz kən dɪsˈrʌpt ðə ˈbæləns əv ðə ˈiːkəʊsɪstəm/",
+    "words": [
+      { "text": "extinction", "phonetic": "/ɪkˈstɪŋkʃn/", "pos": "n.", "meaning": "灭绝" },
+      { "text": "certain", "phonetic": "/ˈsɜːtn/", "pos": "adj.", "meaning": "某些" },
+      { "text": "species", "phonetic": "/ˈspiːʃiːz/", "pos": "n.", "meaning": "物种" },
+      { "text": "disrupt", "phonetic": "/dɪsˈrʌpt/", "pos": "v.", "meaning": "破坏" },
+      { "text": "ecosystem", "phonetic": "/ˈiːkəʊsɪstəm/", "pos": "n.", "meaning": "生态系统" }
+    ]
+  },
+  {
+    "id": 17,
+    "sentence": "Tourism contributes significantly to the economic growth of local communities.",
+    "translation": "旅游业对当地社区的经济增长贡献巨大。",
+    "phonetic_sentence": "/ˈtʊərɪzəm kənˈtrɪbjuːts sɪɡˈnɪfɪkəntli tə ðə ˌiːkəˈnɒmɪk ɡrəʊθ əv ˈləʊkl kəˈmjuːnətiz/",
+    "words": [
+      { "text": "Tourism", "phonetic": "/ˈtʊərɪzəm/", "pos": "n.", "meaning": "旅游业" },
+      { "text": "contributes", "phonetic": "/kənˈtrɪbjuːts/", "pos": "v.", "meaning": "贡献" },
+      { "text": "economic", "phonetic": "/ˌiːkəˈnɒmɪk/", "pos": "adj.", "meaning": "经济的" },
+      { "text": "growth", "phonetic": "/ɡrəʊθ/", "pos": "n.", "meaning": "增长" },
+      { "text": "communities", "phonetic": "/kəˈmjuːnətiz/", "pos": "n.", "meaning": "社区" }
+    ]
+  },
+  {
+    "id": 18,
+    "sentence": "Strict laws are necessary to deter people from committing serious crimes.",
+    "translation": "为了威慑人们犯下严重罪行，严厉的法律是必要的。",
+    "phonetic_sentence": "/strɪkt lɔːz ə(r) ˈnesəsəri tə dɪˈtɜː(r) ˈpiːpl frəm kəˈmɪtɪŋ ˈsɪəriəs kraɪmz/",
+    "words": [
+      { "text": "Strict", "phonetic": "/strɪkt/", "pos": "adj.", "meaning": "严格的" },
+      { "text": "necessary", "phonetic": "/ˈnesəsəri/", "pos": "adj.", "meaning": "必要的" },
+      { "text": "deter", "phonetic": "/dɪˈtɜː(r)/", "pos": "v.", "meaning": "威慑" },
+      { "text": "committing", "phonetic": "/kəˈmɪtɪŋ/", "pos": "v.", "meaning": "犯罪/进行" },
+      { "text": "crimes", "phonetic": "/kraɪmz/", "pos": "n.", "meaning": "罪行" }
+    ]
+  },
+  {
+    "id": 19,
+    "sentence": "Critical thinking skills are highly valued in the modern workplace.",
+    "translation": "批判性思维能力在现代职场中备受看重。",
+    "phonetic_sentence": "/ˈkrɪtɪkl ˈθɪŋkɪŋ skɪlz ə(r) ˈhaɪli ˈvæljuːd ɪn ðə ˈmɒdn ˈwɜːkpleɪs/",
+    "words": [
+      { "text": "Critical", "phonetic": "/ˈkrɪtɪkl/", "pos": "adj.", "meaning": "批判性的" },
+      { "text": "thinking", "phonetic": "/ˈθɪŋkɪŋ/", "pos": "n.", "meaning": "思维" },
+      { "text": "skills", "phonetic": "/skɪlz/", "pos": "n.", "meaning": "技能" },
+      { "text": "valued", "phonetic": "/ˈvæljuːd/", "pos": "v./adj.", "meaning": "看重" },
+      { "text": "workplace", "phonetic": "/ˈwɜːkpleɪs/", "pos": "n.", "meaning": "职场" }
+    ]
+  },
+  {
+    "id": 20,
+    "sentence": "Governments should raise public awareness about the risks of climate change.",
+    "translation": "政府应当提高公众对气候变化风险的意识。",
+    "phonetic_sentence": "/ˈɡʌvənmənts ʃəd reɪz ˈpʌblɪk əˈweənəs əˈbaʊt ðə rɪsks əv ˈklaɪmət tʃeɪndʒ/",
+    "words": [
+      { "text": "raise", "phonetic": "/reɪz/", "pos": "v.", "meaning": "提高" },
+      { "text": "awareness", "phonetic": "/əˈweənəs/", "pos": "n.", "meaning": "意识" },
+      { "text": "risks", "phonetic": "/rɪsks/", "pos": "n.", "meaning": "风险" },
+      { "text": "climate", "phonetic": "/ˈklaɪmət/", "pos": "n.", "meaning": "气候" }
+    ]
+  }
+]

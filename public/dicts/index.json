@@ -1,0 +1,8 @@
+[
+  { "id": "course_1", "name": "社会与文化", "file": "/dicts/course_1_clean.json" },
+  { "id": "course_2", "name": "科技与社会", "file": "/dicts/course_2_clean.json" },
+  { "id": "course_3", "name": "日常生活与习惯", "file": "/dicts/course_3.json" },
+  { "id": "course_4", "name": "科技与互联网", "file": "/dicts/course_4.json" },
+  { "id": "course_5", "name": "健康与医疗", "file": "/dicts/course_5.json" },
+  { "id": "course_6", "name": "商业与经济", "file": "/dicts/course_6.json" }
+]

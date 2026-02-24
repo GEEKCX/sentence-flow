@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test LocalStorage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #1e293b;
+      color: #e2e8f0;
+    }
+    .section {
+      background: #334155;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2563eb;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      background: #1e293b;
+      border: 1px solid #475569;
+      color: #e2e8f0;
+      border-radius: 5px;
+    }
+    .success {
+      color: #22c55e;
+      font-weight: bold;
+    }
+    .error {
+      color: #ef4444;
+      font-weight: bold;
+    }
+    .code {
+      background: #0f172a;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: monospace;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+  <h1>Local Storage Test</h1>
+
+  <div class="section">
+    <h2>Test AI Config Storage</h2>
+    <input type="text" id="apiKey" placeholder="API Key" value="sk-test-key-12345">
+    <input type="text" id="baseUrl" placeholder="Base URL" value="https://api.openai.com/v1">
+    <input type="text" id="model" placeholder="Model" value="gpt-3.5-turbo">
+    <br><br>
+    <button onclick="saveConfig()">Save Config</button>
+    <button onclick="loadConfig()">Load Config</button>
+    <button onclick="clearConfig()">Clear Config</button>
+    <button onclick="refreshPage()">Refresh Page</button>
+  </div>
+
+  <div class="section">
+    <h2>Actions Log</h2>
+    <div id="log"></div>
+  </div>
+
+  <div class="section">
+    <h2>Current LocalStorage Content</h2>
+    <button onclick="showLocalStorage()">Show All LocalStorage</button>
+    <div id="storageContent" class="code"></div>
+  </div>
+
+  <script>
+    function log(message, type = 'info') {
+      const logDiv = document.getElementById('log');
+      const entry = document.createElement('div');
+      entry.className = type;
+      entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+      logDiv.insertBefore(entry, logDiv.firstChild);
+    }
+
+    function saveConfig() {
+      const config = {
+        apiKey: document.getElementById('apiKey').value,
+        baseUrl: document.getElementById('baseUrl').value,
+        model: document.getElementById('model').value
+      };
+      
+      try {
+        localStorage.setItem('sentence-flow-ai-config', JSON.stringify(config));
+        log('Config saved successfully!', 'success');
+        log(`Saved: ${JSON.stringify(config, null, 2)}`);
+      } catch (err) {
+        log(`Error saving: ${err.message}`, 'error');
+      }
+      
+      showLocalStorage();
+    }
+
+    function loadConfig() {
+      try {
+        const saved = localStorage.getItem('sentence-flow-ai-config');
+        if (saved) {
+          const config = JSON.parse(saved);
+          document.getElementById('apiKey').value = config.apiKey || '';
+          document.getElementById('baseUrl').value = config.baseUrl || '';
+          document.getElementById('model').value = config.model || '';
+          log('Config loaded successfully!', 'success');
+          log(`Loaded: ${JSON.stringify(config, null, 2)}`);
+        } else {
+          log('No saved config found', 'error');
+        }
+      } catch (err) {
+        log(`Error loading: ${err.message}`, 'error');
+      }
+      
+      showLocalStorage();
+    }
+
+    function clearConfig() {
+      try {
+        localStorage.removeItem('sentence-flow-ai-config');
+        log('Config cleared successfully!', 'success');
+        document.getElementById('apiKey').value = '';
+        document.getElementById('baseUrl').value = '';
+        document.getElementById('model').value = '';
+      } catch (err) {
+        log(`Error clearing: ${err.message}`, 'error');
+      }
+      
+      showLocalStorage();
+    }
+
+    function showLocalStorage() {
+      const content = {};
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        content[key] = localStorage.getItem(key);
+      }
+      document.getElementById('storageContent').textContent = JSON.stringify(content, null, 2);
+    }
+
+    function refreshPage() {
+      location.reload();
+    }
+
+    // Auto-load on page load
+    window.onload = function() {
+      log('Page loaded', 'info');
+      loadConfig();
+      showLocalStorage();
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,1048 @@
+[
+  {
+    "id": 25,
+    "sentence": "Urbanization leads to the expansion of infrastructure and services.",
+    "translation": "城市化导致基础设施和服务的扩张。",
+    "phonetic_sentence": "/ˌɜːbənaɪˈzeɪʃn liːdz tə ðə ɪkˈspænʃn əv ˈɪnfrəstrʌktʃə(r) ənd ˈsɜːvɪsɪz/",
+    "words": [
+      {
+        "text": "Urbanization",
+        "phonetic": "/ˌɜːbənaɪˈzeɪʃn/",
+        "pos": "n.",
+        "meaning": "城市化"
+      },
+      {
+        "text": "leads",
+        "phonetic": "/liːdz/",
+        "pos": "v.",
+        "meaning": "导致"
+      },
+      {
+        "text": "expansion",
+        "phonetic": "/ɪkˈspænʃn/",
+        "pos": "n.",
+        "meaning": "扩张"
+      },
+      {
+        "text": "infrastructure",
+        "phonetic": "/ˈɪnfrəstrʌktʃə(r)/",
+        "pos": "n.",
+        "meaning": "基础设施"
+      },
+      {
+        "text": "services",
+        "phonetic": "/ˈsɜːvɪsɪz/",
+        "pos": "n.",
+        "meaning": "服务"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到/对"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "sentence": "Effective communication is the foundation of any successful relationship.",
+    "translation": "有效的沟通是任何成功关系的基础。",
+    "phonetic_sentence": "/ɪˈfektɪv kəˈmjuːnɪkeɪʃn ɪz ðə faʊnˈdeɪʃn əv ˈeni səkˈsesfl rɪˈleɪʃnʃɪp/",
+    "words": [
+      {
+        "text": "Effective",
+        "phonetic": "/ɪˈfektɪv/",
+        "pos": "adj.",
+        "meaning": "有效的"
+      },
+      {
+        "text": "communication",
+        "phonetic": "/kəˈmjuːnɪkeɪʃn/",
+        "pos": "n.",
+        "meaning": "沟通"
+      },
+      {
+        "text": "foundation",
+        "phonetic": "/faʊnˈdeɪʃn/",
+        "pos": "n.",
+        "meaning": "基础"
+      },
+      {
+        "text": "successful",
+        "phonetic": "/səkˈsesfl/",
+        "pos": "adj.",
+        "meaning": "成功的"
+      },
+      {
+        "text": "relationship",
+        "phonetic": "/rɪˈleɪʃnʃɪp/",
+        "pos": "n.",
+        "meaning": "关系"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "any",
+        "phonetic": "/ˈeni/",
+        "pos": "adj.",
+        "meaning": "任何"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "sentence": "Technology can bridge the gap between different social classes.",
+    "translation": "技术可以缩小不同社会阶层之间的差距。",
+    "phonetic_sentence": "/ˈteknəldi kən brɪdʒ ðə ɡæp bɪˈtwiːn ˈdɪfrənt ˈsəʊʃl ˈklɑːsɪz/",
+    "words": [
+      {
+        "text": "bridge",
+        "phonetic": "/brɪdʒ/",
+        "pos": "v.",
+        "meaning": "架桥/缩小"
+      },
+      {
+        "text": "gap",
+        "phonetic": "/ɡæp/",
+        "pos": "n.",
+        "meaning": "差距"
+      },
+      {
+        "text": "between",
+        "phonetic": "/bɪˈtwiːn/",
+        "pos": "prep.",
+        "meaning": "在...之间"
+      },
+      {
+        "text": "social",
+        "phonetic": "/ˈsəʊʃl/",
+        "pos": "adj.",
+        "meaning": "社会的"
+      },
+      {
+        "text": "classes",
+        "phonetic": "/ˈklɑːsɪz/",
+        "pos": "n.",
+        "meaning": "阶层/班级"
+      },
+      {
+        "text": "technology",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能/会"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "different",
+        "phonetic": "/ˈdɪfrənt/",
+        "pos": "adj.",
+        "meaning": "不同的"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "sentence": "Protecting wildlife is vital for maintaining biological diversity.",
+    "translation": "保护野生动物对于维持生物多样性至关重要。",
+    "phonetic_sentence": "/prəˈtektɪŋ ˈwaɪldlaɪf ɪz ˈvaɪtl fə(r) meɪnˈteɪnɪŋ ˌbaɪəˈlɒdʒɪkl daɪˈvɜːsəti/",
+    "words": [
+      {
+        "text": "Protecting",
+        "phonetic": "/prəˈtektɪŋ/",
+        "pos": "v.",
+        "meaning": "保护"
+      },
+      {
+        "text": "wildlife",
+        "phonetic": "/ˈwaɪldlaɪf/",
+        "pos": "n.",
+        "meaning": "野生动物"
+      },
+      {
+        "text": "vital",
+        "phonetic": "/ˈvaɪtl/",
+        "pos": "adj.",
+        "meaning": "至关重要的"
+      },
+      {
+        "text": "maintaining",
+        "phonetic": "/meɪnˈteɪnɪŋ/",
+        "pos": "v.",
+        "meaning": "维持"
+      },
+      {
+        "text": "biological",
+        "phonetic": "/ˌbaɪəˈlɒdʒɪkl/",
+        "pos": "adj.",
+        "meaning": "生物学的"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "diversity",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "sentence": "Genetic engineering has the potential to cure many hereditary diseases.",
+    "translation": "基因工程有潜力治愈许多遗传性疾病。",
+    "phonetic_sentence": "/dʒəˈnetɪk ˌendʒɪˈnɪərɪŋ həz ðə pəˈtenʃl tə kjʊə(r) ˈmeni həˈredɪtri dɪˈziːzɪz/",
+    "words": [
+      {
+        "text": "Genetic",
+        "phonetic": "/dʒəˈnetɪk/",
+        "pos": "adj.",
+        "meaning": "基因的"
+      },
+      {
+        "text": "potential",
+        "phonetic": "/pəˈtenʃl/",
+        "pos": "n.",
+        "meaning": "潜力"
+      },
+      {
+        "text": "cure",
+        "phonetic": "/kjʊə(r)/",
+        "pos": "v.",
+        "meaning": "治愈"
+      },
+      {
+        "text": "hereditary",
+        "phonetic": "/həˈredɪtri/",
+        "pos": "adj.",
+        "meaning": "遗传的"
+      },
+      {
+        "text": "diseases",
+        "phonetic": "/dɪˈziːzɪz/",
+        "pos": "n.",
+        "meaning": "疾病"
+      },
+      {
+        "text": "engineering",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到/对"
+      },
+      {
+        "text": "many",
+        "phonetic": "/ˈmeni/",
+        "pos": "adj.",
+        "meaning": "许多"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "sentence": "Volunteering provides an opportunity to give back to the community.",
+    "translation": "志愿服务提供了回馈社区的机会。",
+    "phonetic_sentence": "/ˌvɒlənˈtɪərɪŋ prəˈvaɪdz ən ˌɒpəˈtjuːnəti tə ɡɪv bæk tə ðə kəˈmjuːnəti/",
+    "words": [
+      {
+        "text": "Volunteering",
+        "phonetic": "/ˌvɒlənˈtɪərɪŋ/",
+        "pos": "n.",
+        "meaning": "志愿服务"
+      },
+      {
+        "text": "opportunity",
+        "phonetic": "/ˌɒpəˈtjuːnəti/",
+        "pos": "n.",
+        "meaning": "机会"
+      },
+      {
+        "text": "give back",
+        "phonetic": "/ɡɪv bæk/",
+        "pos": "v.phr.",
+        "meaning": "回馈"
+      },
+      {
+        "text": "community",
+        "phonetic": "/kəˈmjuːnəti/",
+        "pos": "n.",
+        "meaning": "社区"
+      },
+      {
+        "text": "provides",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "an",
+        "phonetic": "/æn/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到/对"
+      },
+      {
+        "text": "give",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "back",
+        "phonetic": "/bæk/",
+        "pos": "adv.",
+        "meaning": "回来/后面"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到/对"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "sentence": "High-speed rail systems can greatly reduce travel time between cities.",
+    "translation": "高速铁路系统可以大大缩短城市间的旅行时间。",
+    "phonetic_sentence": "/haɪ spiːd reɪl ˈsɪstəmz kən ˈɡreɪtli rɪˈdjuːs ˈtrævl taɪm bɪˈtwiːn ˈsɪtiz/",
+    "words": [
+      {
+        "text": "High-speed",
+        "phonetic": "/haɪ spiːd/",
+        "pos": "adj.",
+        "meaning": "高速的"
+      },
+      {
+        "text": "rail",
+        "phonetic": "/reɪl/",
+        "pos": "n.",
+        "meaning": "铁路"
+      },
+      {
+        "text": "greatly",
+        "phonetic": "/ˈɡreɪtli/",
+        "pos": "adv.",
+        "meaning": "大大地"
+      },
+      {
+        "text": "travel",
+        "phonetic": "/ˈtrævl/",
+        "pos": "n./v.",
+        "meaning": "旅行"
+      },
+      {
+        "text": "high",
+        "phonetic": "/haɪ/",
+        "pos": "adj.",
+        "meaning": "高的"
+      },
+      {
+        "text": "speed",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "systems",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能/会"
+      },
+      {
+        "text": "reduce",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "time",
+        "phonetic": "/taɪm/",
+        "pos": "n.",
+        "meaning": "时间"
+      },
+      {
+        "text": "between",
+        "phonetic": "/bɪˈtwiːn/",
+        "pos": "prep.",
+        "meaning": "之间"
+      },
+      {
+        "text": "cities",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "sentence": "Artificial intelligence is reshaping the future of many industries.",
+    "translation": "人工智能正在重塑许多行业的未来。",
+    "phonetic_sentence": "/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns ɪz ˌriːˈʃeɪpɪŋ ðə ˈfjuːtʃə(r) əv ˈmeni ˈɪndəstriz/",
+    "words": [
+      {
+        "text": "Artificial",
+        "phonetic": "/ˌɑːtɪˈfɪʃl/",
+        "pos": "adj.",
+        "meaning": "人造的"
+      },
+      {
+        "text": "intelligence",
+        "phonetic": "/ɪnˈtelɪdʒəns/",
+        "pos": "n.",
+        "meaning": "智能"
+      },
+      {
+        "text": "reshaping",
+        "phonetic": "/ˌriːˈʃeɪpɪŋ/",
+        "pos": "v.",
+        "meaning": "重塑"
+      },
+      {
+        "text": "industries",
+        "phonetic": "/ˈɪndəstriz/",
+        "pos": "n.",
+        "meaning": "行业"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "future",
+        "phonetic": "/ˈfjuːtʃər/",
+        "pos": "n.",
+        "meaning": "未来"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "many",
+        "phonetic": "/ˈmeni/",
+        "pos": "adj.",
+        "meaning": "许多"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "sentence": "Quality childcare is essential for supporting working parents.",
+    "translation": "高质量的儿童看护对于支持在职父母至关重要。",
+    "phonetic_sentence": "/ˈkwɒləti ˈtʃaɪldkeə(r) ɪz ɪˈsenʃl fə(r) səˈpɔːtɪŋ ˈwɜːkɪŋ ˈpeərənts/",
+    "words": [
+      {
+        "text": "Quality",
+        "phonetic": "/ˈkwɒləti/",
+        "pos": "adj./n.",
+        "meaning": "质量/高品质的"
+      },
+      {
+        "text": "childcare",
+        "phonetic": "/ˈtʃaɪldkeə(r)/",
+        "pos": "n.",
+        "meaning": "儿童看护"
+      },
+      {
+        "text": "supporting",
+        "phonetic": "/səˈpɔːtɪŋ/",
+        "pos": "v.",
+        "meaning": "支持"
+      },
+      {
+        "text": "parents",
+        "phonetic": "/ˈpeərənts/",
+        "pos": "n.",
+        "meaning": "家长"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "essential",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "working",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "sentence": "Over-reliance on smartphones can negatively affect social interactions.",
+    "translation": "过度依赖智能手机会对社交互动产生负面影响。",
+    "phonetic_sentence": "/ˌəʊvə rɪˈlaɪəns ɒn ˈsmɑːtfəʊnz kən ˈneɡətɪvli əˈfekt ˈsəʊʃl ˌɪntərˈækʃnz/",
+    "words": [
+      {
+        "text": "Over-reliance",
+        "phonetic": "/ˌəʊvə rɪˈlaɪəns/",
+        "pos": "n.",
+        "meaning": "过度依赖"
+      },
+      {
+        "text": "negatively",
+        "phonetic": "/ˈneɡətɪvli/",
+        "pos": "adv.",
+        "meaning": "负面地"
+      },
+      {
+        "text": "affect",
+        "phonetic": "/əˈfekt/",
+        "pos": "v.",
+        "meaning": "影响"
+      },
+      {
+        "text": "interactions",
+        "phonetic": "/ˌɪntərˈækʃnz/",
+        "pos": "n.",
+        "meaning": "互动"
+      },
+      {
+        "text": "over",
+        "phonetic": "/ˈəʊvər/",
+        "pos": "prep.",
+        "meaning": "在...之上"
+      },
+      {
+        "text": "reliance",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "on",
+        "phonetic": "/ɒn/",
+        "pos": "prep.",
+        "meaning": "在...上"
+      },
+      {
+        "text": "smartphones",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能/会"
+      },
+      {
+        "text": "social",
+        "phonetic": "/ˈsəʊʃl/",
+        "pos": "adj.",
+        "meaning": "社会的"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "sentence": "Sustainable development aims to meet needs without compromising tomorrow.",
+    "translation": "可持续发展旨在满足需求而不损害未来。",
+    "phonetic_sentence": "/səˈsteɪnəbl dɪˈveləpmənt eɪmz tə miːt niːdz ˈwɪðaʊt ˈkɒmprəmaɪzɪŋ təˈmɒrəʊ/",
+    "words": [
+      {
+        "text": "Sustainable",
+        "phonetic": "/səˈsteɪnəbl/",
+        "pos": "adj.",
+        "meaning": "可持续的"
+      },
+      {
+        "text": "development",
+        "phonetic": "/dɪˈveləpmənt/",
+        "pos": "n.",
+        "meaning": "发展"
+      },
+      {
+        "text": "needs",
+        "phonetic": "/niːdz/",
+        "pos": "n.",
+        "meaning": "需求"
+      },
+      {
+        "text": "compromising",
+        "phonetic": "/ˈkɒmprəmaɪzɪŋ/",
+        "pos": "v.",
+        "meaning": "妥协/损害"
+      },
+      {
+        "text": "aims",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到/对"
+      },
+      {
+        "text": "meet",
+        "phonetic": "/miːt/",
+        "pos": "v.",
+        "meaning": "遇见"
+      },
+      {
+        "text": "without",
+        "phonetic": "/wɪˈðaʊt/",
+        "pos": "prep.",
+        "meaning": "没有"
+      },
+      {
+        "text": "tomorrow",
+        "phonetic": "/təˈmɒrəʊ/",
+        "pos": "adv.",
+        "meaning": "明天"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "sentence": "Curiosity is often the driving force behind scientific discoveries.",
+    "translation": "好奇心往往是科学发现背后的驱动力。",
+    "phonetic_sentence": "/ˌkjʊəriˈɒsəti ɪz ˈɒfn ðə ˈdraɪvɪŋ fɔːs bɪˈhaɪnd ˌsaɪənˈtɪfɪk dɪˈskʌvəriz/",
+    "words": [
+      {
+        "text": "Curiosity",
+        "phonetic": "/ˌkjʊəriˈɒsəti/",
+        "pos": "n.",
+        "meaning": "好奇心"
+      },
+      {
+        "text": "driving",
+        "phonetic": "/ˈdraɪvɪŋ/",
+        "pos": "adj.",
+        "meaning": "驱动的"
+      },
+      {
+        "text": "force",
+        "phonetic": "/fɔːs/",
+        "pos": "n.",
+        "meaning": "力量"
+      },
+      {
+        "text": "discoveries",
+        "phonetic": "/dɪˈskʌvəriz/",
+        "pos": "n.",
+        "meaning": "发现"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "often",
+        "phonetic": "/ˈɒfn/",
+        "pos": "adv.",
+        "meaning": "经常"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "behind",
+        "phonetic": "/bɪˈhaɪnd/",
+        "pos": "prep.",
+        "meaning": "在...后面"
+      },
+      {
+        "text": "scientific",
+        "phonetic": "/ˌsaɪənˈtɪfɪk/",
+        "pos": "adj.",
+        "meaning": "科学的"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "sentence": "Learning a foreign language opens doors to new cultures.",
+    "translation": "学习一门外语开启了通往新文化的大门。",
+    "phonetic_sentence": "/ˈlɜːnɪŋ ə ˈfɒrən ˈlæŋɡwɪdʒ ˈəʊpənz dɔːz tə njuː ˈkʌltʃəz/",
+    "words": [
+      {
+        "text": "foreign",
+        "phonetic": "/ˈfɒrən/",
+        "pos": "adj.",
+        "meaning": "外国的"
+      },
+      {
+        "text": "language",
+        "phonetic": "/ˈlæŋɡwɪdʒ/",
+        "pos": "n.",
+        "meaning": "语言"
+      },
+      {
+        "text": "opens",
+        "phonetic": "/ˈəʊpənz/",
+        "pos": "v.",
+        "meaning": "打开"
+      },
+      {
+        "text": "cultures",
+        "phonetic": "/ˈkʌltʃəz/",
+        "pos": "n.",
+        "meaning": "文化"
+      },
+      {
+        "text": "learning",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "doors",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到/对"
+      },
+      {
+        "text": "new",
+        "phonetic": "/njuː/",
+        "pos": "adj.",
+        "meaning": "新的"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "sentence": "Physical exercise is highly beneficial for both body and mind.",
+    "translation": "体育锻炼对身心都非常有益。",
+    "phonetic_sentence": "/ˈfɪzɪkl ˈeksəsaɪz ɪz ˈhaɪli ˌbenɪˈfɪʃl fə(r) bəʊθ ˈbɒdi ənd maɪnd/",
+    "words": [
+      {
+        "text": "Physical",
+        "phonetic": "/ˈfɪzɪkl/",
+        "pos": "adj.",
+        "meaning": "身体的"
+      },
+      {
+        "text": "exercise",
+        "phonetic": "/ˈeksəsaɪz/",
+        "pos": "n./v.",
+        "meaning": "锻炼"
+      },
+      {
+        "text": "beneficial",
+        "phonetic": "/ˌbenɪˈfɪʃl/",
+        "pos": "adj.",
+        "meaning": "有益的"
+      },
+      {
+        "text": "mind",
+        "phonetic": "/maɪnd/",
+        "pos": "n.",
+        "meaning": "思想/心理"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "highly",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "both",
+        "phonetic": "/bəʊθ/",
+        "pos": "adj.",
+        "meaning": "两者"
+      },
+      {
+        "text": "body",
+        "phonetic": "/ˈbɒdi/",
+        "pos": "n.",
+        "meaning": "身体"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "sentence": "Space exploration helps us better understand our place in the universe.",
+    "translation": "空间探索帮助我们更好地了解我们在宇宙中的位置。",
+    "phonetic_sentence": "/speɪs ˌekspləˈreɪʃn helps əs ˈbetə(r) ˌʌndəˈstænd ˈaʊə(r) pleɪs ɪn ðə ˈjuːnɪvɜːs/",
+    "words": [
+      {
+        "text": "exploration",
+        "phonetic": "/ˌekspləˈreɪʃn/",
+        "pos": "n.",
+        "meaning": "探索"
+      },
+      {
+        "text": "understand",
+        "phonetic": "/ˌʌndəˈstænd/",
+        "pos": "v.",
+        "meaning": "理解"
+      },
+      {
+        "text": "universe",
+        "phonetic": "/ˈjuːnɪvɜːs/",
+        "pos": "n.",
+        "meaning": "宇宙"
+      },
+      {
+        "text": "space",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "helps",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "us",
+        "phonetic": "/ʌs/",
+        "pos": "pron.",
+        "meaning": "我们(宾)"
+      },
+      {
+        "text": "better",
+        "phonetic": "/ˈbetər/",
+        "pos": "adj.",
+        "meaning": "更好的"
+      },
+      {
+        "text": "our",
+        "phonetic": "/aʊər/",
+        "pos": "pron.",
+        "meaning": "我们的"
+      },
+      {
+        "text": "place",
+        "phonetic": "/pleɪs/",
+        "pos": "n.",
+        "meaning": "地方"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "sentence": "Financial literacy is a key skill for managing personal wealth.",
+    "translation": "金融素养是管理个人财富的关键技能。",
+    "phonetic_sentence": "/faɪˈnænʃl ˈlɪtərəsi ɪz ə kiː skɪl fə(r) ˈmænɪdʒɪŋ ˈpɜːsənl welθ/",
+    "words": [
+      {
+        "text": "Financial",
+        "phonetic": "/faɪˈnænʃl/",
+        "pos": "adj.",
+        "meaning": "金融的"
+      },
+      {
+        "text": "literacy",
+        "phonetic": "/ˈlɪtərəsi/",
+        "pos": "n.",
+        "meaning": "素养/读写能力"
+      },
+      {
+        "text": "managing",
+        "phonetic": "/ˈmænɪdʒɪŋ/",
+        "pos": "v.",
+        "meaning": "管理"
+      },
+      {
+        "text": "wealth",
+        "phonetic": "/welθ/",
+        "pos": "n.",
+        "meaning": "财富"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "key",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "skill",
+        "phonetic": "",
+        "pos": "",
+        "meaning": "[未收录]"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "personal",
+        "phonetic": "/ˈpɜːrsənl/",
+        "pos": "adj.",
+        "meaning": "个人的"
+      }
+    ]
+  }
+]

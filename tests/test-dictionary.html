@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary Functionality Test</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .test-section {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .test-result {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .pass { background: #d4edda; color: #155724; }
+    .fail { background: #f8d7da; color: #721c24; }
+    .pending { background: #fff3cd; color: #856404; }
+    .word-info {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover { background: #0056b3; }
+    button:disabled { background: #ccc; cursor: not-allowed; }
+    #status { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <h1>📚 Dictionary Functionality Test</h1>
+  <div id="status"></div>
+
+  <div class="test-section">
+    <h2>Test 1: API Endpoint Connectivity</h2>
+    <button onclick="testAPIConnectivity()">Test API</button>
+    <div id="api-result"></div>
+  </div>
+
+  <div class="test-section">
+    <h2>Test 2: Word Lookup Functionality</h2>
+    <p>Test words from different sources:</p>
+    <div style="margin: 15px 0;">
+      <input type="text" id="testWord" value="hello" placeholder="Enter a word to test" style="padding: 8px; width: 200px;">
+      <button onclick="testWordLookup()">Lookup Word</button>
+    </div>
+    <div id="word-result"></div>
+  </div>
+
+  <div class="test-section">
+    <h2>Test 3: Batch Word Testing</h2>
+    <button onclick="runBatchTests()">Run All Tests</button>
+    <div id="batch-results"></div>
+  </div>
+
+  <div class="test-section">
+    <h2>Test 4: Error Handling</h2>
+    <button onclick="testErrorHandling()">Test Error Cases</button>
+    <div id="error-result"></div>
+  </div>
+
+  <script>
+    const API_BASE = '/api/dict';
+    const testWords = [
+      { word: 'hello', expected: true, source: 'ECDICT' },
+      { word: 'fast', expected: true, source: 'API' },
+      { word: 'consumption', expected: true, source: 'API' },
+      { word: 'world', expected: true, source: 'API' },
+      { word: 'xyzinvalidword', expected: false, source: 'Error Case' }
+    ];
+
+    function setStatus(message, type = 'info') {
+      const status = document.getElementById('status');
+      status.innerHTML = `<div class="test-result ${type}">${message}</div>`;
+    }
+
+    function showResult(containerId, message, type = 'info') {
+      const container = document.getElementById(containerId);
+      container.innerHTML += `<div class="test-result ${type}">${message}</div>`;
+    }
+
+    async function testAPIConnectivity() {
+      const container = document.getElementById('api-result');
+      container.innerHTML = '';
+      
+      setStatus('Testing API connectivity...', 'pending');
+      
+      try {
+        const response = await fetch(`${API_BASE}?word=test`);
+        const data = await response.json();
+        
+        if (response.ok) {
+          showResult('api-result', '✓ API endpoint is accessible', 'pass');
+          showResult('api-result', `✓ Response status: ${response.status}`, 'pass');
+          showResult('api-result', `✓ Response format: ${JSON.stringify(data, null, 2).substring(0, 200)}...`, 'pass');
+          setStatus('✓ API connectivity test passed', 'pass');
+        } else {
+          showResult('api-result', `✗ API returned status ${response.status}`, 'fail');
+          setStatus('✗ API connectivity test failed', 'fail');
+        }
+      } catch (error) {
+        showResult('api-result', `✗ Error: ${error.message}`, 'fail');
+        setStatus('✗ API connectivity test failed', 'fail');
+      }
+    }
+
+    async function testWordLookup() {
+      const container = document.getElementById('word-result');
+      const wordInput = document.getElementById('testWord');
+      const word = wordInput.value.trim();
+      
+      if (!word) {
+        showResult('word-result', 'Please enter a word', 'fail');
+        return;
+      }
+      
+      container.innerHTML = '';
+      setStatus(`Looking up word: "${word}"...`, 'pending');
+      
+      try {
+        const response = await fetch(`${API_BASE}?word=${encodeURIComponent(word)}`);
+        const data = await response.json();
+        
+        if (data.code === 200 && data.data) {
+          showResult('word-result', `✓ Found word: "${word}"`, 'pass');
+          
+          const wordInfo = `
+            <div class="word-info">
+              <strong>Word:</strong> ${data.data.word || 'N/A'}<br>
+              <strong>Phonetic:</strong> ${data.data.accent || 'N/A'}<br>
+              <strong>Meaning (CN):</strong> ${data.data.mean_cn || 'N/A'}<br>
+              <strong>Meaning (EN):</strong> ${data.data.mean_en || 'N/A'}<br>
+              <strong>Example:</strong> ${data.data.sentence || 'N/A'}<br>
+              <strong>Translation:</strong> ${data.data.sentence_trans || 'N/A'}
+            </div>
+          `;
+          showResult('word-result', wordInfo, 'pass');
+          setStatus(`✓ Successfully found word: "${word}"`, 'pass');
+        } else {
+          showResult('word-result', `✗ Word not found: "${word}"`, 'fail');
+          showResult('word-result', `Response: ${JSON.stringify(data)}`, 'fail');
+          setStatus(`✗ Word not found: "${word}"`, 'fail');
+        }
+      } catch (error) {
+        showResult('word-result', `✗ Error: ${error.message}`, 'fail');
+        setStatus(`✗ Error looking up word: "${word}"`, 'fail');
+      }
+    }
+
+    async function runBatchTests() {
+      const container = document.getElementById('batch-results');
+      container.innerHTML = '';
+      setStatus('Running batch tests...', 'pending');
+      
+      let passed = 0;
+      let failed = 0;
+      
+      for (const test of testWords) {
+        try {
+          const response = await fetch(`${API_BASE}?word=${encodeURIComponent(test.word)}`);
+          const data = await response.json();
+          
+          const found = data.code === 200 && data.data;
+          const success = test.expected ? found : !found;
+          
+          if (success) {
+            passed++;
+            showResult('batch-results', `✓ "${test.word}" (${test.source}): ${found ? 'Found' : 'Not found (expected)'}`, 'pass');
+          } else {
+            failed++;
+            showResult('batch-results', `✗ "${test.word}" (${test.source}): Expected ${test.expected ? 'found' : 'not found'}, got ${found ? 'found' : 'not found'}`, 'fail');
+          }
+        } catch (error) {
+          failed++;
+          showResult('batch-results', `✗ "${test.word}" (${test.source}): Error - ${error.message}`, 'fail');
+        }
+      }
+      
+      setStatus(`✓ Batch tests complete: ${passed}/${testWords.length} passed, ${failed} failed`, passed === testWords.length ? 'pass' : 'fail');
+    }
+
+    async function testErrorHandling() {
+      const container = document.getElementById('error-result');
+      container.innerHTML = '';
+      setStatus('Testing error handling...', 'pending');
+      
+      const errorTests = [
+        { name: 'Empty word', url: `${API_BASE}?word=` },
+        { name: 'Special characters', url: `${API_BASE}?word=!!!@@@` },
+        { name: 'Very long word', url: `${API_BASE}?word=${'a'.repeat(100)}` }
+      ];
+      
+      for (const test of errorTests) {
+        try {
+          const response = await fetch(test.url);
+          const data = await response.json();
+          
+          showResult('error-result', `✓ "${test.name}": Handled gracefully - Status ${response.status}`, 'pass');
+        } catch (error) {
+          showResult('error-result', `✓ "${test.name}": Error caught - ${error.message}`, 'pass');
+        }
+      }
+      
+      setStatus('✓ Error handling tests completed', 'pass');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "english": "I felt like Neil Armstrong on the moon",
+    "chinese": "我感到了尼尔·阿姆斯特朗登月时"
+  },
+  {
+    "id": 2,
+    "english": "The journey of a thousand miles begins with a single step",
+    "chinese": "千里之行，始于足下"
+  },
+  {
+    "id": 3,
+    "english": "To be or not to be, that is the question",
+    "chinese": "生存还是毁灭，这是一个问题"
+  },
+  {
+    "id": 4,
+    "english": "All that glitters is not gold",
+    "chinese": "发光的不一定是金子"
+  },
+  {
+    "id": 5,
+    "english": "Actions speak louder than words",
+    "chinese": "行动胜于空谈"
+  },
+  {
+    "id": 6,
+    "english": "Practice makes perfect",
+    "chinese": "熟能生巧"
+  },
+  {
+    "id": 7,
+    "english": "Where there is a will, there is a way",
+    "chinese": "有志者事竟成"
+  },
+  {
+    "id": 8,
+    "english": "The early bird catches the worm",
+    "chinese": "早起的鸟儿有虫吃"
+  },
+  {
+    "id": 9,
+    "english": "Don't judge a book by its cover",
+    "chinese": "不要以貌取人"
+  },
+  {
+    "id": 10,
+    "english": "A picture is worth a thousand words",
+    "chinese": "一幅画胜过千言万语"
+  }
+]

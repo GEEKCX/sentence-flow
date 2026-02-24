@@ -1,0 +1,1590 @@
+[
+  {
+    "id": 41,
+    "sentence": "Developing good habits early in life can have a profound impact on future success.",
+    "translation": "从小养成好习惯可以对未来的成功产生深远的影响。",
+    "phonetic_sentence": "/dɪˈveləpɪŋ ɡʊd ˈhæbɪts ˈɜːli ɪn laɪf kən hæv ə prəˈfaʊnd ˈɪmpækt ɒn ˈfjuːtʃər səkˈses/",
+    "words": [
+      {
+        "text": "Developing",
+        "phonetic": "/dɪˈveləpɪŋ/",
+        "pos": "v.",
+        "meaning": "发展/养成"
+      },
+      {
+        "text": "good",
+        "phonetic": "/ɡʊd/",
+        "pos": "adj.",
+        "meaning": "好的"
+      },
+      {
+        "text": "habits",
+        "phonetic": "/ˈhæbɪts/",
+        "pos": "n.",
+        "meaning": "习惯"
+      },
+      {
+        "text": "early",
+        "phonetic": "/ˈɜːli/",
+        "pos": "adv.",
+        "meaning": "早期/尽早"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "life",
+        "phonetic": "/laɪf/",
+        "pos": "n.",
+        "meaning": "生活/生命"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能/可以"
+      },
+      {
+        "text": "have",
+        "phonetic": "/hæv/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "profound",
+        "phonetic": "/prəˈfaʊnd/",
+        "pos": "adj.",
+        "meaning": "深远的"
+      },
+      {
+        "text": "impact",
+        "phonetic": "/ˈɪmpækt/",
+        "pos": "n.",
+        "meaning": "影响"
+      },
+      {
+        "text": "on",
+        "phonetic": "/ɒn/",
+        "pos": "prep.",
+        "meaning": "在...上"
+      },
+      {
+        "text": "future",
+        "phonetic": "/ˈfjuːtʃər/",
+        "pos": "n.",
+        "meaning": "未来"
+      },
+      {
+        "text": "success",
+        "phonetic": "/səkˈses/",
+        "pos": "n.",
+        "meaning": "成功"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "sentence": "Maintaining a consistent sleep schedule is essential for physical and mental well-being.",
+    "translation": "保持一致的睡眠时间对身心健康至关重要。",
+    "phonetic_sentence": "/meɪnˈteɪnɪŋ ə kənˈsɪstnt sliːp ˈʃedjuːl ɪz ɪˈsenʃl fər ˈfɪzɪkl ənd ˈmentl ˈwel-biːɪŋ/",
+    "words": [
+      {
+        "text": "Maintaining",
+        "phonetic": "/meɪnˈteɪnɪŋ/",
+        "pos": "v.",
+        "meaning": "保持"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "consistent",
+        "phonetic": "/kənˈsɪstnt/",
+        "pos": "adj.",
+        "meaning": "一致的"
+      },
+      {
+        "text": "sleep",
+        "phonetic": "/sliːp/",
+        "pos": "n.",
+        "meaning": "睡眠"
+      },
+      {
+        "text": "schedule",
+        "phonetic": "/ˈʃedjuːl/",
+        "pos": "n.",
+        "meaning": "时间表"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "essential",
+        "phonetic": "/ɪˈsenʃl/",
+        "pos": "adj.",
+        "meaning": "必要的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "physical",
+        "phonetic": "/ˈfɪzɪkl/",
+        "pos": "adj.",
+        "meaning": "身体的"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "mental",
+        "phonetic": "/ˈmentl/",
+        "pos": "adj.",
+        "meaning": "精神的"
+      },
+      {
+        "text": "well-being",
+        "phonetic": "/ˈwel-biːɪŋ/",
+        "pos": "n.",
+        "meaning": "健康/幸福"
+      },
+      {
+        "text": "well",
+        "phonetic": "/wel/",
+        "pos": "adj.",
+        "meaning": "健康的"
+      },
+      {
+        "text": "being",
+        "phonetic": "/ˈbiːɪŋ/",
+        "pos": "v.",
+        "meaning": "是(现在分词)"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "sentence": "Balancing work and personal life requires effective time management skills.",
+    "translation": "平衡工作和生活需要有效的时间管理技能。",
+    "phonetic_sentence": "/ˈbælənsɪŋ wɜːk ənd ˈpɜːsənl laɪf rɪˈkwaɪərz ɪˈfektɪv taɪm ˈmænɪdʒmənt skɪlz/",
+    "words": [
+      {
+        "text": "Balancing",
+        "phonetic": "/ˈbælənsɪŋ/",
+        "pos": "v.",
+        "meaning": "平衡"
+      },
+      {
+        "text": "work",
+        "phonetic": "/wɜːk/",
+        "pos": "n.",
+        "meaning": "工作"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "personal",
+        "phonetic": "/ˈpɜːsənl/",
+        "pos": "adj.",
+        "meaning": "个人的"
+      },
+      {
+        "text": "life",
+        "phonetic": "/laɪf/",
+        "pos": "n.",
+        "meaning": "生活"
+      },
+      {
+        "text": "requires",
+        "phonetic": "/rɪˈkwaɪərz/",
+        "pos": "v.",
+        "meaning": "需要"
+      },
+      {
+        "text": "effective",
+        "phonetic": "/ɪˈfektɪv/",
+        "pos": "adj.",
+        "meaning": "有效的"
+      },
+      {
+        "text": "time",
+        "phonetic": "/taɪm/",
+        "pos": "n.",
+        "meaning": "时间"
+      },
+      {
+        "text": "management",
+        "phonetic": "/ˈmænɪdʒmənt/",
+        "pos": "n.",
+        "meaning": "管理"
+      },
+      {
+        "text": "skills",
+        "phonetic": "/skɪlz/",
+        "pos": "n.",
+        "meaning": "技能"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "sentence": "Regular exercise not only improves physical fitness but also boosts mental clarity.",
+    "translation": "经常锻炼不仅能改善身体素质，还能提高思维清晰度。",
+    "phonetic_sentence": "/ˈreɡjələr ˈeksəsaɪz nɒt ˈəʊnli ɪmˈpruːvz ˈfɪzɪkl ˈfɪtnes bʌt ˈɔːlsəʊ buːsts ˈmentl ˈklærəti/",
+    "words": [
+      {
+        "text": "Regular",
+        "phonetic": "/ˈreɡjələr/",
+        "pos": "adj.",
+        "meaning": "定期的"
+      },
+      {
+        "text": "exercise",
+        "phonetic": "/ˈeksəsaɪz/",
+        "pos": "n.",
+        "meaning": "锻炼"
+      },
+      {
+        "text": "not",
+        "phonetic": "/nɒt/",
+        "pos": "adv.",
+        "meaning": "不"
+      },
+      {
+        "text": "only",
+        "phonetic": "/ˈəʊnli/",
+        "pos": "adv.",
+        "meaning": "仅仅"
+      },
+      {
+        "text": "improves",
+        "phonetic": "/ɪmˈpruːvz/",
+        "pos": "v.",
+        "meaning": "改善"
+      },
+      {
+        "text": "physical",
+        "phonetic": "/ˈfɪzɪkl/",
+        "pos": "adj.",
+        "meaning": "身体的"
+      },
+      {
+        "text": "fitness",
+        "phonetic": "/ˈfɪtnes/",
+        "pos": "n.",
+        "meaning": "健康/体质"
+      },
+      {
+        "text": "but",
+        "phonetic": "/bʌt/",
+        "pos": "conj.",
+        "meaning": "但是"
+      },
+      {
+        "text": "also",
+        "phonetic": "/ˈɔːlsəʊ/",
+        "pos": "adv.",
+        "meaning": "也"
+      },
+      {
+        "text": "boosts",
+        "phonetic": "/buːsts/",
+        "pos": "v.",
+        "meaning": "增强"
+      },
+      {
+        "text": "mental",
+        "phonetic": "/ˈmentl/",
+        "pos": "adj.",
+        "meaning": "精神的"
+      },
+      {
+        "text": "clarity",
+        "phonetic": "/ˈklærəti/",
+        "pos": "n.",
+        "meaning": "清晰"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "sentence": "Eating breakfast is often considered the most important meal of the day.",
+    "translation": "吃早餐通常被认为是一天中最重要的一餐。",
+    "phonetic_sentence": "/ˈiːtɪŋ ˈbrekfəst ɪz ˈɒfn kənˈsɪdərd ðə məʊst ɪmpɔːtnt miːl əv ðə deɪ/",
+    "words": [
+      {
+        "text": "Eating",
+        "phonetic": "/ˈiːtɪŋ/",
+        "pos": "v.",
+        "meaning": "吃"
+      },
+      {
+        "text": "breakfast",
+        "phonetic": "/ˈbrekfəst/",
+        "pos": "n.",
+        "meaning": "早餐"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "often",
+        "phonetic": "/ˈɒfn/",
+        "pos": "adv.",
+        "meaning": "经常"
+      },
+      {
+        "text": "considered",
+        "phonetic": "/kənˈsɪdəd/",
+        "pos": "v.",
+        "meaning": "被认为"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "most",
+        "phonetic": "/məʊst/",
+        "pos": "adv.",
+        "meaning": "最"
+      },
+      {
+        "text": "important",
+        "phonetic": "/ɪmˈpɔːtnt/",
+        "pos": "adj.",
+        "meaning": "重要的"
+      },
+      {
+        "text": "meal",
+        "phonetic": "/miːl/",
+        "pos": "n.",
+        "meaning": "餐"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "day",
+        "phonetic": "/deɪ/",
+        "pos": "n.",
+        "meaning": "天"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "sentence": "Spending quality time with family members strengthens bonds and creates lasting memories.",
+    "translation": "与家人共度美好时光能加强联系并创造持久的回忆。",
+    "phonetic_sentence": "/ˈspendɪŋ ˈkwɒləti taɪm wɪð ˈfæməli ˈmembəz ˈstreŋθənz bɒndz ənd kriˈeɪts ˈlɑːstɪŋ ˈmeməriz/",
+    "words": [
+      {
+        "text": "Spending",
+        "phonetic": "/ˈspendɪŋ/",
+        "pos": "v.",
+        "meaning": "花费/度过"
+      },
+      {
+        "text": "quality",
+        "phonetic": "/ˈkwɒləti/",
+        "pos": "adj.",
+        "meaning": "优质的"
+      },
+      {
+        "text": "time",
+        "phonetic": "/taɪm/",
+        "pos": "n.",
+        "meaning": "时间"
+      },
+      {
+        "text": "with",
+        "phonetic": "/wɪð/",
+        "pos": "prep.",
+        "meaning": "和"
+      },
+      {
+        "text": "family",
+        "phonetic": "/ˈfæməli/",
+        "pos": "n.",
+        "meaning": "家庭"
+      },
+      {
+        "text": "members",
+        "phonetic": "/ˈmembəz/",
+        "pos": "n.",
+        "meaning": "成员"
+      },
+      {
+        "text": "strengthens",
+        "phonetic": "/ˈstreŋθənz/",
+        "pos": "v.",
+        "meaning": "加强"
+      },
+      {
+        "text": "bonds",
+        "phonetic": "/bɒndz/",
+        "pos": "n.",
+        "meaning": "联系/纽带"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "creates",
+        "phonetic": "/kriˈeɪts/",
+        "pos": "v.",
+        "meaning": "创造"
+      },
+      {
+        "text": "lasting",
+        "phonetic": "/ˈlɑːstɪŋ/",
+        "pos": "adj.",
+        "meaning": "持久的"
+      },
+      {
+        "text": "memories",
+        "phonetic": "/ˈmeməriz/",
+        "pos": "n.",
+        "meaning": "回忆"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "sentence": "Morning routines can significantly increase productivity throughout the entire day.",
+    "translation": "早晨的日常安排可以显著提高一整天的效率。",
+    "phonetic_sentence": "/ˈmɔːnɪŋ ruːˈtiːnz kən sɪɡˈnɪfɪkəntli ɪnˈkriːs ˌprɒdʌkˈtɪvɪti θruːˈaʊt ðə ɪnˈtaɪər deɪ/",
+    "words": [
+      {
+        "text": "Morning",
+        "phonetic": "/ˈmɔːnɪŋ/",
+        "pos": "n.",
+        "meaning": "早晨"
+      },
+      {
+        "text": "routines",
+        "phonetic": "/ruːˈtiːnz/",
+        "pos": "n.",
+        "meaning": "日常事务"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "significantly",
+        "phonetic": "/sɪɡˈnɪfɪkəntli/",
+        "pos": "adv.",
+        "meaning": "显著地"
+      },
+      {
+        "text": "increase",
+        "phonetic": "/ɪnˈkriːs/",
+        "pos": "v.",
+        "meaning": "增加"
+      },
+      {
+        "text": "productivity",
+        "phonetic": "/ˌprɒdʌkˈtɪvɪti/",
+        "pos": "n.",
+        "meaning": "生产力/效率"
+      },
+      {
+        "text": "throughout",
+        "phonetic": "/θruːˈaʊt/",
+        "pos": "prep.",
+        "meaning": "贯穿"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "entire",
+        "phonetic": "/ɪnˈtaɪər/",
+        "pos": "adj.",
+        "meaning": "整个的"
+      },
+      {
+        "text": "day",
+        "phonetic": "/deɪ/",
+        "pos": "n.",
+        "meaning": "天"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "sentence": "Learning to cook at home can save money and promote healthier eating habits.",
+    "translation": "学习在家做饭可以省钱并促进更健康的饮食习惯。",
+    "phonetic_sentence": "/ˈlɜːnɪŋ tə kʊk ət həʊm kən seɪv ˈmʌni ənd prəˈməʊt ˈhelθiər ˈiːtɪŋ ˈhæbɪts/",
+    "words": [
+      {
+        "text": "Learning",
+        "phonetic": "/ˈlɜːnɪŋ/",
+        "pos": "v.",
+        "meaning": "学习"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "cook",
+        "phonetic": "/kʊk/",
+        "pos": "v.",
+        "meaning": "烹饪"
+      },
+      {
+        "text": "at",
+        "phonetic": "/æt/",
+        "pos": "prep.",
+        "meaning": "在"
+      },
+      {
+        "text": "home",
+        "phonetic": "/həʊm/",
+        "pos": "n.",
+        "meaning": "家"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "save",
+        "phonetic": "/seɪv/",
+        "pos": "v.",
+        "meaning": "节省"
+      },
+      {
+        "text": "money",
+        "phonetic": "/ˈmʌni/",
+        "pos": "n.",
+        "meaning": "钱"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "promote",
+        "phonetic": "/prəˈməʊt/",
+        "pos": "v.",
+        "meaning": "促进"
+      },
+      {
+        "text": "healthier",
+        "phonetic": "/ˈhelθiər/",
+        "pos": "adj.",
+        "meaning": "更健康的"
+      },
+      {
+        "text": "eating",
+        "phonetic": "/ˈiːtɪŋ/",
+        "pos": "n.",
+        "meaning": "吃/饮食"
+      },
+      {
+        "text": "habits",
+        "phonetic": "/ˈhæbɪts/",
+        "pos": "n.",
+        "meaning": "习惯"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "sentence": "Taking regular breaks during work can actually improve concentration and efficiency.",
+    "translation": "在工作中定期休息实际上可以提高专注力和效率。",
+    "phonetic_sentence": "/ˈteɪkɪŋ ˈreɡjələr breɪks ˈdjʊərɪŋ wɜːk kən ˈæktʃuəli ɪmˈpruːv ˌkɒnsnˈtreɪʃn ənd ɪˈfɪʃnsi/",
+    "words": [
+      {
+        "text": "Taking",
+        "phonetic": "/ˈteɪkɪŋ/",
+        "pos": "v.",
+        "meaning": "拿/采取"
+      },
+      {
+        "text": "regular",
+        "phonetic": "/ˈreɡjələr/",
+        "pos": "adj.",
+        "meaning": "定期的"
+      },
+      {
+        "text": "breaks",
+        "phonetic": "/breɪks/",
+        "pos": "n.",
+        "meaning": "休息"
+      },
+      {
+        "text": "during",
+        "phonetic": "/ˈdjʊərɪŋ/",
+        "pos": "prep.",
+        "meaning": "在...期间"
+      },
+      {
+        "text": "work",
+        "phonetic": "/wɜːk/",
+        "pos": "n.",
+        "meaning": "工作"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "actually",
+        "phonetic": "/ˈæktʃuəli/",
+        "pos": "adv.",
+        "meaning": "实际上"
+      },
+      {
+        "text": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "pos": "v.",
+        "meaning": "改善"
+      },
+      {
+        "text": "concentration",
+        "phonetic": "/ˌkɒnsnˈtreɪʃn/",
+        "pos": "n.",
+        "meaning": "专注"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "efficiency",
+        "phonetic": "/ɪˈfɪʃnsi/",
+        "pos": "n.",
+        "meaning": "效率"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "sentence": "Keeping a journal helps individuals reflect on their experiences and track personal growth.",
+    "translation": "写日记帮助个人反思他们的经历并记录个人成长。",
+    "phonetic_sentence": "/ˈkiːpɪŋ ə ˈdʒɜːnl helpz ˌɪndɪˈvɪdʒuəlz rɪˈflekt ɒn ðeər ɪksˈpɪəriənsɪz ənd træk ˈpɜːsənl ɡrəʊθ/",
+    "words": [
+      {
+        "text": "Keeping",
+        "phonetic": "/ˈkiːpɪŋ/",
+        "pos": "v.",
+        "meaning": "保持/记录"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "journal",
+        "phonetic": "/ˈdʒɜːnl/",
+        "pos": "n.",
+        "meaning": "日记"
+      },
+      {
+        "text": "helps",
+        "phonetic": "/helps/",
+        "pos": "v.",
+        "meaning": "帮助"
+      },
+      {
+        "text": "individuals",
+        "phonetic": "/ˌɪndɪˈvɪdʒuəlz/",
+        "pos": "n.",
+        "meaning": "个人"
+      },
+      {
+        "text": "reflect",
+        "phonetic": "/rɪˈflekt/",
+        "pos": "v.",
+        "meaning": "反思"
+      },
+      {
+        "text": "on",
+        "phonetic": "/ɒn/",
+        "pos": "prep.",
+        "meaning": "在...上"
+      },
+      {
+        "text": "their",
+        "phonetic": "/ðeər/",
+        "pos": "pron.",
+        "meaning": "他们的"
+      },
+      {
+        "text": "experiences",
+        "phonetic": "/ɪksˈpɪəriənsɪz/",
+        "pos": "n.",
+        "meaning": "经历"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "track",
+        "phonetic": "/træk/",
+        "pos": "v.",
+        "meaning": "追踪"
+      },
+      {
+        "text": "personal",
+        "phonetic": "/ˈpɜːsənl/",
+        "pos": "adj.",
+        "meaning": "个人的"
+      },
+      {
+        "text": "growth",
+        "phonetic": "/ɡrəʊθ/",
+        "pos": "n.",
+        "meaning": "成长"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "sentence": "Setting realistic goals is crucial for maintaining motivation over the long term.",
+    "translation": "设定现实的目标对于长期保持动力至关重要。",
+    "phonetic_sentence": "/ˈsetɪŋ ˌriːəˈlɪstɪl ɡəʊlz ɪz ˈkruːʃl fər meɪnˈteɪnɪŋ məʊˈteɪʃn ˈɒvər ðə lɒŋ tɜːm/",
+    "words": [
+      {
+        "text": "Setting",
+        "phonetic": "/ˈsetɪŋ/",
+        "pos": "v.",
+        "meaning": "设定"
+      },
+      {
+        "text": "realistic",
+        "phonetic": "/ˌriːəˈlɪstɪk/",
+        "pos": "adj.",
+        "meaning": "现实的"
+      },
+      {
+        "text": "goals",
+        "phonetic": "/ɡəʊlz/",
+        "pos": "n.",
+        "meaning": "目标"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "crucial",
+        "phonetic": "/ˈkruːʃl/",
+        "pos": "adj.",
+        "meaning": "关键的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "maintaining",
+        "phonetic": "/meɪnˈteɪnɪŋ/",
+        "pos": "v.",
+        "meaning": "保持"
+      },
+      {
+        "text": "motivation",
+        "phonetic": "/ˌməʊˈteɪʃn/",
+        "pos": "n.",
+        "meaning": "动力"
+      },
+      {
+        "text": "over",
+        "phonetic": "/ˈəʊvər/",
+        "pos": "prep.",
+        "meaning": "超过"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "long",
+        "phonetic": "/lɒŋ/",
+        "pos": "adj.",
+        "meaning": "长的"
+      },
+      {
+        "text": "term",
+        "phonetic": "/tɜːm/",
+        "pos": "n.",
+        "meaning": "期限/术语"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "sentence": "Practicing gratitude daily can significantly improve overall mental health and happiness.",
+    "translation": "每天练习感恩可以显著改善整体心理健康和幸福感。",
+    "phonetic_sentence": "/ˈpræktɪsɪŋ ˈɡrætɪtjuːd ˈdeɪli kən sɪɡˈnɪfɪkəntli ɪmˈpruːv ˈəʊvərɔːl ˈmentl helθ ənd ˈhæpinəs/",
+    "words": [
+      {
+        "text": "Practicing",
+        "phonetic": "/ˈpræktɪsɪŋ/",
+        "pos": "v.",
+        "meaning": "练习"
+      },
+      {
+        "text": "gratitude",
+        "phonetic": "/ˈɡrætɪtjuːd/",
+        "pos": "n.",
+        "meaning": "感恩"
+      },
+      {
+        "text": "daily",
+        "phonetic": "/ˈdeɪli/",
+        "pos": "adv.",
+        "meaning": "每天"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "significantly",
+        "phonetic": "/sɪɡˈnɪfɪkəntli/",
+        "pos": "adv.",
+        "meaning": "显著地"
+      },
+      {
+        "text": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "pos": "v.",
+        "meaning": "改善"
+      },
+      {
+        "text": "overall",
+        "phonetic": "/ˈəʊvərɔːl/",
+        "pos": "adj.",
+        "meaning": "整体的"
+      },
+      {
+        "text": "mental",
+        "phonetic": "/ˈmentl/",
+        "pos": "adj.",
+        "meaning": "精神的"
+      },
+      {
+        "text": "health",
+        "phonetic": "/helθ/",
+        "pos": "n.",
+        "meaning": "健康"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "happiness",
+        "phonetic": "/ˈhæpinəs/",
+        "pos": "n.",
+        "meaning": "幸福"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "sentence": "Decluttering your living space can reduce stress and increase feelings of calmness.",
+    "translation": "整理你的居住空间可以减少压力并增加平静感。",
+    "phonetic_sentence": "/diːˈklʌtərɪŋ jɔː ˈlɪvɪŋ speɪs kən rɪˈdjuːs stres ənd ˈiːs ˈfiːlɪŋz əv ˈkɑːmnəs/",
+    "words": [
+      {
+        "text": "Decluttering",
+        "phonetic": "/diːˈklʌtərɪŋ/",
+        "pos": "v.",
+        "meaning": "整理/清理"
+      },
+      {
+        "text": "your",
+        "phonetic": "/jɔːr/",
+        "pos": "pron.",
+        "meaning": "你的"
+      },
+      {
+        "text": "living",
+        "phonetic": "/ˈlɪvɪŋ/",
+        "pos": "adj.",
+        "meaning": "居住的"
+      },
+      {
+        "text": "space",
+        "phonetic": "/speɪs/",
+        "pos": "n.",
+        "meaning": "空间"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "reduce",
+        "phonetic": "/rɪˈdjuːs/",
+        "pos": "v.",
+        "meaning": "减少"
+      },
+      {
+        "text": "stress",
+        "phonetic": "/stres/",
+        "pos": "n.",
+        "meaning": "压力"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "increase",
+        "phonetic": "/ɪnˈkriːs/",
+        "pos": "v.",
+        "meaning": "增加"
+      },
+      {
+        "text": "feelings",
+        "phonetic": "/ˈfiːlɪŋz/",
+        "pos": "n.",
+        "meaning": "感觉"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "calmness",
+        "phonetic": "/ˈkɑːmnəs/",
+        "pos": "n.",
+        "meaning": "平静"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "sentence": "Listening to music while working can enhance creativity in certain individuals.",
+    "translation": "工作时听音乐可以增强某些人的创造力。",
+    "phonetic_sentence": "/ˈlɪsnɪŋ tə ˈmjuːzɪk waɪl ˈwɜːkɪŋ kən ɪnˈhɑːns kriːeɪˈtɪvɪti ɪn ˈsɜːtɪn ˌɪndɪˈvɪdʒuəlz/",
+    "words": [
+      {
+        "text": "Listening",
+        "phonetic": "/ˈlɪsnɪŋ/",
+        "pos": "v.",
+        "meaning": "听"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "music",
+        "phonetic": "/ˈmjuːzɪk/",
+        "pos": "n.",
+        "meaning": "音乐"
+      },
+      {
+        "text": "while",
+        "phonetic": "/waɪl/",
+        "pos": "conj.",
+        "meaning": "当...时"
+      },
+      {
+        "text": "working",
+        "phonetic": "/ˈwɜːkɪŋ/",
+        "pos": "v.",
+        "meaning": "工作"
+      },
+      {
+        "text": "can",
+        "phonetic": "/kæn/",
+        "pos": "v.",
+        "meaning": "能"
+      },
+      {
+        "text": "enhance",
+        "phonetic": "/ɪnˈhɑːns/",
+        "pos": "v.",
+        "meaning": "增强"
+      },
+      {
+        "text": "creativity",
+        "phonetic": "/ˌkriːeɪˈtɪvɪti/",
+        "pos": "n.",
+        "meaning": "创造力"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "certain",
+        "phonetic": "/ˈsɜːtɪn/",
+        "pos": "adj.",
+        "meaning": "某些"
+      },
+      {
+        "text": "individuals",
+        "phonetic": "/ˌɪndɪˈvɪdʒuəlz/",
+        "pos": "n.",
+        "meaning": "个人"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "sentence": "Developing patience is essential for navigating challenging interpersonal situations.",
+    "translation": "培养耐心对于应对挑战性的人际情况至关重要。",
+    "phonetic_sentence": "/dɪˈveləpɪŋ ˈpeɪʃns ɪz ɪˈsenʃl fər ˈnævɪɡeɪtɪŋ ˈtʃælɪndʒɪŋ ˌɪntəˈpɜːsənl ˌsɪtʃuˈeɪʃnz/",
+    "words": [
+      {
+        "text": "Developing",
+        "phonetic": "/dɪˈveləpɪŋ/",
+        "pos": "v.",
+        "meaning": "培养/发展"
+      },
+      {
+        "text": "patience",
+        "phonetic": "/ˈpeɪʃns/",
+        "pos": "n.",
+        "meaning": "耐心"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "essential",
+        "phonetic": "/ɪˈsenʃl/",
+        "pos": "adj.",
+        "meaning": "必要的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "navigating",
+        "phonetic": "/ˈnævɪɡeɪtɪŋ/",
+        "pos": "v.",
+        "meaning": "应对/导航"
+      },
+      {
+        "text": "challenging",
+        "phonetic": "/ˈtʃælɪndʒɪŋ/",
+        "pos": "adj.",
+        "meaning": "挑战性的"
+      },
+      {
+        "text": "interpersonal",
+        "phonetic": "/ˌɪntəˈpɜːsənl/",
+        "pos": "adj.",
+        "meaning": "人际的"
+      },
+      {
+        "text": "situations",
+        "phonetic": "/ˌsɪtʃuˈeɪʃnz/",
+        "pos": "n.",
+        "meaning": "情况"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "sentence": "Building strong friendships requires mutual trust, respect, and effective communication.",
+    "translation": "建立深厚的友谊需要相互信任、尊重和有效的沟通。",
+    "phonetic_sentence": "/ˈbɪldɪŋ strɒŋ ˈfrendʃɪps rɪˈkwaɪərz ˈmjuːtʃuəl trʌst rɪˈspekt ənd ɪˈfektɪv kəˈmjuːnɪkeɪʃn/",
+    "words": [
+      {
+        "text": "Building",
+        "phonetic": "/ˈbɪldɪŋ/",
+        "pos": "v.",
+        "meaning": "建立"
+      },
+      {
+        "text": "strong",
+        "phonetic": "/strɒŋ/",
+        "pos": "adj.",
+        "meaning": "强壮的/深厚的"
+      },
+      {
+        "text": "friendships",
+        "phonetic": "/ˈfrendʃɪps/",
+        "pos": "n.",
+        "meaning": "友谊"
+      },
+      {
+        "text": "requires",
+        "phonetic": "/rɪˈkwaɪərz/",
+        "pos": "v.",
+        "meaning": "需要"
+      },
+      {
+        "text": "mutual",
+        "phonetic": "/ˈmjuːtʃuəl/",
+        "pos": "adj.",
+        "meaning": "相互的"
+      },
+      {
+        "text": "trust",
+        "phonetic": "/trʌst/",
+        "pos": "n.",
+        "meaning": "信任"
+      },
+      {
+        "text": "respect",
+        "phonetic": "/rɪˈspekt/",
+        "pos": "n.",
+        "meaning": "尊重"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "effective",
+        "phonetic": "/ɪˈfektɪv/",
+        "pos": "adj.",
+        "meaning": "有效的"
+      },
+      {
+        "text": "communication",
+        "phonetic": "/kəˈmjuːnɪkeɪʃn/",
+        "pos": "n.",
+        "meaning": "沟通"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "sentence": "Regular meditation practice has been scientifically proven to reduce anxiety and improve focus.",
+    "translation": "定期冥想已被科学证明可以减少焦虑并提高专注力。",
+    "phonetic_sentence": "/ˈreɡjələr ˌmedɪˈteɪʃn ˈpræktɪs həz biːn ˌsaɪənˈtɪfɪkli ˈpruːvd tə rɪˈdjuːs ˈæŋkʃəti ənd ɪmˈpruːv ˈfəʊkəs/",
+    "words": [
+      {
+        "text": "Regular",
+        "phonetic": "/ˈreɡjələr/",
+        "pos": "adj.",
+        "meaning": "定期的"
+      },
+      {
+        "text": "meditation",
+        "phonetic": "/ˌmedɪˈteɪʃn/",
+        "pos": "n.",
+        "meaning": "冥想"
+      },
+      {
+        "text": "practice",
+        "phonetic": "/ˈpræktɪs/",
+        "pos": "n.",
+        "meaning": "练习"
+      },
+      {
+        "text": "has",
+        "phonetic": "/hæz/",
+        "pos": "v.",
+        "meaning": "有"
+      },
+      {
+        "text": "been",
+        "phonetic": "/biːn/",
+        "pos": "v.",
+        "meaning": "是(过去分词)"
+      },
+      {
+        "text": "scientifically",
+        "phonetic": "/ˌsaɪənˈtɪfɪkli/",
+        "pos": "adv.",
+        "meaning": "科学地"
+      },
+      {
+        "text": "proven",
+        "phonetic": "/ˈpruːvn/",
+        "pos": "v.",
+        "meaning": "证明"
+      },
+      {
+        "text": "to",
+        "phonetic": "/tuː/",
+        "pos": "prep.",
+        "meaning": "到"
+      },
+      {
+        "text": "reduce",
+        "phonetic": "/rɪˈdjuːs/",
+        "pos": "v.",
+        "meaning": "减少"
+      },
+      {
+        "text": "anxiety",
+        "phonetic": "/æŋˈzaɪəti/",
+        "pos": "n.",
+        "meaning": "焦虑"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "improve",
+        "phonetic": "/ɪmˈpruːv/",
+        "pos": "v.",
+        "meaning": "改善"
+      },
+      {
+        "text": "focus",
+        "phonetic": "/ˈfəʊkəs/",
+        "pos": "n.",
+        "meaning": "专注"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "sentence": "Creating a budget helps individuals manage their finances and achieve financial goals.",
+    "translation": "制定预算帮助个人管理财务并实现财务目标。",
+    "phonetic_sentence": "/kriˈeɪtɪŋ ə ˈbʌdʒɪt helpz ˌɪndɪˈvɪdʒuəlz ˈmænɪdʒ ðeər faɪˈnænsɪz ənd əˈtʃiːv faɪˈnænʃl ɡəʊlz/",
+    "words": [
+      {
+        "text": "Creating",
+        "phonetic": "/kriˈeɪtɪŋ/",
+        "pos": "v.",
+        "meaning": "创建"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "budget",
+        "phonetic": "/ˈbʌdʒɪt/",
+        "pos": "n.",
+        "meaning": "预算"
+      },
+      {
+        "text": "helps",
+        "phonetic": "/helps/",
+        "pos": "v.",
+        "meaning": "帮助"
+      },
+      {
+        "text": "individuals",
+        "phonetic": "/ˌɪndɪˈvɪdʒuəlz/",
+        "pos": "n.",
+        "meaning": "个人"
+      },
+      {
+        "text": "manage",
+        "phonetic": "/ˈmænɪdʒ/",
+        "pos": "v.",
+        "meaning": "管理"
+      },
+      {
+        "text": "their",
+        "phonetic": "/ðeər/",
+        "pos": "pron.",
+        "meaning": "他们的"
+      },
+      {
+        "text": "finances",
+        "phonetic": "/faɪˈnænsɪz/",
+        "pos": "n.",
+        "meaning": "财务"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "achieve",
+        "phonetic": "/əˈtʃiːv/",
+        "pos": "v.",
+        "meaning": "实现"
+      },
+      {
+        "text": "financial",
+        "phonetic": "/faɪˈnænʃl/",
+        "pos": "adj.",
+        "meaning": "财务的"
+      },
+      {
+        "text": "goals",
+        "phonetic": "/ɡəʊlz/",
+        "pos": "n.",
+        "meaning": "目标"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "sentence": "Volunteering in the community provides a sense of purpose and social connection.",
+    "translation": "在社区志愿服务提供目标感和社会联系。",
+    "phonetic_sentence": "/ˈvɒləntɪərɪŋ ɪn ðə kəˈmjuːnɪti prəˈvaɪdz ə sens əv ˈpɜːpəs ənd ˈsəʊʃl kəˈnekʃn/",
+    "words": [
+      {
+        "text": "Volunteering",
+        "phonetic": "/ˌvɒlənˈtɪərɪŋ/",
+        "pos": "n.",
+        "meaning": "志愿服务"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "the",
+        "phonetic": "/ðə/",
+        "pos": "art.",
+        "meaning": "这/那"
+      },
+      {
+        "text": "community",
+        "phonetic": "/kəˈmjuːnəti/",
+        "pos": "n.",
+        "meaning": "社区"
+      },
+      {
+        "text": "provides",
+        "phonetic": "/prəˈvaɪdz/",
+        "pos": "v.",
+        "meaning": "提供"
+      },
+      {
+        "text": "a",
+        "phonetic": "/ə/",
+        "pos": "art.",
+        "meaning": "一(个)"
+      },
+      {
+        "text": "sense",
+        "phonetic": "/sens/",
+        "pos": "n.",
+        "meaning": "感觉"
+      },
+      {
+        "text": "of",
+        "phonetic": "/ɒv/",
+        "pos": "prep.",
+        "meaning": "...的"
+      },
+      {
+        "text": "purpose",
+        "phonetic": "/ˈpɜːpəs/",
+        "pos": "n.",
+        "meaning": "目的/目标"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "social",
+        "phonetic": "/ˈsəʊʃl/",
+        "pos": "adj.",
+        "meaning": "社会的"
+      },
+      {
+        "text": "connection",
+        "phonetic": "/kəˈnekʃn/",
+        "pos": "n.",
+        "meaning": "联系"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "sentence": "Developing emotional intelligence is crucial for building healthy relationships in both personal and professional settings.",
+    "translation": "培养情商对于在个人和职业环境中建立健康的人际关系至关重要。",
+    "phonetic_sentence": "/dɪˈveləpɪŋ ɪˈməʊʃənl ɪnˈtelɪdʒəns ɪz ˈkruːʃl fər ˈbɪldɪŋ ˈhelθi rɪˈleɪʃnʃɪps ɪn bəʊθ ˈpɜːsənl ənd prəˈfeʃənl ˈsetɪŋz/",
+    "words": [
+      {
+        "text": "Developing",
+        "phonetic": "/dɪˈveləpɪŋ/",
+        "pos": "v.",
+        "meaning": "培养/发展"
+      },
+      {
+        "text": "emotional",
+        "phonetic": "/ɪˈməʊʃənl/",
+        "pos": "adj.",
+        "meaning": "情感的"
+      },
+      {
+        "text": "intelligence",
+        "phonetic": "/ɪnˈtelɪdʒəns/",
+        "pos": "n.",
+        "meaning": "智力/情商"
+      },
+      {
+        "text": "is",
+        "phonetic": "/ɪz/",
+        "pos": "v.",
+        "meaning": "是"
+      },
+      {
+        "text": "crucial",
+        "phonetic": "/ˈkruːʃl/",
+        "pos": "adj.",
+        "meaning": "关键的"
+      },
+      {
+        "text": "for",
+        "phonetic": "/fɔːr/",
+        "pos": "prep.",
+        "meaning": "为了"
+      },
+      {
+        "text": "building",
+        "phonetic": "/ˈbɪldɪŋ/",
+        "pos": "v.",
+        "meaning": "建立"
+      },
+      {
+        "text": "healthy",
+        "phonetic": "/ˈhelθi/",
+        "pos": "adj.",
+        "meaning": "健康的"
+      },
+      {
+        "text": "relationships",
+        "phonetic": "/rɪˈleɪʃnʃɪps/",
+        "pos": "n.",
+        "meaning": "关系"
+      },
+      {
+        "text": "in",
+        "phonetic": "/ɪn/",
+        "pos": "prep.",
+        "meaning": "在...里"
+      },
+      {
+        "text": "both",
+        "phonetic": "/bəʊθ/",
+        "pos": "adj.",
+        "meaning": "两者"
+      },
+      {
+        "text": "personal",
+        "phonetic": "/ˈpɜːsənl/",
+        "pos": "adj.",
+        "meaning": "个人的"
+      },
+      {
+        "text": "and",
+        "phonetic": "/ænd/",
+        "pos": "conj.",
+        "meaning": "和"
+      },
+      {
+        "text": "professional",
+        "phonetic": "/prəˈfeʃənl/",
+        "pos": "adj.",
+        "meaning": "职业的"
+      },
+      {
+        "text": "settings",
+        "phonetic": "/ˈsetɪŋz/",
+        "pos": "n.",
+        "meaning": "环境/设置"
+      }
+    ]
+  }
+]

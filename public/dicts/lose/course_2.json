@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "sentence": "Environmental protection has become a global priority in recent years.",
+    "translation": "环境保护近年来已成为全球首要任务。",
+    "phonetic_sentence": "/ɪnˌvaɪrənˈmentl prəˈtekʃn həz bɪˈkʌm ə ˈɡləʊbl praɪˈɒrəti ɪn ˈriːsnt jɪəz/",
+    "words": [
+      { "text": "Environmental", "phonetic": "/ɪnˌvaɪrənˈmentl/", "pos": "adj.", "meaning": "环境的" },
+      { "text": "protection", "phonetic": "/prəˈtekʃn/", "pos": "n.", "meaning": "保护" },
+      { "text": "has", "phonetic": "/həz/", "pos": "v.aux.", "meaning": "已经" },
+      { "text": "become", "phonetic": "/bɪˈkʌm/", "pos": "v.", "meaning": "成为" },
+      { "text": "a", "phonetic": "/ə/", "pos": "art.", "meaning": "一个" },
+      { "text": "global", "phonetic": "/ˈɡləʊbl/", "pos": "adj.", "meaning": "全球的" },
+      { "text": "priority", "phonetic": "/praɪˈɒrəti/", "pos": "n.", "meaning": "优先事项" },
+      { "text": "in", "phonetic": "/ɪn/", "pos": "prep.", "meaning": "在...期间" },
+      { "text": "recent", "phonetic": "/ˈriːsnt/", "pos": "adj.", "meaning": "最近的" },
+      { "text": "years", "phonetic": "/jɪəz/", "pos": "n.", "meaning": "年" }
+    ]
+  },
+  {
+    "id": 2,
+    "sentence": "The government should allocate more funds to education sector.",
+    "translation": "政府应当向教育部门分配更多资金。",
+    "phonetic_sentence": "/ðə ˈɡʌvənmənt ʃəd ˈæləkeɪt mɔː(r) fʌndz tə ðə ˌedʒuˈkeɪʃn ˈsektə(r)/",
+    "words": [
+      { "text": "The", "phonetic": "/ðə/", "pos": "art.", "meaning": "这" },
+      { "text": "government", "phonetic": "/ˈɡʌvənmənt/", "pos": "n.", "meaning": "政府" },
+      { "text": "should", "phonetic": "/ʃəd/", "pos": "v.aux.", "meaning": "应当" },
+      { "text": "allocate", "phonetic": "/ˈæləkeɪt/", "pos": "v.", "meaning": "分配" },
+      { "text": "more", "phonetic": "/mɔː(r)/", "pos": "adj.", "meaning": "更多的" },
+      { "text": "funds", "phonetic": "/fʌndz/", "pos": "n.", "meaning": "资金" },
+      { "text": "to", "phonetic": "/tu/", "pos": "prep.", "meaning": "向" },
+      { "text": "education", "phonetic": "/ˌedʒuˈkeɪʃn/", "pos": "n.", "meaning": "教育" },
+      { "text": "sector", "phonetic": "/ˈsektə(r)/", "pos": "n.", "meaning": "部门" }
+    ]
+  },
+  {
+    "id": 3,
+    "sentence": "Technological advancements have radically transformed our daily lives.",
+    "translation": "技术进步彻底改变了我们的日常生活。",
+    "phonetic_sentence": "/ˌteknəˈlɒdʒɪkl ədˈvɑːnsmənts həv ˈrædɪkli trænsˈfɔːmd ˈaʊə(r) ˈdeɪli laɪvz/",
+    "words": [
+      { "text": "Technological", "phonetic": "/ˌteknəˈlɒdʒɪkl/", "pos": "adj.", "meaning": "技术的" },
+      { "text": "advancements", "phonetic": "/ədˈvɑːnsmənts/", "pos": "n.", "meaning": "进步" },
+      { "text": "have", "phonetic": "/həv/", "pos": "v.aux.", "meaning": "已经" },
+      { "text": "radically", "phonetic": "/ˈrædɪkli/", "pos": "adv.", "meaning": "彻底地" },
+      { "text": "transformed", "phonetic": "/trænsˈfɔːmd/", "pos": "v.", "meaning": "改变" },
+      { "text": "our", "phonetic": "/ˈaʊə(r)/", "pos": "pron.", "meaning": "我们的" },
+      { "text": "daily", "phonetic": "/ˈdeɪli/", "pos": "adj.", "meaning": "日常的" },
+      { "text": "lives", "phonetic": "/laɪvz/", "pos": "n.", "meaning": "生活" }
+    ]
+  }
+]
